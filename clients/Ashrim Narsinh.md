@@ -2,6 +2,7 @@
 type: client
 status: active
 last_activity: 2026-07-23
+ghl_contact_id: yMBiPxHFF2Qa3vUvpeur
 ---
 
 # Ashrim Narsinh

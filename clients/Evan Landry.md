@@ -2,6 +2,7 @@
 type: client
 status: active
 last_activity: 2026-07-24
+ghl_contact_id: 52hbotCTXRNvqnGgt0v1
 ---
 
 # Evan Landry

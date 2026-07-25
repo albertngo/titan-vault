@@ -2,6 +2,7 @@
 type: client
 status: prospect
 last_activity: 2026-07-23
+ghl_contact_id: 4dDFapsRQh3INNerEdVN
 ---
 
 # Jayanthan Kuhananthan

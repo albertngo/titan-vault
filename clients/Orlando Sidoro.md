@@ -2,6 +2,7 @@
 type: client
 status: active
 last_activity: 2026-07-24
+ghl_contact_id: KZUIKMSTL7UHh46L8gVN
 ---
 
 # Orlando Sidoro

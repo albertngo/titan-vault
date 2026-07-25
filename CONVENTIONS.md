@@ -32,8 +32,23 @@ This file is the contract: any agent writing to the vault reads it first, every 
    in any note uses `[[Name]]`. Links are what make this a brain instead of a folder.
 4. **No raw dumps.** The vault holds distilled knowledge — summaries, amounts, links
    back to the source platform. Full emails/transcripts stay in their platforms.
-5. **Names are keys.** One canonical name per entity. Suspected duplicates get flagged
-   in the daily note, resolved by Albert, never auto-merged.
+5. **Names are keys for humans; source IDs are keys for agents.** One canonical name
+   per entity for display and wiki-links. But every entity note created from ingest
+   carries its source-system ID in frontmatter (`ghl_contact_id`,
+   `ghl_opportunity_id`, …), and **agents match on the ID first, name second.**
+
+   Why: names change and collide. "Jay" and "Jayanthan Kuhananthan" may be one person;
+   a contact renamed in GHL would otherwise get a second note on the next run. The ID
+   is the only stable identity, and it's what lets a note round-trip back to the source
+   record or join against an ingest file or analysis CSV.
+
+   - Source ID is REQUIRED on ingest-created entity notes. If the record genuinely has
+     none, say so (`ghl_contact_id: none — phone-only contact`) rather than leaving it
+     silently blank; a blank field is indistinguishable from a bug.
+   - Never overwrite an existing ID. A different ID on a same-named entity means two
+     records — flag as a possible duplicate, never merge.
+   - Suspected duplicates get flagged in the daily note, resolved by Albert, never
+     auto-merged.
 6. **Append, don't rewrite.** History is the point. Corrections are new dated entries.
 
 ## Agent access

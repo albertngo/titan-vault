@@ -2,6 +2,7 @@
 type: client
 status: prospect
 last_activity: 2026-07-24
+ghl_contact_id: GByNBlYcqJFQuA20EMdc
 ---
 
 # Silviya Jardany
