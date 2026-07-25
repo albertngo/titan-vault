@@ -2,6 +2,10 @@
 type: client
 status: active
 last_activity: 2026-07-24
+ghl_contact_id: # TODO ghl-ingest: backfill GHL contact UUID
+phone:
+email:
+aliases: []
 ---
 
 # Orlando Sidoro

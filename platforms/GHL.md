@@ -73,6 +73,21 @@ stale automation. Agents read them, never write them. Agent-detected mismatches 
 conversation content and tag surface in the daily brief as `tag_mismatch`, for Albert to
 resolve.
 
+## Contact IDs (vault join key)
+
+The GHL contact UUID is the canonical identifier for a client across the vault — see
+rule 5 in `CONVENTIONS.md`. It lives in `ghl_contact_id` in client frontmatter and is
+stable across contact renames, which names are not.
+
+Deep link pattern (location `4BwjVRlyDCR4ZRdcSrFR`):
+
+```
+https://app.gohighlevel.com/v2/location/4BwjVRlyDCR4ZRdcSrFR/contacts/detail/<ghl_contact_id>
+```
+
+> ⚠️ Pattern written from the GHL v2 URL shape, **not yet verified** against a live
+> contact — confirm once and correct here if the path differs.
+
 ## Quirks worth knowing
 
 - `lastStatusChangeAt` is the real close timestamp; `updatedAt` drifts with any edit.

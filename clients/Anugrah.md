@@ -2,6 +2,10 @@
 type: client
 status: prospect
 last_activity: 2026-07-23
+ghl_contact_id: # TODO ghl-ingest: backfill GHL contact UUID
+phone: "+12896852300"
+email:
+aliases: []
 ---
 
 # Anugrah
