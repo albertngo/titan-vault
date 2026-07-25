@@ -12,7 +12,8 @@ lead flow and deal stage. Read by `ghl-ingest`; written only by `ghl-actions`.
 **Location:** Titan Flooring Inc. — `4BwjVRlyDCR4ZRdcSrFR` (America/Toronto)
 **Access:** official HighLevel MCP server. Read-only Private Integration Token for
 ingest/analysis; a separate write-scoped token is required for `ghl-actions` (not yet
-issued). See `.mcp.json` and `docs/ghl-mcp-setup.md` in titan-agents.
+issued). See `.mcp.json` and `.env.example` in titan-agents for the wiring and the
+required scopes.
 
 ## Pipelines
 

@@ -3,8 +3,10 @@
 Titan Flooring's second brain — an Obsidian vault, git-versioned.
 
 - Open this folder as a vault in Obsidian.
-- `CONVENTIONS.md` is the contract. Agents (via titan-agents `vault-writer`) and
-  humans both follow it.
+- `CONVENTIONS.md` is the contract. Agents and humans both follow it.
+- **Build phase:** `vault-writer` (in titan-agents) is parked. Claude writes here
+  directly instead, one change at a time, with Albert's go-ahead on each. See
+  "Agent access" in `CONVENTIONS.md`.
 - Sync: git (Obsidian git plugin) and/or Obsidian Sync. Git is the source of truth
   and the backup.
 
