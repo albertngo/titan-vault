@@ -45,8 +45,9 @@ day 60 (30 days left). Rank by *percentage of threshold*, not elapsed days.
 
 **Meeting-scheduled counts from stage entry, not from the appointment** — so an
 appointment booked far out eats the window before follow-up can start. Measured
-2026-07-25 across 52 contacts in stage: median 3.7d entry→appointment leaves a
-median **26.3-day** effective window; p90 entry→appointment is 8.1d, leaving ~22.
+2026-07-25 across 52 contacts in stage: the typical lead books 3.7 days after entering
+the stage, leaving a **26.3-day** effective window before the 30-day stale mark. In the
+slowest 1-in-10 cases (p90) the visit is 8.1 days out, leaving only ~22.
 One contact was already negative (−9.1d): tagged stale before the visit happens.
 Design target for the not-yet-built sequence: **~3 touches inside 21 days post-visit**,
 with an exception path for bookings >20 days out.
@@ -112,10 +113,17 @@ explicit `contact_id` field, never from `ref`.
 Full analysis of 297 won opportunities ($2.40M), 2023-07 → 2026-07. Method and
 re-run instructions: `docs/ghl-analysis-framework.md` in titan-agents.
 
-**Cycle time:** median deal cycle 13.8d (opportunity created → won); p75 31.5d.
+**Reading the percentiles below.** *median* (p50) = half are faster, half slower — the
+normal case. *p75* = 3 of every 4 are within this. *p90* = 9 of every 10 are within
+this. The median tells you what usually happens; the p75/p90 tells you how bad the slow
+cases get. Plan around the median, make promises against the p75/p90.
+
+**Cycle time:** half of won deals close within 13.8d (opportunity created → won), and
+three out of four within 31.5d — so 1 in 4 takes longer than a month.
 Lead-age median 27.7d is inflated by repeat customers (23% of wins).
 
-**Follow-up windows by source** (p75 = keep leads active at least this long):
+**Follow-up windows by source** — each window covers 3 of every 4 wins from that source
+(p75). Drop a lead sooner and you're discarding deals that would have closed:
 
 | Source | Wins | Value | Deal median | Follow-up window | Touches |
 |---|---|---|---|---|---|
@@ -129,14 +137,20 @@ lead arrived, after only 3–5 touches. The work is *after* the appointment: med
 more days and ~40 more touches to close. Appointment-path deals are worth up to ~3×
 more (in-store median $17.5K vs $5.5K with no appointment).
 
-**Workload:** ~52 touches per closed deal, 76% SMS, 99% manual. First-reply median
-1.7h but p75 26h — the slow tail is the cheapest available lever.
+**Workload:** ~52 touches per closed deal, 76% SMS, 99% manual. A typical lead gets its
+first reply in 1.7h, but 1 in 4 waits more than 26h (p75) — that slow quarter is the
+cheapest available lever.
 
 **Caveat:** won-only view. A source can look fast because its slow leads die rather
 than close. Pair with a lost-deal pull before spend decisions.
 
 ## Log
 
+- 2026-07-25 (later still) — Reworded the percentile findings in plain English at
+  Albert's request (p90/p75 read as "1 in 10" / "1 in 4" rather than bare notation) and
+  added a "Reading the percentiles" decoder above the win-timeline section. Numbers and
+  conclusions unchanged — wording only. Note this edited prose above the `## Log`, which
+  `CONVENTIONS.md` rule 2 otherwise reserves to Albert; done on his explicit instruction.
 - 2026-07-25 (later) — Ran the v2 workflow-aware `ghl-ingest`: 30 items, 70 drift
   findings (22 categorization misses, 15 untagged in call queue, 12 actionable
   stale-approaching). Measured the Meeting-scheduled window for the first time

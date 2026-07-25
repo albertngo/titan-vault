@@ -1,4 +1,4 @@
-# titan-vault Conventions — v1
+# titan-vault Conventions — v1.1
 
 This vault is Titan Flooring's second brain. Humans and agents both write here.
 This file is the contract: any agent writing to the vault reads it first, every run.
@@ -53,11 +53,24 @@ This file is the contract: any agent writing to the vault reads it first, every 
 
 ## Agent access
 
-- `vault-writer` (in titan-agents) is the only agent with write access, limited to
-  the patterns in its own definition. All other agents read-only.
-- Every agent write session ends with a git commit: `vault: daily update YYYY-MM-DD`.
+**Build phase (current).** `vault-writer` is **parked** — see its definition in
+titan-agents. Claude writes here directly instead, one change at a time, with Albert's
+go-ahead on each. Every rule in this file still applies; only the routing differs.
+
+**Target shape.** `vault-writer` becomes the only agent with write access, limited to
+the patterns in its own definition, all other agents read-only. Un-park it once the
+agent architecture and the ingest contracts have settled — its whitelist enumerates
+folders and contracts, so spec'ing it against a moving target means rewriting it on
+every change.
+
+- Every agent write session ends with a git commit: `vault: <what> YYYY-MM-DD`.
+- Vault commits go to `main` — no review step.
 
 ## Versioning
 
 Bump this file's version and note the migration when structure changes.
 Agents must refuse to write if they can't find this file.
+
+- **v1.1** (2026-07-25) — Agent access rewritten: `vault-writer` parked for the build
+  phase, direct Claude writes in its place, `main` named as the push target. Folder map
+  and note rules unchanged.
