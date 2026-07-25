@@ -64,3 +64,10 @@ than close. Pair with a lost-deal pull before spend decisions.
 
 - 2026-07-25 — Wired GHL MCP (read-only PIT). Ran first `ghl-ingest`. Completed
   win-timeline + activity analysis over all 297 won opportunities; findings above.
+- 2026-07-24 — `ghl-ingest` (standalone run): 4 new leads, 18 unanswered conversations,
+  2 pipeline moves. New quirk observed: vendor/supplier solicitations arrive in the
+  *lead* stream as ordinary contacts (e.g. a WhatsApp cash offer logged as "Omega
+  Distributors"), so raw lead counts overstate retail demand. Also ~1/3 of the
+  unanswered queue is missed calls with no voicemail and automated "We've Moved" log
+  entries — the unanswered-conversation metric needs those filtered before it means
+  anything. Day recorded in [[2026-07-24]].
