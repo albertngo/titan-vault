@@ -1,5 +1,20 @@
+# Per-machine Obsidian state — differs per device, conflicts constantly.
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/cache
+
+# Plugin code: Obsidian reinstalls it per machine and rewrites it on every
+# update. community-plugins.json (the enabled list) stays tracked so a new
+# machine knows what to install; the compiled bundles do not.
+.obsidian/plugins/*/main.js
+.obsidian/plugins/*/styles.css
+.obsidian/plugins/*/manifest.json
+
+# Obsidian Git's own config — holds machine-specific paths (custom git binary).
+.obsidian/plugins/obsidian-git/data.json
+
 .trash/
 .DS_Store
+
+# Tracked on purpose: app.json, appearance.json, core-plugins.json,
+# community-plugins.json, hotkeys.json, themes/ — shared config worth syncing.
