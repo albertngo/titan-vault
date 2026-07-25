@@ -6,8 +6,10 @@ last_activity: 2026-07-25
 
 # GHL (GoHighLevel)
 
-Titan's CRM: leads, SMS/email conversations, sales pipelines. Source of truth for
-lead flow and deal stage. Read by `ghl-ingest`; written only by `ghl-actions`.
+Titan's CRM: lead capture, call routing, SMS/email conversations and automation,
+sales pipelines, mobile quotes. Source of truth for lead flow and deal stage.
+Read by `ghl-ingest` (read-only, daily); written only by `ghl-actions`
+(write, approval-gated). Both live in titan-agents.
 
 **Location:** Titan Flooring Inc. — `4BwjVRlyDCR4ZRdcSrFR` (America/Toronto)
 **Access:** official HighLevel MCP server. Read-only Private Integration Token for
@@ -22,6 +24,55 @@ issued). See `.mcp.json` and `docs/ghl-mcp-setup.md` in titan-agents.
 | (2) PROJECT: Sales Pipeline | Meeting (Scheduled) → Postponed → **Project Won** |
 | STORE: Material Pipeline | Quote Provided → +3d Follow-up (Auto) → +8d Final Follow-up (Auto) → Engaged → No Answer → Closed Won / Closed Lost |
 
+## Lead qualification workflow (current)
+
+1. Lead comes in → enters the leads pipeline.
+2. **Call queue:** within 5 minutes GHL rings Albert; if he picks up, it rings the
+   customer. The lead stays in the call queue until Albert categorizes and tags them.
+3. **Missed call** → automatic SMS goes out. Albert works the tagged call-queue list
+   afterward.
+4. Regardless of contact, the lead enters **general nurture** (email marketing) and
+   sits there until categorization.
+5. On direct contact (call or SMS), the lead is moved and tagged:
+   `hot` / `warm` / `cold` / `unqualified`.
+6. **Mobile quote is the tagging trigger.** Albert fills the mobile quote form during
+   or after the conversation; the timeline field he enters determines the tag. When the
+   quote sends via automation, the contact is tagged and moved to the matching stage.
+7. **+5 days after quote:** automated follow-up text asking what they thought.
+8. After that, no more push.
+
+### Stale workflow
+
+- Too long in a stage → one automated follow-up.
+- Set days after that follow-up → contact tagged `stale lead` (candidate for manual
+  follow-up).
+- Same duration passes again with the stale tag already present → automatically marked
+  `abandoned`.
+
+### Sales pipeline & appointments
+
+Stages: Meeting scheduled → Postponed → Projects won.
+Appointments live in **Meeting scheduled** with three occurrence types:
+
+- In-home visit
+- In-store visit
+- Both (tagged for both if they book both)
+
+> ⚠️ **Known gap:** no follow-up sequence exists for Meeting scheduled — these contacts
+> have taken direct physical action but get no structured push. Being designed from real
+> data via the `/won-analysis` command in titan-agents (source, days lead→contact, days
+> lead→appointment, days appointment→won, contact points, conversation quality).
+
+## Tag vocabulary (canonical)
+
+`hot` · `warm` · `cold` · `unqualified` · `stale lead` · `abandoned` · untagged
+(in call queue / nurture, not yet categorized)
+
+Tags are **ground truth** — set only by Albert (via mobile quote timeline) or by the
+stale automation. Agents read them, never write them. Agent-detected mismatches between
+conversation content and tag surface in the daily brief as `tag_mismatch`, for Albert to
+resolve.
+
 ## Quirks worth knowing
 
 - `lastStatusChangeAt` is the real close timestamp; `updatedAt` drifts with any edit.
@@ -31,6 +82,9 @@ issued). See `.mcp.json` and `docs/ghl-mcp-setup.md` in titan-agents.
 - Appointments appear as `TYPE_ACTIVITY_APPOINTMENT` events in the conversation
   stream, not as a separate object. Body prefix `Visit:` = in-home, `Store:` = in-store.
 - Only ~1% of logged touches are automated; the funnel is manual today.
+- Qualification is manual **by design** — the daily ingest's drift detection exists to
+  catch categorization misses, quotes whose 5-day follow-up didn't fire, and
+  stale/abandonment approaches.
 
 ## Win-timeline findings — 2026-07-25
 
@@ -62,6 +116,9 @@ than close. Pair with a lost-deal pull before spend decisions.
 
 ## Log
 
+- 2026-07-25 — Documented the lead qualification workflow, stale/abandonment
+  automation, appointment types, and canonical tag vocabulary as part of the
+  `ghl-ingest` v2 build. Recorded the Meeting-scheduled follow-up gap.
 - 2026-07-25 — Wired GHL MCP (read-only PIT). Ran first `ghl-ingest`. Completed
   win-timeline + activity analysis over all 297 won opportunities; findings above.
 - 2026-07-24 — `ghl-ingest` (standalone run): 4 new leads, 18 unanswered conversations,
