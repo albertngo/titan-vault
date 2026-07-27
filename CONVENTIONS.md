@@ -1,4 +1,4 @@
-# titan-vault Conventions — v1.3
+# titan-vault Conventions — v1.4
 
 This vault is Titan Flooring's second brain. Humans and agents both write here.
 This file is the contract: any agent writing to the vault reads it first, every run.
@@ -7,14 +7,14 @@ This file is the contract: any agent writing to the vault reads it first, every 
 
 | Folder | Contains | Who writes |
 |---|---|---|
-| `daily/` | One note per day: `YYYY-MM-DD.md`. The distilled record of what happened. | vault-writer (overwrites on re-run) |
-| `clients/` | One note per client: `Firstname Lastname.md` or `Company Name.md` | vault-writer (Log section only) + Albert |
-| `opportunities/` | One note per opportunity, matching the Titan Projects name where possible | vault-writer (Log section only) + Albert |
-| `suppliers/` | One note per supplier (BIYORK, VIDAR, Triforest, FAW, Purelux, Evergreen, GreenTouch, Olympia, CIF...) | vault-writer (Log section only) + Albert |
-| `decisions/` | `YYYY-MM-DD-short-slug.md`. Explicit decisions only — never inferred. | vault-writer + Albert |
-| `goals/` | Quarterly and weekly goal notes. | Albert only (later: planner agent, proposals only) |
-| `platforms/` | One reference note per platform (GHL, QBO, Airtable...): how Titan uses it, quirks, IDs. | Albert + agents **on explicit instruction only** — never as part of an automatic run |
-| `templates/` | Note templates below. | Nobody edits casually — templates are part of the contract. |
+| `01_daily/` | One note per day: `YYYY-MM-DD.md`. The distilled record of what happened. | vault-writer (overwrites on re-run) |
+| `02_opportunities/` | One note per opportunity, matching the Titan Projects name where possible | vault-writer (Log section only) + Albert |
+| `03_clients/` | One note per client: `Firstname Lastname.md` or `Company Name.md` | vault-writer (Log section only) + Albert |
+| `04_goals/` | Quarterly and weekly goal notes. | Albert only (later: planner agent, proposals only) |
+| `05_decisions/` | `YYYY-MM-DD-short-slug.md`. Explicit decisions only — never inferred. | vault-writer + Albert |
+| `06_platforms/` | One reference note per platform (GHL, QBO, Airtable...): how Titan uses it, quirks, IDs. | Albert + agents **on explicit instruction only** — never as part of an automatic run |
+| `07_suppliers/` | One note per supplier (BIYORK, VIDAR, Triforest, FAW, Purelux, Evergreen, GreenTouch, Olympia, CIF...) | vault-writer (Log section only) + Albert |
+| `08_templates/` | Note templates below. | Nobody edits casually — templates are part of the contract. |
 
 **During the build phase, read "vault-writer" in the Who-writes column as "Claude,
 writing directly with Albert's go-ahead."** `vault-writer` is parked; see Agent access
@@ -23,7 +23,7 @@ only the writer differs today, never the rules.
 
 ## Note rules
 
-1. **Frontmatter on every entity note** (clients/opportunities/suppliers):
+1. **Frontmatter on every entity note** (03_clients/02_opportunities/07_suppliers):
    ```yaml
    ---
    type: client | opportunity | supplier
