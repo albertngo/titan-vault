@@ -1,5 +1,5 @@
 ---
-type: project
+type: opportunity
 status: active
 last_activity: {{date}}
 # Source-system IDs — the join keys. Names are display; IDs are identity.

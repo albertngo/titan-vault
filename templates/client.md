@@ -17,8 +17,8 @@ ghl_conversation_ids: []
 ## Context
 <!-- human-owned: who they are, what they want, quirks -->
 
-## Projects
-<!-- [[Project Name]] links -->
+## Opportunities
+<!-- [[Opportunity Name]] links -->
 
 ## Log
 - {{date}} — created from ingest
