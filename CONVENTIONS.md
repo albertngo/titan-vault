@@ -1,4 +1,4 @@
-# titan-vault Conventions — v1.6
+# titan-vault Conventions — v1.7
 
 This vault is Titan Flooring's second brain. Humans and agents both write here.
 This file is the contract: any agent writing to the vault reads it first, every run.
@@ -22,6 +22,24 @@ writing directly with Albert's go-ahead."** `vault-writer` is parked; see Agent 
 below. The column describes the target routing, which is what the folder map is for —
 only the writer differs today, never the rules.
 
+## Scaling to more sources
+
+The vault's job is to be a business overseer, not a mirror of every platform. That
+comes from **breadth of sources feeding it, cross-linked**, not depth of records
+per source — see note rule 4's earned-relevance clause. As QuickBooks, Notion,
+email, or any other platform integrates, it follows the pattern GHL already set:
+
+1. A `06_platforms/<Source>.md` reference note (quirks, IDs, how Titan uses it).
+2. New source IDs on entity frontmatter alongside the existing ones —
+   `qbo_customer_id`, `notion_page_id`, … — per the Identity rule (note rule 5).
+3. Entity notes accumulate one Log line per source as things actually happen —
+   never a bulk import of that source's full history on day one.
+
+A client note that's picked up a GHL log line, then a QuickBooks invoice log line,
+then a Notion meeting log line over time is the overseer working as intended. The
+same client note pre-populated from a bulk pull of all three platforms on day one,
+before any of that happened, is exactly the raw dump note rule 4 forbids.
+
 ## Note rules
 
 1. **Frontmatter on every entity note** (03_clients/02_opportunities/07_suppliers):
@@ -38,6 +56,17 @@ only the writer differs today, never the rules.
    in any note uses `[[Name]]`. Links are what make this a brain instead of a folder.
 4. **No raw dumps.** The vault holds distilled knowledge — summaries, amounts, links
    back to the source platform. Full emails/transcripts stay in their platforms.
+
+   **Earned relevance, not bulk import.** A client/opportunity/supplier note gets
+   created when something durable happens to that entity — it wins, it lands in a
+   daily-brief `needs_attention`, or an analysis touches it — never by a proactive
+   bulk or windowed pull of a platform's history. The platform (queried live via
+   MCP) is the source for anything not already noted; the vault only accumulates
+   what's actually been decided or acted on. A note earned this way keeps
+   collecting one Log line per source as things happen to it over time — that
+   accretion, not import volume, is what makes the vault an overseer instead of a
+   second CRM. (The 2026-07-26 two-month GHL window and the 297 won-opportunity
+   notes predate this clause and are grandfathered — not retroactively pruned.)
 5. **The Identity rule — source IDs are the join key.** Names are keys for humans;
    source IDs are keys for agents. One canonical name per entity for display and
    wiki-links. But every entity note created from ingest carries its source-system ID
@@ -88,6 +117,17 @@ every change.
 Bump this file's version and note the migration when structure changes.
 Agents must refuse to write if they can't find this file.
 
+- **v1.7** (2026-07-26) — Added the "Scaling to more sources" section and note
+  rule 4's "Earned relevance, not bulk import" clause, after a full-history GHL
+  backfill (1,958 opportunities + contacts) was proposed and reconsidered
+  mid-pull. The vault's overseer ambition — ingesting accounting, Notion, email,
+  and more alongside GHL — comes from breadth of cross-linked sources per entity,
+  not from mirroring each source's full history. A note is earned (wins, hits a
+  daily-brief `needs_attention`, or gets touched by an analysis) and then
+  accumulates one Log line per source over time; it is never bulk-imported on
+  day one. The existing 2026-07-26 two-month GHL window and the 297
+  won-opportunity notes predate this clause and are explicitly grandfathered —
+  no retroactive pruning. No template or folder changes.
 - **v1.6** (2026-07-26) — Client and opportunity templates gained
   `ghl_assigned_to` (name) + `ghl_assigned_to_id` (GHL user id): the current
   assigned user, kept to decide whom the next task goes to. **Operational data,
