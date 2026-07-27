@@ -9,6 +9,9 @@ ghl_opportunity_id:
 ghl_contact_id:
 ghl_pipeline:
 ghl_stage:
+# Operational, not identity: who owns this record in GHL right now (name + id).
+ghl_assigned_to:
+ghl_assigned_to_id:
 ---
 
 # {{name}}

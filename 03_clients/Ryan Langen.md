@@ -3,6 +3,8 @@ type: client
 status: prospect
 last_activity: 2026-07-26
 ghl_contact_id: 4TzieXflcVqohecIkbEB
+ghl_assigned_to: Pourya Lalee
+ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
 ghl_opportunity_id: qJZvtViPbrIT7aGw6FvJ
 ghl_conversation_ids: [c1BQdU8s0TbdEKCX1ktb]
 ---

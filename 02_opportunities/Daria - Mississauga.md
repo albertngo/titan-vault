@@ -4,6 +4,8 @@ status: complete
 last_activity: 2026-07-13
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_opportunity_id: g2vS3wNPFBZh8SQsXQ6D
+ghl_assigned_to: Pourya Lalee
+ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
 ghl_contact_id: 77ZbErneV22W1bQ16O6E
 ghl_pipeline: (2) PROJECT: Sales Pipeline
 ghl_stage: 2. *Project Won*

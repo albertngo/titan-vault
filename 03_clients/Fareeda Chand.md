@@ -4,6 +4,8 @@ status: prospect
 last_activity: 2026-06-20
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_contact_id: kQxiUK8760N7We26mBS0
+ghl_assigned_to: Pourya Lalee
+ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
 ghl_conversation_ids: []
 ---
 

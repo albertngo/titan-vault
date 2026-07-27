@@ -1,4 +1,4 @@
-# titan-vault Conventions — v1.5
+# titan-vault Conventions — v1.6
 
 This vault is Titan Flooring's second brain. Humans and agents both write here.
 This file is the contract: any agent writing to the vault reads it first, every run.
@@ -88,6 +88,13 @@ every change.
 Bump this file's version and note the migration when structure changes.
 Agents must refuse to write if they can't find this file.
 
+- **v1.6** (2026-07-26) — Client and opportunity templates gained
+  `ghl_assigned_to` (name) + `ghl_assigned_to_id` (GHL user id): the current
+  assigned user, kept to decide whom the next task goes to. **Operational data,
+  not identity** — it is NOT part of the Identity rule's join keys and may change
+  on any sync; agents still match records on the entity IDs alone. Absent fields
+  mean unassigned in GHL (or no assignment data in the sync that wrote the note).
+  Backfilled across existing notes at bump time (309 clients, 246 opportunities).
 - **v1.5** (2026-07-26) — Added `09_analyses/` and `templates/analysis.md`. Analyses
   previously had no home: titan-agents' CLAUDE.md said findings worth keeping go to
   the vault but named no folder, and `05_decisions/` (explicit decisions only) and

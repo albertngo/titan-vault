@@ -4,6 +4,8 @@ status: dormant
 last_activity: 2026-07-11
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_opportunity_id: 4iMJrMO8O69h9uzJ0AVM
+ghl_assigned_to: Albert Ngo
+ghl_assigned_to_id: ooPNab06Ka04uZ1yQ4w6
 ghl_contact_id: EnWM5LVlPzAFUwerZC2N
 ghl_pipeline: (1) PROJECT: Lead Qualification
 ghl_stage: 0a. New Lead

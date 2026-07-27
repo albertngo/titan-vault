@@ -3,6 +3,8 @@ type: client
 status: prospect
 last_activity: 2026-07-26
 ghl_contact_id: QgBLv8gee9JZWNdVUHcE
+ghl_assigned_to: Albert Ngo
+ghl_assigned_to_id: ooPNab06Ka04uZ1yQ4w6
 ghl_opportunity_id: ZbYBWcoTLeNivhkPqI7h
 ghl_conversation_ids: [WG8SqctPw5Hz1uSDZPxz]
 ---

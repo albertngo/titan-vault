@@ -4,6 +4,8 @@ status: active
 last_activity: 2026-06-08
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_opportunity_id: s0hQUJrsYFRq0F5Zc5TH
+ghl_assigned_to: Albert Ngo
+ghl_assigned_to_id: ooPNab06Ka04uZ1yQ4w6
 ghl_contact_id: o8UWpY0PjszUABfFIQbj
 ghl_pipeline: (1) PROJECT: Lead Qualification
 ghl_stage: 0b. Far Out (Cold)

@@ -4,6 +4,8 @@ status: active
 last_activity: 2026-07-08
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_contact_id: ZUdPkeFUjDK6md53S7HJ
+ghl_assigned_to: Pourya Lalee
+ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
 ghl_conversation_ids: []
 ---
 

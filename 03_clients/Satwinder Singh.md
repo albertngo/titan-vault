@@ -4,6 +4,8 @@ status: prospect
 last_activity: 2026-07-17
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_contact_id: t2b9xtbGx92zidCGAVwe
+ghl_assigned_to: Albert Ngo
+ghl_assigned_to_id: ooPNab06Ka04uZ1yQ4w6
 ghl_conversation_ids: []
 ---
 

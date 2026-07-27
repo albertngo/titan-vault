@@ -4,6 +4,8 @@ status: dormant
 last_activity: 2026-06-15
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_opportunity_id: EbLPRRiyYUUHQVNIwlcW
+ghl_assigned_to: Front Desk at Titan Flooring Inc.
+ghl_assigned_to_id: edv6p75Y79cYsPS0jPv0
 ghl_contact_id: tqRZP46zJx1e9mBKOgk4
 ghl_pipeline: STORE: Material Pipeline
 ghl_stage: 4. Engaged - (Manual)

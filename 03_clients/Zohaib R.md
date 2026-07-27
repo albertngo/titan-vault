@@ -3,6 +3,8 @@ type: client
 status: prospect
 last_activity: 2026-07-26
 ghl_contact_id: XzYfOX5iJWqUv8tnU817
+ghl_assigned_to: Front Desk at Titan Flooring Inc.
+ghl_assigned_to_id: edv6p75Y79cYsPS0jPv0
 ghl_opportunity_id: YTeJfIAl8OVBBtW08bRt
 ghl_conversation_ids: [dQbmNTCsLesNfhuJij6F]
 ---

@@ -4,6 +4,8 @@ status: prospect
 last_activity: 2026-07-08
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_contact_id: dAs8fcFiNs7WQOA4uDqR
+ghl_assigned_to: Front Desk at Titan Flooring Inc.
+ghl_assigned_to_id: edv6p75Y79cYsPS0jPv0
 ghl_conversation_ids: []
 ---
 
