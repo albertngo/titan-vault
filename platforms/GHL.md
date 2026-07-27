@@ -1,7 +1,7 @@
 ---
 type: platform
 status: active
-last_activity: 2026-07-25
+last_activity: 2026-07-26
 ---
 
 # GHL (GoHighLevel)
@@ -147,6 +147,20 @@ than close. Pair with a lost-deal pull before spend decisions.
 
 ## Log
 
+- 2026-07-26 — `ghl-ingest` run at 00:25 succeeded (307 open opportunities; 4 new leads;
+  full report). A follow-up run at 20:05 failed 401 "Invalid JWT" on every call because
+  `GHL_PIT_TOKEN`/`GHL_LOCATION_ID` were absent from that session's process environment
+  (`.mcp.json` only reads process env, doesn't load `.env` itself) — per the ingest
+  contract's idempotent-overwrite rule, the error record replaced the good 00:25 output
+  in `ingest/2026-07-26/ghl.json`. Fixed on this machine by auto-sourcing `.env` from
+  shell startup so the token is always present before `claude` launches. **New trap:**
+  a missing/expired token doesn't fail loudly — it silently produces a same-shaped
+  `status: "error"` ingest file that overwrites good data, so check `status` before
+  trusting a "successful" ingest run.
+  Also surfaced: the 00:25 run found live auto-abandonment firing at ~14d (New Lead)
+  and ~40d (Meeting) — earlier than the 28d/60d documented in the table above and in
+  `config/ghl-workflow.json`. Unconfirmed whether the live GHL workflow changed or the
+  config/table is stale — needs verification directly against GHL, not corrected here.
 - 2026-07-25 (later still) — Reworded the percentile findings in plain English at
   Albert's request (p90/p75 read as "1 in 10" / "1 in 4" rather than bare notation) and
   added a "Reading the percentiles" decoder above the win-timeline section. Numbers and
