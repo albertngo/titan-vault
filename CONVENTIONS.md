@@ -1,4 +1,4 @@
-# titan-vault Conventions — v1.4
+# titan-vault Conventions — v1.5
 
 This vault is Titan Flooring's second brain. Humans and agents both write here.
 This file is the contract: any agent writing to the vault reads it first, every run.
@@ -15,6 +15,7 @@ This file is the contract: any agent writing to the vault reads it first, every 
 | `06_platforms/` | One reference note per platform (GHL, QBO, Airtable...): how Titan uses it, quirks, IDs. | Albert + agents **on explicit instruction only** — never as part of an automatic run |
 | `07_suppliers/` | One note per supplier (BIYORK, VIDAR, Triforest, FAW, Purelux, Evergreen, GreenTouch, Olympia, CIF...) | vault-writer (Log section only) + Albert |
 | `08_templates/` | Note templates below. | Nobody edits casually — templates are part of the contract. |
+| `09_analyses/` | One note per analysis: `YYYY-MM-DD-slug.md`. The question, the distilled findings, and ID-joined wiki-links to every entity the analysis touched. Raw artifacts (CSV/JSON) stay in titan-agents; the vault keeps conclusions. | Albert + agents **on explicit instruction only** — never as part of an automatic run |
 
 **During the build phase, read "vault-writer" in the Who-writes column as "Claude,
 writing directly with Albert's go-ahead."** `vault-writer` is parked; see Agent access
@@ -87,6 +88,18 @@ every change.
 Bump this file's version and note the migration when structure changes.
 Agents must refuse to write if they can't find this file.
 
+- **v1.5** (2026-07-26) — Added `09_analyses/` and `templates/analysis.md`. Analyses
+  previously had no home: titan-agents' CLAUDE.md said findings worth keeping go to
+  the vault but named no folder, and `05_decisions/` (explicit decisions only) and
+  `01_daily/` (the day's record) both refuse them. One note per analysis,
+  `YYYY-MM-DD-slug.md`: the question asked, distilled findings (note rule 4 — tables
+  of results, never row dumps), a **Related** section of wiki-links produced by
+  ID-joining the analysis output against entity notes (note rule 5), and a pointer
+  back to the raw artifact in titan-agents, which stays the system of record for
+  data. Entity notes are NOT edited per-analysis — backlinks carry the connection;
+  a finding that changes how one client is treated is a dated Log append on that one
+  note. Write access mirrors `06_platforms/`: explicit instruction only. No
+  migration — no analysis notes existed at bump time.
 - **v1.4** (2026-07-26) — Numbered every top-level folder to fix the intended reading/
   processing order in a plain file listing: `01_daily/` `02_opportunities/`
   `03_clients/` `04_goals/` `05_decisions/` `06_platforms/` `07_suppliers/`
