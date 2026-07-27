@@ -17,7 +17,7 @@ ghl_conversation_ids: []
 A $15,241.65 project tagged internally as "project complete" in GHL.
 
 ## Opportunities
-None on file yet — likely warrants an `opportunities/` note once confirmed won.
+None on file yet — likely warrants an `02_opportunities/` note once confirmed won.
 
 ## Log
 - 2026-07-26 — Created from `ghl-ingest`. Despite the "project complete" tag,

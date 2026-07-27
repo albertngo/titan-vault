@@ -87,6 +87,12 @@ every change.
 Bump this file's version and note the migration when structure changes.
 Agents must refuse to write if they can't find this file.
 
+- **v1.4** (2026-07-26) — Numbered every top-level folder to fix the intended reading/
+  processing order in a plain file listing: `01_daily/` `02_opportunities/`
+  `03_clients/` `04_goals/` `05_decisions/` `06_platforms/` `07_suppliers/`
+  `08_templates/`. Folder map table reordered to match. Purely a rename — no content,
+  ownership, or rule changes. Earlier changelog entries below keep their original
+  (unprefixed) folder names since that's what was true at the time; read historically.
 - **v1.3** (2026-07-26) — Renamed the `projects/` folder to `opportunities/` (and
   `type: project` to `type: opportunity`) to match GHL's own terminology
   (`ghl_opportunity_id`, the Sales Pipeline of opportunities) rather than running a
