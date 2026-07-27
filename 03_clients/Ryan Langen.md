@@ -28,3 +28,4 @@ None yet.
   stale window actually expired *before* this visit even happened (workflow bug,
   see [[GHL]]), so the stale tag isn't a signal he's gone cold. Send the
   post-visit quote/thank-you while it's still fresh.
+- 2026-07-26 — opportunity [[Ryan]] found in GHL 2-month pull.

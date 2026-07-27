@@ -1,0 +1,24 @@
+---
+type: client
+status: prospect
+last_activity: 2026-06-26
+# Source-system IDs — the join keys. Names are display; IDs are identity.
+ghl_contact_id: PE5AmYT3DMJNP9XDxTO1
+ghl_conversation_ids: []
+---
+
+# Bryan Delamasa
+
+**Contact:** bryanjdelamasa@gmail.com · +16478631963
+**Address:** TORONTO, ON
+**Source:** Preliminary Mobile Quote — tags: mobile quote, lead: warm
+**Intake:** timeline < 1 month · who Home-Owner · heard via Direct
+
+## Context
+<!-- human-owned: who they are, what they want, quirks -->
+
+## Opportunities
+- [[Bryan Delamasa]]
+
+## Log
+- 2026-07-26 — created from GHL 2-month pull (contacts added 2026-05-26 → 2026-07-26). Added to GHL 2026-06-24.

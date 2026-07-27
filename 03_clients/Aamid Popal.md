@@ -1,0 +1,24 @@
+---
+type: client
+status: prospect
+last_activity: 2026-07-21
+# Source-system IDs — the join keys. Names are display; IDs are identity.
+ghl_contact_id: NbVwwFN9ibde4H17osAI
+ghl_conversation_ids: []
+---
+
+# Aamid Popal
+
+**Contact:** aamidpopal@hotmail.com · +14167318162
+**Address:** Brampton
+**Source:** Meta Ad — tags: meta-ad-b&a
+**Intake:** service Flooring · sqft More than 1000sf · budget Not Sure · urgency 1-3 months · building House · material Solid Hardwood
+
+## Context
+<!-- human-owned: who they are, what they want, quirks -->
+
+## Opportunities
+- [[Aamid Popal - Flooring - Brampton]]
+
+## Log
+- 2026-07-26 — created from GHL 2-month pull (contacts added 2026-05-26 → 2026-07-26). Added to GHL 2026-07-06.

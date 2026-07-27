@@ -1,0 +1,24 @@
+---
+type: client
+status: prospect
+last_activity: 2026-07-20
+# Source-system IDs — the join keys. Names are display; IDs are identity.
+ghl_contact_id: 6c3PLDuFYvk12LwCbg6X
+ghl_conversation_ids: []
+---
+
+# Marzia Haji
+
+**Contact:** marziaiqbal@gmail.com · +14165644933
+**Address:** Richmond Hill
+**Source:** Unknown — tags: meta-ad-b&a, stale_lead
+**Intake:** service Flooring · sqft More than 1000sf · budget Not Sure · urgency ASAP · building House · material Engineered Hardwood
+
+## Context
+<!-- human-owned: who they are, what they want, quirks -->
+
+## Opportunities
+- [[Marzia Haji - Flooring - Richmond Hill]]
+
+## Log
+- 2026-07-26 — created from GHL 2-month pull (contacts added 2026-05-26 → 2026-07-26). Added to GHL 2026-05-29.

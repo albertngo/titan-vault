@@ -24,3 +24,4 @@ None yet.
 - 2026-07-26 — Created from `ghl-ingest`. Lead came in 8:02pm Jul 25; welcome
   email sent automatically. Untagged, not yet in the call queue — needs a standard
   morning call-queue attempt and categorization.
+- 2026-07-26 — opportunity [[Kofi Parker - Both - Toronto]] found in GHL 2-month pull.

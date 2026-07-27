@@ -25,3 +25,4 @@ None yet.
   is (10:35am Jul 25); no reply yet as of this run (~14h). Still untagged in the
   call queue — nudge once if no reply by midday, and invite her in with a ballpark
   for <400sf.
+- 2026-07-26 — opportunity [[Elsa Espejo - Flooring - Toronto]] found in GHL 2-month pull.

@@ -25,3 +25,4 @@ None on file yet — likely warrants an `02_opportunities/` note once confirmed 
   stage after 40 days in stage — looks misfiled. This should very likely be
   moved to "2. *Project Won*" instead of abandoned; won revenue is currently
   being undercounted by this $15,242. Needs manual correction in GHL.
+- 2026-07-26 — opportunity [[Sean K]], [[Sean - Mississauga]] found in GHL 2-month pull.

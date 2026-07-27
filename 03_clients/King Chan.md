@@ -1,0 +1,23 @@
+---
+type: client
+status: active
+last_activity: 2026-07-22
+# Source-system IDs — the join keys. Names are display; IDs are identity.
+ghl_contact_id: WHSzLRPq5jNATPlsaEZl
+ghl_conversation_ids: []
+---
+
+# King Chan
+
+**Contact:** +19059652781
+**Address:** 7 willow Park Drive, BRAMPTON, ON
+**Source:** — — tags: appt-home, appt-store
+
+## Context
+<!-- human-owned: who they are, what they want, quirks -->
+
+## Opportunities
+- [[King - BRAMPTON]]
+
+## Log
+- 2026-07-26 — created from GHL 2-month pull (contacts added 2026-05-26 → 2026-07-26). Added to GHL 2026-06-18.

@@ -1,0 +1,24 @@
+---
+type: client
+status: prospect
+last_activity: 2026-07-20
+# Source-system IDs — the join keys. Names are display; IDs are identity.
+ghl_contact_id: tDycjJCUpFevsO8ZsOXK
+ghl_conversation_ids: []
+---
+
+# Ilda Faria
+
+**Contact:** molly_f97@yahoo.com · +16478086594
+**Address:** —
+**Source:** Preliminary Mobile Quote — tags: mobile quote, lead: hot, stale_lead
+**Intake:** timeline < 1month · building Condo / Apartment · who Home-Owner · heard via Saw the Store / Drove By
+
+## Context
+<!-- human-owned: who they are, what they want, quirks -->
+
+## Opportunities
+- [[Ilda Faria]]
+
+## Log
+- 2026-07-26 — created from GHL 2-month pull (contacts added 2026-05-26 → 2026-07-26). Added to GHL 2026-06-10.

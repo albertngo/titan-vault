@@ -1,0 +1,24 @@
+---
+type: client
+status: prospect
+last_activity: 2026-07-26
+# Source-system IDs — the join keys. Names are display; IDs are identity.
+ghl_contact_id: zvih25unOJuJuIg0Jnff
+ghl_conversation_ids: []
+---
+
+# Harj Heer
+
+**Contact:** harjheer@gmail.com · +14164021190
+**Address:** Mississauga
+**Source:** Direct — tags: meta-ad-b&a
+**Intake:** service Stairs · sqft Up To 500sf · budget Not Sure · urgency 1-3 months · building House · material Engineered Hardwood
+
+## Context
+<!-- human-owned: who they are, what they want, quirks -->
+
+## Opportunities
+None yet.
+
+## Log
+- 2026-07-26 — created from GHL 2-month pull (contacts added 2026-05-26 → 2026-07-26). Added to GHL 2026-07-26.

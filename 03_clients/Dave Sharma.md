@@ -25,3 +25,4 @@ None yet.
   automatically; the automated connect-call failed (key not pressed on our
   side) and he hasn't been reached by a human yet. ASAP-urgency lead — belongs
   at the top of today's call queue.
+- 2026-07-26 — opportunity [[Dave Sharma - Flooring - Brampton]] found in GHL 2-month pull.

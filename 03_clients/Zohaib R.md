@@ -25,3 +25,4 @@ None yet.
 - 2026-07-26 — Created from `ghl-ingest`. He called twice yesterday evening
   (~4:55pm) and left a voicemail — actively trying to re-engage on the abandoned
   $1,955 quote. Call him back today before the interest cools again.
+- 2026-07-26 — opportunity [[Zohaib R]] found in GHL 2-month pull.
