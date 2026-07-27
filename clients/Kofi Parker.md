@@ -17,7 +17,7 @@ ghl_conversation_ids: [KakUeXryYXJzOLwOLHRG]
 Wants flooring + stairs done in a Toronto townhouse. Doesn't know exact square
 footage yet — asked Titan to measure. No budget set. Low urgency (3+ months out).
 
-## Projects
+## Opportunities
 None yet.
 
 ## Log

@@ -17,7 +17,7 @@ ghl_conversation_ids: [WG8SqctPw5Hz1uSDZPxz]
 Flooring lead, created Jul 24 evening. The automated connect-call failed, but
 he answered the re-engagement SMS with a one-word "Yes" (still needs help).
 
-## Projects
+## Opportunities
 None yet.
 
 ## Log

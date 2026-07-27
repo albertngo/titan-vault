@@ -18,7 +18,7 @@ Cancelled one in-home visit, did an in-store visit Jul 18, sent photos/video of
 his condo. Internal note: "still very interested," wants his wife involved.
 $3,983 mobile quote on file, hot-tagged.
 
-## Projects
+## Opportunities
 None yet.
 
 ## Log

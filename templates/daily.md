@@ -12,7 +12,7 @@ date: {{date}}
 <!-- one line per source: GHL, Outlook, QBO... -->
 
 ## What happened
-<!-- 3-8 bullets, wiki-linked: [[Client]], [[Project]], [[Supplier]] -->
+<!-- 3-8 bullets, wiki-linked: [[Client]], [[Opportunity]], [[Supplier]] -->
 
 ## Actions taken
 <!-- from actions-log.json; "None" if empty -->

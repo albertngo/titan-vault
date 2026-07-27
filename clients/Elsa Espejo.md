@@ -17,7 +17,7 @@ ghl_conversation_ids: [1gS7TfWxM8z9BRu4GZPc]
 Renter replacing only the living-room floor (<400sf), budget ~$3-5k, 1-3 month
 timeline. Says she'll visit the store. Timeline maps to warm but she isn't tagged yet.
 
-## Projects
+## Opportunities
 None yet.
 
 ## Log

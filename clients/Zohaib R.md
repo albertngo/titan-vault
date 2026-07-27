@@ -18,7 +18,7 @@ Flooring/stairs prospect. Called in Jul 6, got a $1,955 mobile quote same day,
 staged hot. Said Jul 9 he'd come by on a weekend to see inventory — never did,
 and his opportunity was auto-abandoned Jul 21.
 
-## Projects
+## Opportunities
 None yet.
 
 ## Log

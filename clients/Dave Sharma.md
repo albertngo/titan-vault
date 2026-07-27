@@ -17,7 +17,7 @@ ghl_conversation_ids: [2vON9JUEgbtiLYLd8tWE]
 Up to 500sf, budget ~$3-5k, ASAP urgency — maps to hot but he isn't tagged yet.
 Only automation has touched him so far.
 
-## Projects
+## Opportunities
 None yet.
 
 ## Log

@@ -10,5 +10,5 @@ Titan Flooring's second brain — an Obsidian vault, git-versioned.
 - Sync: git (Obsidian git plugin) and/or Obsidian Sync. Git is the source of truth
   and the backup.
 
-Structure: `daily/` `clients/` `projects/` `suppliers/` `decisions/` `goals/`
+Structure: `daily/` `clients/` `opportunities/` `suppliers/` `decisions/` `goals/`
 `platforms/` `templates/`

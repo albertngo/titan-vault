@@ -1,4 +1,4 @@
-# titan-vault Conventions — v1.2
+# titan-vault Conventions — v1.3
 
 This vault is Titan Flooring's second brain. Humans and agents both write here.
 This file is the contract: any agent writing to the vault reads it first, every run.
@@ -9,7 +9,7 @@ This file is the contract: any agent writing to the vault reads it first, every 
 |---|---|---|
 | `daily/` | One note per day: `YYYY-MM-DD.md`. The distilled record of what happened. | vault-writer (overwrites on re-run) |
 | `clients/` | One note per client: `Firstname Lastname.md` or `Company Name.md` | vault-writer (Log section only) + Albert |
-| `projects/` | One note per project, matching the Titan Projects name where possible | vault-writer (Log section only) + Albert |
+| `opportunities/` | One note per opportunity, matching the Titan Projects name where possible | vault-writer (Log section only) + Albert |
 | `suppliers/` | One note per supplier (BIYORK, VIDAR, Triforest, FAW, Purelux, Evergreen, GreenTouch, Olympia, CIF...) | vault-writer (Log section only) + Albert |
 | `decisions/` | `YYYY-MM-DD-short-slug.md`. Explicit decisions only — never inferred. | vault-writer + Albert |
 | `goals/` | Quarterly and weekly goal notes. | Albert only (later: planner agent, proposals only) |
@@ -23,17 +23,17 @@ only the writer differs today, never the rules.
 
 ## Note rules
 
-1. **Frontmatter on every entity note** (clients/projects/suppliers):
+1. **Frontmatter on every entity note** (clients/opportunities/suppliers):
    ```yaml
    ---
-   type: client | project | supplier
+   type: client | opportunity | supplier
    status: active | prospect | complete | dormant
    last_activity: YYYY-MM-DD
    ---
    ```
 2. **Entity notes have a `## Log` section.** Agents append dated bullets there and
    update frontmatter. Everything above the Log is human-owned prose — agents never rewrite it.
-3. **Wiki-links everywhere.** Any mention of a client, project, supplier, or platform
+3. **Wiki-links everywhere.** Any mention of a client, opportunity, supplier, or platform
    in any note uses `[[Name]]`. Links are what make this a brain instead of a folder.
 4. **No raw dumps.** The vault holds distilled knowledge — summaries, amounts, links
    back to the source platform. Full emails/transcripts stay in their platforms.
@@ -58,7 +58,7 @@ only the writer differs today, never the rules.
    - Which IDs go on which note type — the templates are the authority, and this list
      must match them: `ghl_contact_id` + `ghl_conversation_ids[]` on clients;
      `ghl_opportunity_id` + `ghl_contact_id` + `ghl_pipeline` + `ghl_stage` on
-     projects. Ingest records carry these on every record that has one — propagate
+     opportunities. Ingest records carry these on every record that has one — propagate
      them, don't drop them. Pipeline and stage are **names, not IDs**: stage IDs are
      opaque and get renamed in the GHL UI, so the name is what a human can verify.
 
@@ -87,6 +87,15 @@ every change.
 Bump this file's version and note the migration when structure changes.
 Agents must refuse to write if they can't find this file.
 
+- **v1.3** (2026-07-26) — Renamed the `projects/` folder to `opportunities/` (and
+  `type: project` to `type: opportunity`) to match GHL's own terminology
+  (`ghl_opportunity_id`, the Sales Pipeline of opportunities) rather than running a
+  second, unrelated word for the same thing. `templates/project.md` renamed to
+  `templates/opportunity.md`; the `## Projects` section on client/supplier notes
+  renamed to `## Opportunities`. GHL's own literal terms (the "Project Won" pipeline
+  stage, the "project complete" tag) are untouched — those are the platform's
+  vocabulary, not the vault's. No existing opportunity-type notes required migration;
+  none existed at rename time.
 - **v1.2** (2026-07-25) — Note rule 5 named the **Identity rule** and made the single
   source of truth for entity identity. It absorbs the per-note-type ID field mapping
   that `vault-writer` used to restate; that agent and `ghl-ingest` now cite this
