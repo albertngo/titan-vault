@@ -1,7 +1,7 @@
 ---
 type: client
 status: prospect
-last_activity: 2026-07-25
+last_activity: 2026-07-27
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_contact_id: nRKthDez64COjA0iyWPg
 ghl_assigned_to: Albert Ngo
@@ -24,3 +24,4 @@ ghl_conversation_ids: []
 
 ## Log
 - 2026-07-26 — created from GHL 2-month pull (contacts added 2026-05-26 → 2026-07-26). Added to GHL 2026-06-24.
+- 2026-07-27 — GHL daily ingest flagged [[Samriti - Brampton]] 32 days in Meeting-scheduled stage (107% of the 30-day threshold), appt-cancelled, with no `stale_lead` tag ever applied — automation appears to have missed it.

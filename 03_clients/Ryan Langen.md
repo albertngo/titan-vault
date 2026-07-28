@@ -1,7 +1,7 @@
 ---
 type: client
 status: prospect
-last_activity: 2026-07-26
+last_activity: 2026-07-27
 ghl_contact_id: 4TzieXflcVqohecIkbEB
 ghl_assigned_to: Pourya Lalee
 ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
@@ -31,3 +31,4 @@ None yet.
   see [[GHL]]), so the stale tag isn't a signal he's gone cold. Send the
   post-visit quote/thank-you while it's still fresh.
 - 2026-07-26 — opportunity [[Ryan]] found in GHL 2-month pull.
+- 2026-07-27 — GHL daily ingest: highest lead score seen today (12), mobile-quote hot lead, already `stale_lead`-tagged with no appointment booked. He's said he wants to come in with his wife but hasn't booked — one more stale cycle auto-abandons this opportunity.

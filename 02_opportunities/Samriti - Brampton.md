@@ -1,7 +1,7 @@
 ---
 type: opportunity
 status: active
-last_activity: 2026-06-25
+last_activity: 2026-07-27
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_opportunity_id: BU00DBU507ZbM39Hy6Mj
 ghl_assigned_to: Pourya Lalee
@@ -23,3 +23,4 @@ ghl_stage: *Meeting (Scheduled)* CCAM|GHL
 
 ## Log
 - 2026-07-26 — created from GHL 2-month pull (opportunities created 2026-05-26 → 2026-07-26). Created in GHL 2026-06-24; stage "*Meeting (Scheduled)* CCAM|GHL"; status open; value $6,775 CAD; source onlineMeta Ad; contact tags: meta-ad-b&a, mobile quote, lead: hot, appt-cancelled.
+- 2026-07-27 — GHL daily ingest drift finding: 32 days in Meeting stage (107% of 30-day threshold), appt-cancelled, no `stale_lead` tag applied — automation miss, needs manual review.

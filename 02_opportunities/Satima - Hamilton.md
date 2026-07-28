@@ -1,7 +1,7 @@
 ---
 type: opportunity
 status: active
-last_activity: 2026-07-02
+last_activity: 2026-07-27
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_opportunity_id: LZLZxbgIRPOtXmShvIoW
 ghl_assigned_to: Pourya Lalee
@@ -23,3 +23,4 @@ ghl_stage: *Meeting (Scheduled)* CCAM|GHL
 
 ## Log
 - 2026-07-26 — created from GHL 2-month pull (opportunities created 2026-05-26 → 2026-07-26). Created in GHL 2026-06-23; stage "*Meeting (Scheduled)* CCAM|GHL"; status open; source online; contact tags: appt-home.
+- 2026-07-27 — GHL daily ingest drift finding: 34 days in Meeting stage (113% of 30-day threshold), no `lead:` tag and no `stale_lead` tag at all — longest-overdue Meeting-stage record found today, needs manual review.
