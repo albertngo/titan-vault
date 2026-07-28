@@ -1,0 +1,28 @@
+---
+type: client
+status: active
+last_activity: 2026-07-28
+# Source-system IDs — the join keys. Names are display; IDs are identity.
+# Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
+ghl_contact_id: none — not in today's ingest; Notion payment row only (see Log)
+ghl_conversation_ids: []
+# Operational, not identity: who owns this record in GHL right now (name + id).
+# Used to decide whom the next task gets assigned to. Absent = unassigned in GHL.
+ghl_assigned_to:
+ghl_assigned_to_id:
+---
+
+# Elena Passetchnaia
+
+**Contact:** —
+**Address:** —
+**Source:** — (customer; surfaced via Notion Master Payments Log)
+
+## Context
+<!-- human-owned: who they are, what they want, quirks -->
+
+## Opportunities
+None noted yet (project predates vault coverage).
+
+## Log
+- 2026-07-28 — created on [[Notion]] daily ingest: $3,000.00 Interac e-Transfer received 2026-07-27, auto-deposited (ref C1AHhVspdE2Y). No project linked on the payment row. Payment: https://app.notion.com/3ab596a4505f817c8213e42eda1873f1. Related: a "Create Gift Box For: [Elena Pass]" tactical task has sat Not started in Notion since 2026-07-07 (20 days, stale) — assumed to be the same person.
