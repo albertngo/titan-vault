@@ -1,4 +1,4 @@
-# titan-vault Conventions — v1.7
+# titan-vault Conventions — v1.8
 
 This vault is Titan Flooring's second brain. Humans and agents both write here.
 This file is the contract: any agent writing to the vault reads it first, every run.
@@ -103,16 +103,22 @@ before any of that happened, is exactly the raw dump note rule 4 forbids.
 titan-agents. Claude writes here directly instead, one change at a time, with Albert's
 go-ahead on each. Every rule in this file still applies; only the routing differs.
 
-**Target shape.** `vault-writer` becomes the only agent with write access, limited to
-the patterns in its own definition, all other agents read-only. Un-park it once the
-agent architecture and the ingest contracts have settled — its whitelist enumerates
-folders and contracts, so spec'ing it against a moving target means rewriting it on
-every change.
+**Current shape.** `vault-writer` is un-parked (2026-07-27) and wired into
+`/daily-ingest` on the titan-agents side — it is the agent making these commits now,
+limited to the patterns in its own definition. All other agents remain read-only.
 
 - Every agent write session ends with a git commit: `vault: <what> YYYY-MM-DD`.
-- Vault commits go to `main` — no review step.
+- Vault commits go to `main-vault` (this repo's actual default branch) — no review step.
 
 ## Versioning
+
+- **v1.8** (2026-07-27) — `vault-writer` un-parked, wired into `/daily-ingest`,
+  bound strictly to its existing whitelist. Its first real run committed
+  `ee2da90` (5 new entity notes, 11 Log-append updates, 1 daily note — see
+  titan-agents-repo `ingest/2026-07-27/`). Also corrected the push-target
+  branch name from `main` to `main-vault` (this repo's actual default branch,
+  confirmed with Albert 2026-07-27 — the earlier `main` references were always
+  wrong, not a rename). No folder, template, or frontmatter changes.
 
 Bump this file's version and note the migration when structure changes.
 Agents must refuse to write if they can't find this file.
