@@ -1,7 +1,7 @@
 ---
 type: opportunity
 status: active
-last_activity: 2026-07-21
+last_activity: 2026-07-28
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_opportunity_id: hyQ5PdxuzHpu0XSTlRB0
 ghl_assigned_to: Pourya Lalee
@@ -23,3 +23,4 @@ ghl_stage: *Meeting (Scheduled)* CCAM|GHL
 
 ## Log
 - 2026-07-26 — created from GHL 2-month pull (opportunities created 2026-05-26 → 2026-07-26). Created in GHL 2026-07-21; stage "*Meeting (Scheduled)* CCAM|GHL"; status open; value $5,673 CAD; source Meta Ad; contact tags: meta-ad-b&a, mobile quote, lead: hot, appt-home.
+- 2026-07-28 — GHL daily ingest, `needs_attention`: in-home visit scheduled TODAY 11:30am (booked Jul 21, confirmed).
