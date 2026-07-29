@@ -1,7 +1,7 @@
 ---
 type: client
 status: active
-last_activity: 2026-07-11
+last_activity: 2026-07-28
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_contact_id: yt6FkCt6UNaYtZJe4egk
 ghl_assigned_to: Pourya Lalee
@@ -24,3 +24,4 @@ ghl_conversation_ids: []
 
 ## Log
 - 2026-07-26 — created from GHL 2-month pull (contacts added 2026-05-26 → 2026-07-26). Added to GHL 2026-06-29.
+- 2026-07-28 — Project-status meeting: floors ordered & paid (waterproof laminate incl. basement-landing half-stair; ~$14.4K job, two staircases). Underquoted ~$1K — finalized off the old mobile quote instead of fresh measurements (playbook candidate). Dates being shortened from Aug 13–17 to free Aug 17–18 for [[Ryan Langen]].

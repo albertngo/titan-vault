@@ -26,3 +26,4 @@ None noted yet (project predates vault coverage).
 
 ## Log
 - 2026-07-28 — created on [[Notion]] daily ingest: $3,000.00 Interac e-Transfer received 2026-07-27, auto-deposited (ref C1AHhVspdE2Y). No project linked on the payment row. Payment: https://app.notion.com/3ab596a4505f817c8213e42eda1873f1. Related: a "Create Gift Box For: [Elena Pass]" tactical task has sat Not started in Notion since 2026-07-07 (20 days, stale) — assumed to be the same person.
+- 2026-07-28 — Project-status meeting: herringbone project finished Jul 27, zero deficiencies so far. $700 change-order to be folded into the project total in Notion (duplicate scheduling row to delete); payout starting.

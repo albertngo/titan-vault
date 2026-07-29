@@ -1,7 +1,7 @@
 ---
 type: client
 status: prospect
-last_activity: 2026-07-27
+last_activity: 2026-07-28
 ghl_contact_id: 4TzieXflcVqohecIkbEB
 ghl_assigned_to: Pourya Lalee
 ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
@@ -32,3 +32,4 @@ None yet.
   post-visit quote/thank-you while it's still fresh.
 - 2026-07-26 — opportunity [[Ryan]] found in GHL 2-month pull.
 - 2026-07-27 — GHL daily ingest: highest lead score seen today (12), mobile-quote hot lead, already `stale_lead`-tagged with no appointment booked. He's said he wants to come in with his wife but hasn't booked — one more stale cycle auto-abandons this opportunity.
+- 2026-07-28 — Project-status meeting: Pourya emailed to confirm an Aug 17–18 install slot (freed by shortening [[Syed and Azara Shah]]'s block); ~36% margin on the quote. Awaiting his confirmation.

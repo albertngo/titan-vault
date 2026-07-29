@@ -24,3 +24,4 @@ ghl_conversation_ids: []
 ## Log
 - 2026-07-26 — created from GHL 2-month pull (contacts added 2026-05-26 → 2026-07-26). Added to GHL 2026-06-20.
 - 2026-07-28 — Notion daily ingest (Master Payments Log): $4,259.00 Interac e-Transfer received 2026-07-27, auto-deposited (ref C1Aq8QKXSgAb). No project linked on the payment row — worth connecting it in [[Notion]].
+- 2026-07-28 — Project-status meeting: install complete up to the staircase boundary; Jason's call is to pause ("don't do anything") until his own stair contractor finishes, then do the fish-tank area and back-room pattern transition in one visit. Project pending external stair guys.
