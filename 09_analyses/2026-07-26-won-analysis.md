@@ -76,3 +76,25 @@ aggregates at `analysis/output/stats.json` (commit `58279d2`). Method:
 `methods/ghl-analysis-framework.md`. Appointment modes classified by event-body
 prefix, which can disagree with the `appt-home`/`appt-store` tags the daily
 ingester reads.
+
+## Addendum 2026-07-28 — appointment metrics re-anchored (method v2)
+
+Appointment and touch metrics are now scoped to the deal window
+[opp created − 30 d → close] instead of the contact's whole history
+(`methods/ghl-analysis-framework.md` v2 in titan-agents); repeat customers
+(24% of wins) were carrying prior deals' appointments and touches into these
+figures. Corrected, over all 297 wins:
+
+- Appointment rate 57% (was 60%) — 7 wins' only appointment belonged to a
+  prior deal.
+- Opp → appointment median ~0 d — the appointment effectively *is* the
+  opportunity's creation (see the 2026-07-29 funnel analysis for why).
+- **Appointment → won median 15.2 d, p75 31.0 d (was 16.0 / 42.1).** The
+  day-42 final call in the recommended cadence was grounded in the inflated
+  p75; the corrected window suggests the sequence tail sits nearer day 31.
+- Touches per win median 28 (was 37) — per-deal workload; repeat customers no
+  longer counted with their full multi-year history.
+
+Original figures were project-wins-only; corrected ones span all 297 wins —
+the deltas come from the repeat rows, not the subset change. Follow-up with
+the full (non-won) denominator: [[2026-07-29-appt-funnel]].
