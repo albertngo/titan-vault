@@ -1,4 +1,4 @@
-# titan-vault Conventions — v1.8
+# titan-vault Conventions — v1.9
 
 This vault is Titan Flooring's second brain. Humans and agents both write here.
 This file is the contract: any agent writing to the vault reads it first, every run.
@@ -65,8 +65,11 @@ before any of that happened, is exactly the raw dump note rule 4 forbids.
    what's actually been decided or acted on. A note earned this way keeps
    collecting one Log line per source as things happen to it over time — that
    accretion, not import volume, is what makes the vault an overseer instead of a
-   second CRM. (The 2026-07-26 two-month GHL window and the 297 won-opportunity
-   notes predate this clause and are grandfathered — not retroactively pruned.)
+   second CRM. (The 2026-07-26 two-month GHL backfill was originally
+   grandfathered against this clause, then pruned to its earned-relevance
+   survivors on 2026-07-28 on Albert's explicit instruction — see
+   [[2026-07-28-prune-ghl-backfill]]. Deleted notes remain recoverable from git
+   history at commit `c95e2a1`.)
 5. **The Identity rule — source IDs are the join key.** Names are keys for humans;
    source IDs are keys for agents. One canonical name per entity for display and
    wiki-links. But every entity note created from ingest carries its source-system ID
@@ -112,6 +115,15 @@ limited to the patterns in its own definition. All other agents remain read-only
 
 ## Versioning
 
+- **v1.9** (2026-07-28) — Reversed v1.7's grandfather carve-out on Albert's
+  explicit instruction: the 2026-07-26 two-month GHL backfill was pruned to its
+  earned-relevance survivors (522 of 598 notes deleted; kept: won cohort,
+  analysis-referenced, daily-brief-touched — see
+  [[2026-07-28-prune-ghl-backfill]]). Correction recorded while doing so:
+  v1.7's "297 won-opportunity notes" were never written to the vault — the 297
+  wins live as `won_records` in the titan-agents repo; only 15 won-opportunity
+  notes existed here, all kept. The earned-relevance clause itself is unchanged
+  and now applies without exception. No template or folder changes.
 - **v1.8** (2026-07-27) — `vault-writer` un-parked, wired into `/daily-ingest`,
   bound strictly to its existing whitelist. Its first real run committed
   `ee2da90` (5 new entity notes, 11 Log-append updates, 1 daily note — see
