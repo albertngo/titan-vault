@@ -110,12 +110,14 @@ so every note and every new source is classified as it arrives, never
 retrofitted. Tags govern future exports, not git history: past commits keep
 old content readable; nothing here is retroactive secrecy.
 
-- `admin` — Albert only: QBO/bookkeeper financials, Outlook email content,
-  margins/costs, Notion Project Financials data, legal/liability strategy,
-  personal matters.
+- `admin` — Albert only: content from admin-only surfaces — QBO/bookkeeper
+  financials, Outlook email content, Notion Project Financials data — plus
+  genuinely personal matters.
 - `staff` — safe for employees because they already see the source: GHL CRM
-  data, and the staff-shared Notion tables (Titan Projects, Master Payments
-  Log, QA Work Orders, Tactical Tasks List, Project Status Meetings).
+  data (all of it — warranty/liability complaints and collections chases
+  included), and the staff-shared Notion tables (Titan Projects, Master
+  Payments Log, QA Work Orders, Tactical Tasks List, Project Status
+  Meetings — including what was said in those staff-attended meetings).
 
 **Vocabulary boundary (the single place the two vocabularies meet).** Ingest
 items in titan-agents carry `sensitivity: "team" | "private"`
@@ -146,16 +148,19 @@ source default (`platform-settings/notion-destinations.json`
    One agent-set deviation exists: vault-writer sets `visibility: admin` on a
    NEW entity note when every triggering ingest item is admin-level — an
    entity staff has no other window onto shouldn't announce itself here.
-4. **Admin-grade facts** (content escalators — they beat a staff source
-   default, escalation-only): profit margins / markup / job profitability;
-   costs not shown on a staff-shared Notion table; QBO / bank / bookkeeper
-   amounts and account details; anything sourced from Outlook email;
-   legal/liability strategy (incl. warranty-claim and collections exposure);
-   personal matters. Amounts that ARE on the shared tables (contract values,
-   Master Payments Log payments — including sender names, QA Budget Expense)
-   are staff, as is client payment logistics staff already sees in GHL
-   conversations. No admin fact ever appears in a note title — titles survive
-   in an export as dangling links.
+4. **Admin-grade facts — provenance decides, not content** (Albert,
+   2026-08-02: "anything inside or coming from what's already visible in the
+   workspace as staff is staff level; GHL warranties shouldn't be private").
+   A fact is admin only when it comes from an admin-only surface —
+   QBO/bookkeeper, Outlook email, Notion Project Financials — or is genuinely
+   personal. A fact staff already sees where it lives is staff, whatever it's
+   about: GHL conversations in full (warranty/liability complaints,
+   collections chases), shared-table amounts (contract values, Master
+   Payments Log payments and sender names, QA Budget Expense), and
+   project-status meeting content staff attended (margin mentions included).
+   Being "about money" or "about a dispute" is never, by itself, grounds for
+   admin. No admin fact ever appears in a note title — titles survive in an
+   export as dangling links.
 5. **The `#admin` line marker.** On staff-floor notes, an admin-grade dated
    bullet carries a trailing ` #admin` tag (Obsidian inline tag — searchable,
    strippable). One bullet never mixes levels: compose separate dated bullets
@@ -192,14 +197,15 @@ limited to the patterns in its own definition. All other agents remain read-only
   all 6 templates gain the key with their folder default. Migration: 127
   notes backfilled with folder-default tags (7 daily + 2 decisions +
   2 platforms + 3 analyses = admin; 65 clients + 48 opportunities = staff),
-  per Albert's 2026-08-02 call that existing content is staff-clean — with
-  one exception: 8 existing Log bullets across 5 client notes squarely on
-  the admin-fact list (job margins; liability/collections lines whose
-  source ingest items were already stamped `sensitivity: private`) received
-  a trailing ` #admin`. **One-time authorization, Albert 2026-08-02:**
-  appending those markers to existing lines is a recorded, single exception
-  to note rule 6's append-don't-rewrite — never a precedent for agents. Tags
-  classify exports going forward; git history retains pre-migration content.
+  per Albert's 2026-08-02 call that existing content is staff-clean. An
+  initial pass marked 8 Log bullets `#admin` (margins, warranty/liability,
+  collections); Albert's same-day correction — visibility is
+  provenance-based, and anything staff already sees in GHL or the shared
+  workspace is staff, warranties included — removed all 8. **Zero `#admin`
+  markers existed at v2.0 close.** (The add-then-remove touched existing
+  lines twice under a one-time authorization — a recorded, single exception
+  to note rule 6, never a precedent for agents.) Tags classify exports going
+  forward; git history retains pre-migration content.
 - **v1.9** (2026-07-28) — Reversed v1.7's grandfather carve-out on Albert's
   explicit instruction: the 2026-07-26 two-month GHL backfill was pruned to its
   earned-relevance survivors (522 of 598 notes deleted; kept: won cohort,
