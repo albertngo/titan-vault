@@ -1,5 +1,8 @@
 ---
 type: opportunity
+# Note floor: staff may see this note; admin-grade bullets carry a trailing #admin
+# (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
+visibility: staff
 status: active
 last_activity: {{date}}
 # Source-system IDs — the join keys. Names are display; IDs are identity.

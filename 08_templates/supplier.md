@@ -1,5 +1,7 @@
 ---
 type: supplier
+# Margin notes are cost data by design — see CONVENTIONS: Visibility.
+visibility: admin
 status: active
 last_activity: {{date}}
 ---

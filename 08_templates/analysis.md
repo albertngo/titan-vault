@@ -1,5 +1,7 @@
 ---
 type: analysis
+# Analyses aggregate revenue/margin data — see CONVENTIONS: Visibility.
+visibility: admin
 date: {{date}}
 question: <one line — what this analysis set out to answer>
 # Platforms + repo artifacts that fed it, e.g. [GHL, "titan-agents: analysis/output/win_timeline.csv"]

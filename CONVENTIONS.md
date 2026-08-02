@@ -1,4 +1,4 @@
-# titan-vault Conventions — v1.9
+# titan-vault Conventions — v2.0
 
 This vault is Titan Flooring's second brain. Humans and agents both write here.
 This file is the contract: any agent writing to the vault reads it first, every run.
@@ -46,6 +46,7 @@ before any of that happened, is exactly the raw dump note rule 4 forbids.
    ```yaml
    ---
    type: client | opportunity | supplier
+   visibility: staff | admin
    status: active | prospect | complete | dormant
    last_activity: YYYY-MM-DD
    ---
@@ -100,6 +101,74 @@ before any of that happened, is exactly the raw dump note rule 4 forbids.
    changes in one place. A restated copy is a copy that will drift.
 6. **Append, don't rewrite.** History is the point. Corrections are new dated entries.
 
+## Visibility — staff vs admin
+
+Every note carries `visibility: staff | admin` in frontmatter, directly after
+`type:`. It answers one question: **may a staff-facing surface ever show this
+note?** No export exists yet — the tag is the classification layer, built now
+so every note and every new source is classified as it arrives, never
+retrofitted. Tags govern future exports, not git history: past commits keep
+old content readable; nothing here is retroactive secrecy.
+
+- `admin` — Albert only: QBO/bookkeeper financials, Outlook email content,
+  margins/costs, Notion Project Financials data, legal/liability strategy,
+  personal matters.
+- `staff` — safe for employees because they already see the source: GHL CRM
+  data, and the staff-shared Notion tables (Titan Projects, Master Payments
+  Log, QA Work Orders, Tactical Tasks List, Project Status Meetings).
+
+**Vocabulary boundary (the single place the two vocabularies meet).** Ingest
+items in titan-agents carry `sensitivity: "team" | "private"`
+(`contracts/ingest-schema.md`); the vault stores `visibility`. Mapping:
+`team → staff`, `private → admin`. An item with null sensitivity takes its
+source default (`platform-settings/notion-destinations.json`
+`source_defaults`); unknown source or unknown value → `admin`.
+
+1. **Fail-safe.** A missing, blank, or unrecognized `visibility` reads as
+   `admin`. This also covers vault infrastructure (this file, README,
+   templates) without tagging it.
+2. **Escalation-only for agents.** An agent may classify staff-source content
+   as admin, never the reverse, and never edits an existing note's
+   `visibility:` value. Only Albert changes a tag, in either direction.
+3. **Folder defaults** (templates are the authority; this table matches them):
+
+   | Folder | visibility | Why |
+   |---|---|---|
+   | `01_daily/` | admin | Mixes all sources (Outlook, bookkeeper) by template design |
+   | `02_opportunities/` | staff (floor) | GHL/shared-Notion data; admin-grade bullets carry `#admin` |
+   | `03_clients/` | staff (floor) | same |
+   | `04_goals/` | admin | Albert's territory |
+   | `05_decisions/` | admin | Decision context routinely includes financials; Albert may flip individual notes |
+   | `06_platforms/` | admin | Platform quirks, IDs, access details |
+   | `07_suppliers/` | admin | The template's **Margin notes** field is cost data by design |
+   | `09_analyses/` | admin | Revenue/margin aggregates |
+
+   One agent-set deviation exists: vault-writer sets `visibility: admin` on a
+   NEW entity note when every triggering ingest item is admin-level — an
+   entity staff has no other window onto shouldn't announce itself here.
+4. **Admin-grade facts** (content escalators — they beat a staff source
+   default, escalation-only): profit margins / markup / job profitability;
+   costs not shown on a staff-shared Notion table; QBO / bank / bookkeeper
+   amounts and account details; anything sourced from Outlook email;
+   legal/liability strategy (incl. warranty-claim and collections exposure);
+   personal matters. Amounts that ARE on the shared tables (contract values,
+   Master Payments Log payments — including sender names, QA Budget Expense)
+   are staff, as is client payment logistics staff already sees in GHL
+   conversations. No admin fact ever appears in a note title — titles survive
+   in an export as dangling links.
+5. **The `#admin` line marker.** On staff-floor notes, an admin-grade dated
+   bullet carries a trailing ` #admin` tag (Obsidian inline tag — searchable,
+   strippable). One bullet never mixes levels: compose separate dated bullets
+   per level; if the admin fact is inseparable from the rest, the whole
+   bullet is `#admin`. Bullets append to `## Log` exactly as before — the
+   marker is the only difference. A bullet derived from an ingest item with
+   `sensitivity: "private"` is always `#admin`.
+6. **Export semantics.** `visibility: staff` = a staff export may show the
+   note AFTER stripping every line that contains `#admin`. Anything
+   admin-grade in human-owned prose above the Log means the note is `admin`
+   until Albert moves or marks it himself. Exporters render links to
+   admin-only notes as plain text, never as content.
+
 ## Agent access
 
 **Build phase (current).** `vault-writer` is **parked** — see its definition in
@@ -115,6 +184,22 @@ limited to the patterns in its own definition. All other agents remain read-only
 
 ## Versioning
 
+- **v2.0** (2026-08-02) — Visibility tagging, on Albert's instruction. New
+  "Visibility — staff vs admin" section: `visibility: staff | admin` on every
+  note, folder defaults, the `#admin` line marker, the admin-fact list, the
+  ingest team/private → staff/admin mapping, fail-safe (missing → admin) and
+  escalation-only rules. Note rule 1's frontmatter block gains `visibility`;
+  all 6 templates gain the key with their folder default. Migration: 127
+  notes backfilled with folder-default tags (7 daily + 2 decisions +
+  2 platforms + 3 analyses = admin; 65 clients + 48 opportunities = staff),
+  per Albert's 2026-08-02 call that existing content is staff-clean — with
+  one exception: 7 existing Log bullets across 5 client notes squarely on
+  the admin-fact list (job margins; liability/collections lines whose
+  source ingest items were already stamped `sensitivity: private`) received
+  a trailing ` #admin`. **One-time authorization, Albert 2026-08-02:**
+  appending those markers to existing lines is a recorded, single exception
+  to note rule 6's append-don't-rewrite — never a precedent for agents. Tags
+  classify exports going forward; git history retains pre-migration content.
 - **v1.9** (2026-07-28) — Reversed v1.7's grandfather carve-out on Albert's
   explicit instruction: the 2026-07-26 two-month GHL backfill was pruned to its
   earned-relevance survivors (522 of 598 notes deleted; kept: won cohort,

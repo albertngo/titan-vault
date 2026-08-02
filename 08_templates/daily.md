@@ -1,5 +1,7 @@
 ---
 type: daily
+# Daily notes mix every source (Outlook, bookkeeper) — see CONVENTIONS: Visibility.
+visibility: admin
 date: {{date}}
 ---
 
