@@ -26,4 +26,4 @@ ghl_assigned_to_id:
 None noted yet — won project, ID not in ingest.
 
 ## Log
-- 2026-07-29 — created from Notion daily ingest `needs_attention`: deposit e-transfer "sent" Jul 24 with correct recipient details never landed; the Jul 21 five-day deposit deadline has lapsed. The Aug 4 start is being held with material already paid in full. Albert follows up ~Aug 2, then the drop/backfill decision. Jul 28 meeting context: margin >30% on this job. Open task: https://app.notion.com/3ab596a4505f80eea0e0c172995f5b58
+- 2026-07-29 — created from Notion daily ingest `needs_attention`: deposit e-transfer "sent" Jul 24 with correct recipient details never landed; the Jul 21 five-day deposit deadline has lapsed. The Aug 4 start is being held with material already paid in full. Albert follows up ~Aug 2, then the drop/backfill decision. Jul 28 meeting context: margin >30% on this job. Open task: https://app.notion.com/3ab596a4505f80eea0e0c172995f5b58 #admin

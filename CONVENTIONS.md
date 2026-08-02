@@ -193,7 +193,7 @@ limited to the patterns in its own definition. All other agents remain read-only
   notes backfilled with folder-default tags (7 daily + 2 decisions +
   2 platforms + 3 analyses = admin; 65 clients + 48 opportunities = staff),
   per Albert's 2026-08-02 call that existing content is staff-clean — with
-  one exception: 7 existing Log bullets across 5 client notes squarely on
+  one exception: 8 existing Log bullets across 5 client notes squarely on
   the admin-fact list (job margins; liability/collections lines whose
   source ingest items were already stamped `sensitivity: private`) received
   a trailing ` #admin`. **One-time authorization, Albert 2026-08-02:**
