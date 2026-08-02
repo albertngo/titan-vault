@@ -27,3 +27,4 @@ ghl_assigned_to_id:
 
 ## Log
 - 2026-08-02 — Won today (closed 2026-08-01). Facebook lead created 2025-07-22, dormant ~11 months, reactivated July 2026: in-home visit 2026-07-20, in-store material pick, deposit paid via e-transfer split across two days (daily send-limit) — confirm full 35% deposit lands before committing install crew/materials. Contact history: 5 calls, 106 SMS, 14 emails. Notion's matching record (same opportunity ID `MN0lIOhP0sSSlVTzaTXB`) logs the win at $12,769 CAD; a $3,000 e-Transfer payment was recorded 2026-08-01 from Joseph Raymond Gomes, not yet linked to a project row in Notion's payments rollup.
+- 2026-08-02 — [[Outlook]] catch-up ingest: client asked on 2026-08-01 to **move install to 2026-08-11** (Pourya replied same day); project documents shared via Adobe. Second $3,000 e-Transfer from Joseph Gomes received 2026-08-02 — deposit still landing in installments. Site address 100 Greenbank Dr, Cambridge confirmed by email. #admin
