@@ -1,5 +1,6 @@
 ---
 type: opportunity
+visibility: staff
 status: complete
 last_activity: 2026-08-02
 # Source-system IDs — the join keys. Names are display; IDs are identity.

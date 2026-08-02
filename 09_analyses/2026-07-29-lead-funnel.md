@@ -1,5 +1,6 @@
 ---
 type: analysis
+visibility: admin
 date: 2026-07-29
 question: What does the last 60 days of lead flow look like — trend, appointment booking by source, daily mix?
 sources: [GHL, "titan-agents: analysis/output/lead_rows.csv", "titan-agents: analysis/output/lead_stats.json"]

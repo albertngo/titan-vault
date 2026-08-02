@@ -1,5 +1,6 @@
 ---
 type: platform
+visibility: admin
 status: active
 last_activity: 2026-07-28
 ---

@@ -1,5 +1,6 @@
 ---
 type: decision
+visibility: admin
 status: decided
 date: 2026-07-28
 ---

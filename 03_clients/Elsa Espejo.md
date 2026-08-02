@@ -1,5 +1,6 @@
 ---
 type: client
+visibility: staff
 status: prospect
 last_activity: 2026-07-26
 ghl_contact_id: VvdpgIpVWtKgkpuM6Ndp

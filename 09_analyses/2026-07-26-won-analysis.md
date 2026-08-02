@@ -1,5 +1,6 @@
 ---
 type: analysis
+visibility: admin
 date: 2026-07-26
 question: How long does a win take from lead → appointment → won, what does it cost in touches, and when is it too early to abandon a lead?
 sources: [GHL, "titan-agents: ingest/analysis/won-analysis-2026-07-26.md", "titan-agents: ingest/analysis/won-records.json", "titan-agents: analysis/output/won_rows.csv + stats.json"]

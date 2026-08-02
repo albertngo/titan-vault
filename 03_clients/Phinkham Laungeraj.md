@@ -1,5 +1,6 @@
 ---
 type: client
+visibility: staff
 status: active
 last_activity: 2026-07-18
 # Source-system IDs — the join keys. Names are display; IDs are identity.

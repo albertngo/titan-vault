@@ -1,5 +1,6 @@
 ---
 type: analysis
+visibility: admin
 date: 2026-07-29
 question: Is opp→appointment really ~0 days, or an artifact of deleted/recreated opportunities — and what does the appointment funnel look like over ALL opportunities, not just wins?
 sources: [GHL, "titan-agents: analysis/output/appt_funnel_rows.csv + appt_funnel_stats.json", "titan-agents: methods/appt-funnel.md"]

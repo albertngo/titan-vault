@@ -1,5 +1,6 @@
 ---
 type: client
+visibility: staff
 status: active
 last_activity: 2026-07-29
 ghl_contact_id: 4TzieXflcVqohecIkbEB

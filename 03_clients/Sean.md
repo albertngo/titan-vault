@@ -1,5 +1,6 @@
 ---
 type: client
+visibility: staff
 status: complete
 last_activity: 2026-07-28
 ghl_contact_id: 83w3e13ALD6VCXSzlTd1
