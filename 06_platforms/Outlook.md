@@ -48,15 +48,42 @@ Outlook "goes down" near mid-2028, check the secret before debugging Graph.
 fine — the two are different access models entirely. Assuming delegate access
 implies app access (or vice versa) cost a full debugging cycle.
 
-## Open risk — scoping not yet in place (2026-08-02)
+## Scoping — RESOLVED 2026-08-03 (was an open risk 2026-08-02)
 
-Access is *meant* to be narrowed by an Exchange **Application Access Policy**
-scoped to the group `titan-ingest-mailboxes@titanfloors.ca`. As of today that
-group **does not exist** and the policy is **not applied**, so the app holds
-**tenant-wide `Mail.Read`** — confirmed empirically by reading 72 messages from a
-mailbox that should have been out of scope. This is an open risk, not a resolved
-state: create the group, add the four mailboxes, apply the policy, then re-test
-that an out-of-scope mailbox returns 403.
+Access is narrowed by an Exchange **Application Access Policy**
+(`AccessRight: RestrictAccess`, `IsValid: True`) scoped to the mail-enabled
+security group **`titan-ingest-mailboxes@flooruca.onmicrosoft.com`** —
+GUID `784742b3-2735-4a8c-8a35-1b446dab7d5f`. All four ingest mailboxes verified
+readable after it applied.
+
+**The group is on the `onmicrosoft.com` domain, not `titanfloors.ca`.** It was
+created without an explicit `-PrimarySmtpAddress`, so Exchange assigned the
+tenant's default domain. Every command that referenced
+`titan-ingest-mailboxes@titanfloors.ca` failed with "couldn't be found" until
+this was spotted. The address is irrelevant to function — the group is a scoping
+object, never emailed — but use the `onmicrosoft.com` address or the GUID.
+
+Prior state, for the record: on 2026-08-02 the group did not exist and the app
+held **tenant-wide `Mail.Read`**, confirmed by reading 72 messages from a mailbox
+that should have been out of scope. Between app creation and policy application,
+an app-only registration reads *every* mailbox in the tenant — treat that window
+as the real exposure, and close it in the same sitting.
+
+Still unproven: that an out-of-scope mailbox now returns 403. Titan may have no
+mailbox outside the four to test against, in which case the policy's value is
+forward-looking — any mailbox added later is denied by default.
+
+**Setup traps worth keeping** (each cost a round trip):
+
+- `Connect-ExchangeOnline` is **per-session**. A new `pwsh` window has no
+  Exchange cmdlets at all — `New-DistributionGroup` reports "not recognized as
+  the name of a cmdlet", which reads like a missing module, not a missing login.
+- `New-ApplicationAccessPolicy` on a tenant with **no** policies makes
+  `Get-ApplicationAccessPolicy` fail with an `OU=... couldn't be found` error.
+  That is the empty state, not a fault.
+- "There are multiple recipients matching identity" on group creation means the
+  group already exists from an earlier attempt. Enumerate with `Get-Recipient`
+  and reuse it; identify by GUID to avoid the ambiguity entirely.
 
 ## Quirks and traps (each cost real debugging time — do not re-derive)
 
@@ -85,4 +112,4 @@ that an out-of-scope mailbox returns 403.
   `max_catchup_days=7`, covering 2026-07-26 18:00 → 2026-08-02 18:00
   America/Toronto) because the source had been dark for a week; anything before
   2026-07-26 is still unscanned. Day recorded in [[2026-08-02]]. Tenant-wide
-  `Mail.Read` scoping risk above opened the same day.
+  `Mail.Read` scoping risk opened the same day, closed 2026-08-03.
