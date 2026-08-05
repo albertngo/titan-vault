@@ -71,7 +71,7 @@ and vault notes — names are display only.
 | `pipelineId` | `ZxYBFNifUNNxU7xgQclg` | name only |
 | `pipelineStageId` | `149635d1-3d6a-48c7-9198-7db80b2232b5` | name only |
 | `calendarId` / `groupId` | `9wHcUAkAFKWUwN75TbtW` / `axmp8LcyMC4VyhhWce68` | no |
-| `assignedUserId` | `rAMFCiXbAjJOEjtyyvmn` (Albert) | no |
+| `assignedUserId` | `rAMFCiXbAjJOEjtyyvmn` (Pourya Lalee) | no |
 | `customFieldId` | `8xlNjiw1kf3MFNsII0jv` (~60 fields) | no |
 | `scoreProfileId` | `6840ab5f91c5a1ccdfd54a20` | no |
 | ad attribution | `campaignId` / `adSetId` / `adId`, numeric; `formId`/`mediumId` | no |
@@ -148,6 +148,17 @@ than close. Pair with a lost-deal pull before spend decisions.
 
 ## Log
 
+- 2026-08-04 — Missed-call analysis for Pourya (findings in
+  [[2026-08-04-pourya-missed-calls]]). Two corrections surfaced, both applied
+  above on Albert's instruction: (1) the ID table's `assignedUserId` example
+  `rAMFCiXbAjJOEjtyyvmn` was labelled Albert — it is **Pourya Lalee**; Albert is
+  `ooPNab06Ka04uZ1yQ4w6`. Full user map recorded from `/users/`: Front Desk
+  `edv6p75Y79cYsPS0jPv0`, Mark Bot `CvW3gPWmxP0OkyUiFmhT`, Michael Tran
+  `GH0XAA6gD38CEMR9oREm`; Pourya's direct line +16476060295. (2) Reverse of the
+  2026-07-26 token trap: this session's *process env* held a stale
+  `GHL_PIT_TOKEN` (401 on every call) while `.env` had the working one —
+  auto-sourcing at shell startup pins the token at launch time, so a rotated
+  token needs a fresh shell or an explicit `source .env` before analysis runs.
 - 2026-07-26 — `ghl-ingest` run at 00:25 succeeded (307 open opportunities; 4 new leads;
   full report). A follow-up run at 20:05 failed 401 "Invalid JWT" on every call because
   `GHL_PIT_TOKEN`/`GHL_LOCATION_ID` were absent from that session's process environment
