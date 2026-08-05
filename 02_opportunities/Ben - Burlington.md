@@ -2,7 +2,7 @@
 type: opportunity
 visibility: staff
 status: active
-last_activity: 2026-07-28
+last_activity: 2026-08-05
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # ghl_pipeline/stage are names, not IDs: stage IDs are opaque and get renamed in
 # the GHL UI, so the name is what a human can verify. The opportunity ID is the anchor.
@@ -27,3 +27,4 @@ ghl_assigned_to_id:
 
 ## Log
 - 2026-07-28 — created on GHL daily ingest `needs_attention`: second-largest open deal, $37,438. 123 days in Meeting (Scheduled); the in-home visit only happened Jul 4 (99 days after stage entry — effective follow-up window −69 days, expired before the visit) and there has been no outbound in the 24 days since. No stale tag; nothing in the workflow will ever touch this deal again on its own. Today's brief calls for a manual touch.
+- 2026-08-05 — Still open, still untouched: 130.7 days in Meeting-Scheduled (30-day threshold, 4.36x over), now the highest-value stale record in the account per today's GHL drift ranking. 32 days of silence since the Jul 4 visit; no `stale_lead` tag applied and no follow-up sequence exists for this stage — a workflow gap, not a rep miss. Manual outreach still needed.
