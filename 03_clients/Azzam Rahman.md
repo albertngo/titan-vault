@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: active
-last_activity: 2026-08-05
+last_activity: 2026-08-06
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: jy8j5HMrabimNLOeonoy
@@ -27,3 +27,4 @@ ghl_assigned_to_id:
 
 ## Log
 - 2026-08-05 — created from GHL daily ingest `needs_attention`: had a $10,287.50 Meeting-Scheduled opportunity with an in-home visit booked for 11:30am today. He texted this morning to cancel, saying he's decided to go a different direction (white ash engineered hardwood) after receiving Titan's detailed quote. Pourya acknowledged the cancellation. Tagged lead:warm but functionally lost — tag hasn't caught up. The opportunity and the calendar hold still need to be formally closed out in GHL.
+- 2026-08-06 — Still unresolved as of today's ingest: the Meeting-Scheduled opportunity ($10,287.50) and calendar hold have not yet been formally closed out in GHL; he still carries `lead: warm` despite explicitly declining — categorization mismatch persists, flagged again in today's `needs_attention`.

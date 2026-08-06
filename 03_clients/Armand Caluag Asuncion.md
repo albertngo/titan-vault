@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: prospect
-last_activity: 2026-08-01
+last_activity: 2026-08-06
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: yPeaTnxtGU1JosyTXXUm
@@ -27,3 +27,4 @@ None yet.
 
 ## Log
 - 2026-08-01 — created from GHL daily ingest `needs_attention`: asked "is there anyone coming to my house to give me a quote?" on 2026-07-28 — still in call-queue, still untagged 3 days later, and today only received a generic marketing image rather than a direct answer or a booked visit. Needs the in-home quote visit booked.
+- 2026-08-06 — Still unworked: now 213.1h (~8.9 days) in the call queue, untagged, per today's GHL drift finding — same unresolved in-home-quote request flagged 2026-08-01 and 2026-07-31.

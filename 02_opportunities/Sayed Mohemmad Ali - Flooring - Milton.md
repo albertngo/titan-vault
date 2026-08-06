@@ -2,7 +2,7 @@
 type: opportunity
 visibility: staff
 status: active
-last_activity: 2026-07-28
+last_activity: 2026-08-06
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # ghl_pipeline/stage are names, not IDs: stage IDs are opaque and get renamed in
 # the GHL UI, so the name is what a human can verify. The opportunity ID is the anchor.
@@ -27,3 +27,4 @@ ghl_assigned_to_id:
 
 ## Log
 - 2026-07-28 — created from GHL daily ingest. Created in GHL 2026-07-27; stage "0a. New Lead"; status open; source Meta Ad (B&A Simple form); contact tags: call-queue.
+- 2026-08-06 — Still stage "0a. New Lead", untagged; 232.5h in the call queue per today's GHL drift finding (highest-severity record in the batch) — unworked.

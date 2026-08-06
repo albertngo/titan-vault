@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: prospect
-last_activity: 2026-07-28
+last_activity: 2026-08-06
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: Btnc7M5Ar3VDFiOrnug4
@@ -28,3 +28,4 @@ ghl_assigned_to_id:
 
 ## Log
 - 2026-07-28 — new lead from GHL daily ingest (arrived 2026-07-27 3:51pm). Missed-call automation fired and a connect-call was attempted in the evening — no response yet. Untagged, in call queue.
+- 2026-08-06 — Still untagged, still in the call queue: 232.5h (~9.7 days) since arrival, no `lead:` tag ever applied — the longest-sitting untagged contact in today's GHL drift finding. Needs a manual callback/categorization.

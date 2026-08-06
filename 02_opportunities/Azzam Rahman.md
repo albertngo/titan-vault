@@ -2,7 +2,7 @@
 type: opportunity
 visibility: staff
 status: active
-last_activity: 2026-08-05
+last_activity: 2026-08-06
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # ghl_pipeline/stage are names, not IDs: stage IDs are opaque and get renamed in
 # the GHL UI, so the name is what a human can verify. The opportunity ID is the anchor.
@@ -27,3 +27,4 @@ ghl_assigned_to_id:
 
 ## Log
 - 2026-08-05 — created on GHL daily ingest `needs_attention`: today's 11:30am in-home visit was cancelled by the customer this morning — he's decided to go a different direction (white ash engineered hardwood) after receiving Titan's detailed quote. Pourya acknowledged the cancellation by text. Opportunity still shows Meeting-Scheduled / $10,287.50 in GHL and, along with the calendar hold, needs to be formally closed out (moved/marked lost) — not yet done as of this ingest.
+- 2026-08-06 — Still unresolved: opportunity and calendar hold not yet formally closed out in GHL; `lead: warm` tag still hasn't caught up to the explicit decline. Flagged again in today's `needs_attention`.

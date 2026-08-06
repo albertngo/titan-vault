@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: active
-last_activity: 2026-08-05
+last_activity: 2026-08-06
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: kEtzpS0JA4eX2VaWLqfy
@@ -27,3 +27,4 @@ None noted yet — returning customer on a follow-on material purchase, not a ne
 
 ## Log
 - 2026-08-05 — created from GHL daily ingest `needs_attention`: booked a new in-home visit for Aug 6, 4:30-5:29pm to look at a follow-on material purchase (prior project already won/complete, so the Meeting-Scheduled 30-day stale window doesn't apply). She asked Albert to confirm the flooring she wants is in stock before the visit — needs a reply before Thursday.
+- 2026-08-06 — Still needs an answer: her chosen product (style 6210) is discontinued; asked whether ~600sf can be sourced from another supplier before today's 4:30-5:29pm in-home visit. Flagged again in today's `needs_attention` — answer owed before the visit.
