@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: complete
-last_activity: 2026-08-06
+last_activity: 2026-08-07
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: DmHnRK9nsUCOX27SXmcz
@@ -29,3 +29,4 @@ None noted — the January project predates vault coverage.
 - 2026-07-29 — created from GHL daily ingest `needs_attention` (collections): project completed late January; $2,000 balance owed since February, chased since April through promises, deadlines and collection threats — two collections deadlines have passed. Jul 18 texts and a Jul 28 call reached nothing new; he says his own client isn't paying him. Decision pending: send to collections or one final payment plan. Related: the Notion tactical "Call For Balance (Naqib)" task has been In progress 114 days (the oldest stale task in the list); part of the $73K receivables push from the Jul 28 project-status meeting.
 - 2026-08-01 — Notion daily ingest, `needs_attention`: "Call For Balance (Naqib)" tactical task now 117 days In progress (up from 114 on 2026-07-29), still due 2026-06-01 — unresolved.
 - 2026-08-06 — Chased again today (2nd call): "you can't get free work... I can't get paid because of you" — same unpaid-installation collections issue since mid-July, needs resolution not another reminder. Notion's "Call For Balance (Naqib)" tactical task now 122 days In progress (up from 117 on 2026-08-01), still due 2026-06-01.
+- 2026-08-07 — Notion daily ingest, `needs_attention`: "Call For Balance (Naqib)" tactical task now 124 days In progress (up from 122 on 2026-08-06), still due 2026-06-01 — unresolved. GHL ingest failed today (MCP tools unreachable), so no new collections-conversation activity could be checked.
