@@ -2,7 +2,7 @@
 type: opportunity
 visibility: staff
 status: complete
-last_activity: 2026-08-07
+last_activity: 2026-08-08
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # ghl_pipeline/stage are names, not IDs: stage IDs are opaque and get renamed in
 # the GHL UI, so the name is what a human can verify. The opportunity ID is the anchor.
@@ -32,3 +32,4 @@ ghl_assigned_to_id:
 - 2026-08-05 — Still unresolved as of today's ingest: same GHL conversation (`EhxmxVaYC4tZ1CsCWdE9`) remains unanswered — no confirmation sent that the deposit under "Joseph Raymond Gomes" was received. Flagged again in today's `needs_attention`. (Today's Notion pull also re-surfaced the Aug 1 won-project row at $12,769 CAD, sales Pourya Lalee, no PM assigned yet — no new information beyond what's already logged 2026-08-02.)
 - 2026-08-06 — Still unresolved: same $4,500 total not yet confirmed received/logged; flagged again in today's `needs_attention`. Today's Notion pull re-surfaced the same Aug 1 win ($12,769 CAD, sales Pourya Lalee, no PM assigned) with no new information beyond 2026-08-02. 3 unrelated Notion payments totaling $7,365.59 CAD landed today (cash $2,100 via David; $3,500 from Sean Kavanagh; $1,765.59 from Ngoc Khanh Uyen Nguyen) — none linked to this project row.
 - 2026-08-07 — Notion daily ingest re-surfaced the Aug 1 win again ($12,769 CAD, sales Pourya Lalee, no PM assigned) — no new information beyond 2026-08-02. GHL, Outlook, and Bookkeeper all failed to pull today (partial outage), so the payer-name-mismatch/deposit-confirmation status could not be checked; still unresolved as far as the vault knows.
+- 2026-08-08 — RESOLVED (deposit-confirmation thread): she asked again today whether her $4,500 payment had been received; Titan confirmed receipt and the Tuesday appointment is locked in (same GHL conversation `EhxmxVaYC4tZ1CsCWdE9`, resolved within the thread) — this answers the payer-name-mismatch/deposit-confirmation question open since 2026-08-03. Notion's daily ingest again re-surfaced the same Aug 1 win ($12,769 CAD, sales Pourya Lalee, no PM assigned) — no new information there beyond 2026-08-02.

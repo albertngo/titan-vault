@@ -2,13 +2,12 @@
 type: client
 visibility: staff
 status: complete
-last_activity: 2026-08-07
+last_activity: 2026-08-08
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: DmHnRK9nsUCOX27SXmcz
 ghl_conversation_ids: [xUVk5iOHmDlgJVwTNvRQ]
 # Operational, not identity: who owns this record in GHL right now (name + id).
-# Used to decide whom the next task gets assigned to. Absent = unassigned in GHL.
 ghl_assigned_to:
 ghl_assigned_to_id:
 ---
@@ -30,3 +29,4 @@ None noted — the January project predates vault coverage.
 - 2026-08-01 — Notion daily ingest, `needs_attention`: "Call For Balance (Naqib)" tactical task now 117 days In progress (up from 114 on 2026-07-29), still due 2026-06-01 — unresolved.
 - 2026-08-06 — Chased again today (2nd call): "you can't get free work... I can't get paid because of you" — same unpaid-installation collections issue since mid-July, needs resolution not another reminder. Notion's "Call For Balance (Naqib)" tactical task now 122 days In progress (up from 117 on 2026-08-01), still due 2026-06-01.
 - 2026-08-07 — Notion daily ingest, `needs_attention`: "Call For Balance (Naqib)" tactical task now 124 days In progress (up from 122 on 2026-08-06), still due 2026-06-01 — unresolved. GHL ingest failed today (MCP tools unreachable), so no new collections-conversation activity could be checked.
+- 2026-08-08 — Notion daily ingest, `needs_attention`: "Call For Balance (Naqib)" tactical task still shows 124 days In progress — unchanged from 2026-08-07's count (possibly a source recompute quirk from today's Notion cold-start reseed, not confirmed), still due 2026-06-01, unresolved. GHL ran clean today but surfaced no new collections-conversation activity for this contact.
