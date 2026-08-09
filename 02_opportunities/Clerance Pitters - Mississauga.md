@@ -1,0 +1,31 @@
+---
+type: opportunity
+# Note floor: staff may see this note; admin-grade bullets carry a trailing #admin
+# (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
+visibility: staff
+status: complete
+last_activity: 2026-08-09
+# Source-system IDs — the join keys. Names are display; IDs are identity.
+# ghl_pipeline/stage are names, not IDs: stage IDs are opaque and get renamed in
+# the GHL UI, so the name is what a human can verify. The opportunity ID is the anchor.
+ghl_opportunity_id: xsDmyZ8DmPx57JZcxxWu
+ghl_contact_id: kmp6wg2AxP8ENIAxFamH
+ghl_pipeline: (2) PROJECT: Sales Pipeline
+ghl_stage: 2. *Project Won*
+# Operational, not identity: who owns this record in GHL right now (name + id).
+ghl_assigned_to:
+ghl_assigned_to_id:
+---
+
+# Clerance Pitters - Mississauga
+
+**Client:** [[Clerance Pitters]]
+**Scope:** Flooring, Mississauga — material Balaton Charm 7in engineered hardwood ([[Greentouch]])
+**Value:** $11,790.00 CAD (won 2026-08-08)
+**Links:** —
+
+## Context
+<!-- human-owned -->
+
+## Log
+- 2026-08-09 — created from GHL daily ingest `won_records`. Created 2026-08-05 (called in directly, store source), same-afternoon in-home visit booked within minutes. Over the following three days he compared the quote against another contractor while Titan coordinated a supplier price freeze on Balaton Charm with [[Greentouch]]; confirmed with a deposit the day the adjusted quote went out. Won 2026-08-08, 3.05 days after the visit. Contact points: 6 calls, 14 SMS, 2 emails.
