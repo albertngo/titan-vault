@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: active
-last_activity: 2026-08-09
+last_activity: 2026-08-10
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: OT0kdd7OrXCpNI6Hmb70
@@ -34,3 +34,4 @@ ghl_assigned_to_id:
 - 2026-08-07 — Notion daily ingest re-surfaced the Aug 1 win again ($12,769 CAD, sales Pourya Lalee, no PM assigned) — no new information beyond 2026-08-02. GHL, Outlook, and Bookkeeper all failed to pull today (partial outage — MCP/proxy/config issues), so the $4,500 deposit / payer-name-mismatch status from 2026-08-03–06 could not be checked or updated; still unresolved as far as the vault knows.
 - 2026-08-08 — RESOLVED (deposit-confirmation thread): she asked again today whether her $4,500 payment had been received; Titan confirmed receipt and the Tuesday appointment is locked in (same GHL conversation `EhxmxVaYC4tZ1CsCWdE9`, resolved within the thread) — this answers the payer-name-mismatch/deposit-confirmation question open since 2026-08-03. Separately, Notion's daily ingest again re-surfaced the same Aug 1 win ($12,769 CAD, sales Pourya Lalee, no PM assigned) — no new information there beyond 2026-08-02.
 - 2026-08-09 — She reported today (same GHL conversation `EhxmxVaYC4tZ1CsCWdE9`) that her basement is leaking again after heavy rain and asked what Titan suggests doing about the Tuesday install — needs guidance before the scheduled visit. Flagged in today's `needs_attention`.
+- 2026-08-10 — Following up on the recurring leak (same GHL conversation `EhxmxVaYC4tZ1CsCWdE9`): she's now asking to switch the basement to vinyl for that room instead of the original material, given the water issue keeps recurring. Scope/price decision needed before materials are ordered — flagged in today's `needs_attention`.
