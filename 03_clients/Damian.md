@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-08-10
+last_activity: 2026-08-11
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: 7jZBuyEYnwITemHcBJoT
@@ -25,8 +25,9 @@ ghl_assigned_to_id:
 <!-- human-owned: who they are, what they want, quirks -->
 
 ## Opportunities
-None yet — no opportunity record matched by `contact_id` in today's GHL pull.
+- [[Damian - Innisfil]]
 
 ## Log
 - 2026-08-09 — created from GHL daily ingest `needs_attention`: hot-tagged lead with an in-home visit today (2:30-3:29pm) for a stairs project; sent stair-area photos and a flooring sample overnight (6 unread as of ingest, conversation sitting 16.6h with us owing the next response). Review photos/sample before the visit.
 - 2026-08-10 — Innisfil stairs job, $4,850 total: confirmed a Wed Aug 12 start and sent a $2,000 partial e-Transfer deposit (GHL conversation `bVkz1hPWX0fG6v2xABV7`; also recorded in Notion's Master Payments Log, ref C1AXwK9mS99u), asking what time the crew arrives. Remaining balance ($2,850) and crew arrival time still need confirming before the install date — flagged in today's needs_attention.
+- 2026-08-11 — GHL daily ingest `won_records`: **WON $4,850 CAD** (opportunity `uTBGLp6jqBuFkT9pIiCW`, closed 2026-08-10) — see [[Damian - Innisfil]]. $2,000 e-transfer deposit confirmed by phone (also visible in Notion's Master Payments Log and as an Outlook Interac receipt from Damian Martin); remaining balance now stated as $2,430 (differs from the $2,850 estimate in the 2026-08-10 entry — treat $2,430 as current). Install starts Aug 12 — balance still needs collecting/tracking before the crew starts, flagged again in today's needs_attention.

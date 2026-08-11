@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: active
-last_activity: 2026-07-29
+last_activity: 2026-08-11
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_contact_id: 7gz2qwTPjX1nscMqnhub
 ghl_assigned_to: Pourya Lalee
@@ -27,3 +27,4 @@ ghl_conversation_ids: []
 - 2026-07-28 — Notion daily ingest (Master Payments Log): $4,259.00 Interac e-Transfer received 2026-07-27, auto-deposited (ref C1Aq8QKXSgAb). No project linked on the payment row — worth connecting it in [[Notion]].
 - 2026-07-28 — Project-status meeting: install complete up to the staircase boundary; Jason's call is to pause ("don't do anything") until his own stair contractor finishes, then do the fish-tank area and back-room pattern transition in one visit. Project pending external stair guys.
 - 2026-07-29 — Notion daily ingest: the Jul 27 $4,259.00 payment row is now linked to project "Jason Law | Oakville" — closes the 07-28 unlinked flag. Install remains paused at Jason's request pending his own stair contractor.
+- 2026-08-11 — GHL daily ingest data-hygiene note: the opportunity actually flipped to status=won back on 2026-07-07; only the pipeline STAGE was corrected from Meeting-Scheduled to *Project Won* today, 34 days later. Not a new sale — value unchanged at $22,035 CAD — same pattern hit [[David Rooney]] today too. See [[Jason - Oakville]].
