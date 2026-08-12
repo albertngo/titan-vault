@@ -4,7 +4,7 @@ type: opportunity
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: complete
-last_activity: 2026-08-11
+last_activity: 2026-08-12
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # ghl_pipeline/stage are names, not IDs: stage IDs are opaque and get renamed in
 # the GHL UI, so the name is what a human can verify. The opportunity ID is the anchor.
@@ -29,3 +29,4 @@ ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
 
 ## Log
 - 2026-08-11 — created from GHL daily ingest `won_records`: **WON $4,850 CAD**, closed 2026-08-10. Fast, clean cycle — lead created 2026-08-07 (Preliminary Mobile Quote), in-home visit 2026-08-09, quote agreed at the visit, $2,000 e-transfer deposit sent within a day, won the day after. Install starts 2026-08-12; $2,430 balance still owed and needs confirming/tracking before the crew starts — flagged in today's needs_attention. Contact points: 5 calls, 16 SMS, 0 emails.
+- 2026-08-12 — Install crew confirmed arriving 9-10am today; $2,430 balance still outstanding, needs collecting on-site before/at the install.
