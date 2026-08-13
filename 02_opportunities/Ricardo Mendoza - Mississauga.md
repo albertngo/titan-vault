@@ -4,7 +4,7 @@ type: opportunity
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: complete
-last_activity: 2026-08-12
+last_activity: 2026-08-13
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # ghl_pipeline/stage are names, not IDs: stage IDs are opaque and get renamed in
 # the GHL UI, so the name is what a human can verify. The opportunity ID is the anchor.
@@ -30,3 +30,4 @@ ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
 ## Log
 - 2026-08-11 — created from GHL daily ingest `won_records`: **WON $9,250 CAD**, closed 2026-08-10. Repeat contractor client since 2023; deal quoted back in March, material picked up in June — several old duplicate opportunities were cleaned up today and a fresh opportunity created and closed won same-day, a data catch-up on a sale effectively already done. Contact points: 1 call, 76 SMS, 3 emails.
 - 2026-08-12 — Notion `new_won_project` ingest flagged a duplicate Titan Projects row on this same Opportunity ID (`52we6fC8KrTgEMEYoyLI`) valued at $10,452.50 CAD, vs. the $9,250.00 CAD recorded here from GHL `won_records` — https://app.notion.com/3b9596a4505f8163a501cd7e2490d92c. Needs manual reconciliation in Notion; GHL's value treated as authoritative until resolved.
+- 2026-08-13 — Notion daily ingest `new_won_project` on the same Notion page/Opportunity ID (`52we6fC8KrTgEMEYoyLI`, https://app.notion.com/3b9596a4505f8163a501cd7e2490d92c) now reads $5,367.50 CAD — a *third* different value for this one win, after GHL's $9,250.00 (`won_records`, treated as authoritative) and the $10,452.50 logged from this same Notion page on 2026-08-12. The Notion row's value appears to be shifting between ingest runs rather than settling — needs Albert/Notion cleanup, not just a one-time reconciliation; GHL's $9,250.00 remains the figure treated as authoritative here.
