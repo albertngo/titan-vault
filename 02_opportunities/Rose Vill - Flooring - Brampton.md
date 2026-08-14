@@ -2,7 +2,7 @@
 type: opportunity
 visibility: staff
 status: active
-last_activity: 2026-08-06
+last_activity: 2026-08-14
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # ghl_pipeline/stage are names, not IDs: stage IDs are opaque and get renamed in
 # the GHL UI, so the name is what a human can verify. The opportunity ID is the anchor.
@@ -28,3 +28,4 @@ ghl_assigned_to_id:
 ## Log
 - 2026-07-28 — created from GHL daily ingest. Created in GHL 2026-07-27; stage "0a. New Lead"; status open; source Meta Ad (Squeeky Floors form); contact tags: call-queue.
 - 2026-08-06 — Still stage "0a. New Lead", untagged; 230.9h in the call queue per today's GHL drift finding — unworked.
+- 2026-08-14 — Client explicitly declined Aug 11 ("already has someone taking care of" the project), per today's GHL daily ingest, but this opportunity remains open/untagged in stage 0a. New Lead and continues to receive automated nurture — see [[Rose Vill]]. Needs manual close-out (lost/unqualified) in GHL.

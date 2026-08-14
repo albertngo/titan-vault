@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: active
-last_activity: 2026-08-08
+last_activity: 2026-08-14
 ghl_contact_id: 4TzieXflcVqohecIkbEB
 ghl_assigned_to: Pourya Lalee
 ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
@@ -37,3 +37,4 @@ None yet.
 - 2026-07-29 — **WON $5,123.99** (Jul 28 2:35pm): Pourya's adjusted quote (+30sf) was accepted the same afternoon it went out — Ryan replied asking how to send the deposit. The friction was never price, it was condo logistics (board approval, insurance certificates, sound-rating spec), cleared by producing every document within hours. Notion Titan Projects row auto-created; [[Ryan]] moved to "2. *Project Won*". This morning 9:35am he emailed: insurance + sound-rating docs submitted to his property manager. Install penciled Aug 17–18 pending condo-board approval; he's away Aug 23–Sep 4, so slippage pushes to September.
 - 2026-08-08 — Inbound email today came through with an empty/unreadable body in this GHL export — same recurring platform quirk as [[Lou Bandiera]]'s today, see [[GHL]] — needs a direct check in GHL. His automated payment-schedule sequence is otherwise still running normally.
 - 2026-08-08 — Outlook catch-up run: Ryan replied to pourya@ Aug 7 confirming he sent the first $2,000 deposit for 301 Markham St unit 404, matching an Interac deposit received into Titan's account that same evening. No reply found from pourya@ since — likely just needs a short acknowledgment. #admin
+- 2026-08-14 — Notion's Master Payments Log recorded a further $2,000.00 e-transfer received 2026-08-13 (ref `C1ABpw3NThQJ`) toward 301 Markham St unit 404 — a second deposit installment. Same-day GHL conversation (`c1BQdU8s0TbdEKCX1ktb`): he confirmed by email everything's on track and he'll see the crew Monday. No action needed.
