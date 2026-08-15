@@ -3,7 +3,7 @@ type: supplier
 # Margin notes are cost data by design — see CONVENTIONS: Visibility.
 visibility: admin
 status: active
-last_activity: 2026-07-30
+last_activity: 2026-08-15
 outlook_message_id: "<c5799c389a46412b11795d856.b708b9e8da.20260728144520.ca6f7979b2.8efa9caa@mail152.atl21.rsgsv.net>"
 ---
 
@@ -27,3 +27,8 @@ outlook_message_id: "<c5799c389a46412b11795d856.b708b9e8da.20260728144520.ca6f79
   answered the same day from `info@`. Order still awaiting pickup as of the
   ingest window; note Prosol's Civic Holiday context, Monday 2026-08-03 is a
   closed day across most suppliers.
+- 2026-08-15 — [[Outlook]] daily ingest: another price-increase notice from
+  Prosol (2026-08-14, `info@`) — some of Prosol's own suppliers announced rough
+  percentage increases across most products, being passed through; no
+  attachment, no immediate ask. Same pattern as the 2026-07-28 notice above —
+  re-check any quotes still outstanding before honouring current-cost pricing.
