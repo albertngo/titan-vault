@@ -1,0 +1,31 @@
+---
+type: client
+# Note floor: staff may see this note; admin-grade bullets carry a trailing #admin
+# (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
+visibility: staff
+status: active
+last_activity: 2026-08-16
+# Source-system IDs — the join keys. Names are display; IDs are identity.
+# Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
+ghl_contact_id: ggrirhKMuZhJMv9j7zOz
+ghl_conversation_ids: [ZbhcRNQmz5QEundFC1Ym]
+# Operational, not identity: who owns this record in GHL right now (name + id).
+# Used to decide whom the next task gets assigned to. Absent = unassigned in GHL.
+ghl_assigned_to: Front Desk at Titan Flooring Inc.
+ghl_assigned_to_id: edv6p75Y79cYsPS0jPv0
+---
+
+# Manjit Sagoo
+
+**Contact:** (not provided in today's ingest)
+**Address:** (not provided in today's ingest)
+**Source:** GHL — major repeat customer (3 won projects, ~$13,500 lifetime)
+
+## Context
+<!-- human-owned: who they are, what they want, quirks -->
+
+## Opportunities
+None on file yet — today's ingest didn't surface an opportunity ID tied to this call; the contact's `stale_lead` tag is a leftover from an old, already-abandoned opportunity, not this activity.
+
+## Log
+- 2026-08-16 — created from GHL daily ingest `needs_attention`: major repeat customer (3 won projects, ~$13,500 lifetime) called in 2026-08-15 with no callback or follow-up text logged since — worth a return call. Qualification tag reads `stale_lead`, carried over from an old abandoned opportunity rather than reflecting current disengagement (ingest note).
