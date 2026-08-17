@@ -7,7 +7,7 @@ type: client
 # so this note is admin per CONVENTIONS Visibility rule 3's agent-set deviation.
 visibility: admin
 status: prospect
-last_activity: 2026-08-16
+last_activity: 2026-08-17
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: none — no GHL record found (confirmed against a successful 2026-08-16 GHL run); Outlook-only contact
@@ -32,3 +32,4 @@ None on file — no matching GHL opportunity found.
 
 ## Log
 - 2026-08-16 — created from Outlook daily ingest `needs_attention` (also flagged 2026-08-14, deferred that day per `01_daily/2026-08-15.md` because GHL ingest had failed and an ID check wasn't possible): Frontier Group's estimator Eljona Muzha emailed `info@` twice on 2026-08-14 (near-identical resend 4 minutes apart) asking that quotes for the 1190 Dixie Rd / Lakeview Golf Course kitchen-reno now go to their new contact Jack Wu (jackw@frontiergrp.com). No reply found in either the 2026-08-14 or 2026-08-16 ingest windows — now over 24h old and unresolved across two runs. #admin
+- 2026-08-17 — Still unresolved: today's Outlook catch-up run (74h/98h window, covering the gap since the last successful run on 2026-08-14) found no reply from `info@` to Eljona Muzha's 2026-08-14 redirect request — now well past 24h, unresolved across three consecutive runs (2026-08-14, 08-16, 08-17). Flagged again in today's `needs_attention`.

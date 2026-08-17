@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: active
-last_activity: 2026-08-11
+last_activity: 2026-08-17
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: OT0kdd7OrXCpNI6Hmb70
@@ -36,3 +36,4 @@ ghl_assigned_to_id:
 - 2026-08-09 — She reported today (same GHL conversation `EhxmxVaYC4tZ1CsCWdE9`) that her basement is leaking again after heavy rain and asked what Titan suggests doing about the Tuesday install — needs guidance before the scheduled visit. Flagged in today's `needs_attention`.
 - 2026-08-10 — Following up on the recurring leak (same GHL conversation `EhxmxVaYC4tZ1CsCWdE9`): she's now asking to switch the basement to vinyl for that room instead of the original material, given the water issue keeps recurring. Scope/price decision needed before materials are ordered — flagged in today's `needs_attention`.
 - 2026-08-11 — Still unresolved (same GHL conversation `EhxmxVaYC4tZ1CsCWdE9`): she called twice this morning (12:02, 12:03) about the vinyl-substitute/pricing decision and wasn't reached — callback needed today. Flagged again in today's `needs_attention`.
+- 2026-08-17 — New request (same GHL conversation `EhxmxVaYC4tZ1CsCWdE9`): asking for an additional quote to retile her hallway, kitchen, and breakfast area — a straightforward upsell on the already-won project. Needs a quote sent.
