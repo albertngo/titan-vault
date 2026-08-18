@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-08-16
+last_activity: 2026-08-18
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: Ora83mwSV5QhmbyIoIKd
@@ -32,3 +32,4 @@ ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
 - 2026-08-13 — Outlook cross-reference (thread with albert@/pourya@, srisowm@gmail.com, address 2160 Peachtree Lane): Aug 11-12 back-and-forth on revised pricing, keeping old railings, and a cash-payment option (~$3,440 after discounts) for the same Aug 27 target; her latest message (Aug 12, 4:08pm) has no reply on file yet. #admin
 - 2026-08-14 — GHL daily ingest `won_records`: **WON $10,680.01 CAD** (closed 2026-08-13, opportunity `SRHzQRfUfrisB1OtVXVs`), stairs + 630sf hardwood, Oakville — 10-day cycle from first contact (Aug 2) to won, 3 days from the in-home visit (Aug 10). Contact points: 7 calls, 29 SMS, 4 emails. The automated 35% deposit request (~$3,738) went out the same day; confirm the e-transfer is received before the Aug 27 start date. See [[Sowmya - Stairs]].
 - 2026-08-16 — GHL daily ingest `needs_attention` (conversation `YpEmHWkJLCoZYAATACzo`): a new inbound SMS reply (empty body, likely a payment screenshot) arrived 2026-08-15 afternoon — still unreadable via this ingest and still unconfirmed against the 35% deposit request. Check GHL directly for the attachment before the Aug 27 start date; qualification tag still reads `lead: warm` despite being a closed-won, actively-paying customer (tag_mismatch flagged again by ingest).
+- 2026-08-18 — Outlook catch-up run (window covering the 08-15–08-17 gap): a showroom visit for warranty paperwork and sample review was confirmed for 11am–12:30pm on 2026-08-14 (thread with albert@/pourya@, srisowm@gmail.com) — Pourya replied the same evening confirming; thread resolved. #admin

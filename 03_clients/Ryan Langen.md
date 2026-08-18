@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: active
-last_activity: 2026-08-17
+last_activity: 2026-08-18
 ghl_contact_id: 4TzieXflcVqohecIkbEB
 ghl_assigned_to: Pourya Lalee
 ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
@@ -40,3 +40,4 @@ None yet.
 - 2026-08-14 — Notion's Master Payments Log recorded a further $2,000.00 e-transfer received 2026-08-13 (ref `C1ABpw3NThQJ`) toward 301 Markham St unit 404 — a second deposit installment. Same-day GHL conversation (`c1BQdU8s0TbdEKCX1ktb`): he confirmed by email everything's on track and he'll see the crew Monday. No action needed.
 - 2026-08-17 — SMS: he says he'll keep his phone on him so Titan can call anytime to lock down install-day logistics (same conversation `c1BQdU8s0TbdEKCX1ktb`) — call needed to finalize the date.
 - 2026-08-17 — Outlook catch-up run (74h/98h window): a separate scheduling message to pourya@ (2026-08-16 20:56 ET) asks what time to expect him tomorrow for 301 Markham St unit 404 — no reply found yet as of this ingest, still under the 24h unanswered threshold at scan time. #admin
+- 2026-08-18 — Outlook catch-up run: the same Aug 16 20:56 scheduling question to pourya@ (arrival time for 301 Markham St unit 404) is still unanswered as of today's run — now over 24h old, needs a reply or callback before install-day logistics slip. #admin
