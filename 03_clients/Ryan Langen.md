@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: active
-last_activity: 2026-08-18
+last_activity: 2026-08-20
 ghl_contact_id: 4TzieXflcVqohecIkbEB
 ghl_assigned_to: Pourya Lalee
 ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
@@ -41,3 +41,4 @@ None yet.
 - 2026-08-17 — SMS: he says he'll keep his phone on him so Titan can call anytime to lock down install-day logistics (same conversation `c1BQdU8s0TbdEKCX1ktb`) — call needed to finalize the date.
 - 2026-08-17 — Outlook catch-up run (74h/98h window): a separate scheduling message to pourya@ (2026-08-16 20:56 ET) asks what time to expect him tomorrow for 301 Markham St unit 404 — no reply found yet as of this ingest, still under the 24h unanswered threshold at scan time. #admin
 - 2026-08-18 — Outlook catch-up run: the same Aug 16 20:56 scheduling question to pourya@ (arrival time for 301 Markham St unit 404) is still unanswered as of today's run — now over 24h old, needs a reply or callback before install-day logistics slip. #admin
+- 2026-08-20 — Notion Master Payments Log: a further $1,123.99 e-transfer received 2026-08-19 (ref `C1ADhBGr2wAF`), not linked to a project row — a third deposit/payment installment on 301 Markham St unit 404, corroborated by Titan's own Outlook admin notice of the same Interac transfer. The Aug 16 20:56 arrival-time question is unchanged and still unanswered as of today's run (same as 08-17/08-18/08-19) — not re-logged.
