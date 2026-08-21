@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: active
-last_activity: 2026-08-15
+last_activity: 2026-08-21
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: bXlLZGdEZIf2WMSGLcjk  # was blank/"none" — filled in from the confirmed ID already cited inline in the 2026-08-04 Log entry and reconfirmed by today's ingest, per Identity rule (filling a genuinely blank field, not overwriting a conflicting one)
@@ -31,3 +31,4 @@ None noted yet — won project, ID not in ingest.
 - 2026-08-05 — Still unresolved as of today's ingest: same GHL conversation (`q2xtxVfKCkB5c13DKP8K`) remains unanswered from Titan's side (next_response_owner: us), now flagged again in today's `needs_attention` — no written Aug 11 confirmation has gone out yet. A callback happened (2m44s) but nothing in writing.
 - 2026-08-13 — GHL daily ingest `message` (conversation `q2xtxVfKCkB5c13DKP8K`, contact `bXlLZGdEZIf2WMSGLcjk`, priority high): asked to move a booked in-home/in-store visit from tomorrow to Friday 9:30am — needs confirmation. Same conversation thread as the 2026-08-04/05 install-date insistence; the earlier Aug 27/28 offer appears to have been accepted since a visit is now booked, but no written reschedule confirmation logged yet.
 - 2026-08-15 — Notion daily ingest `work_order_deficiency`: Deficiency QA Work Order opened 2026-08-14 (WO-Vic Montero-081426, Minor severity) — caulking, transitions, underpad, finishes; contractor already notified same day, status "Notified Contractor," not yet marked completed.
+- 2026-08-21 — GHL catch-up ingest (7-day window, same conversation `q2xtxVfKCkB5c13DKP8K`, contact `bXlLZGdEZIf2WMSGLcjk`, priority high): the install-deficiency complaint is still unanswered — now 156 hours (~6.5 days) with no written deficiency list/solution sent, flagged again as the top item in today's `needs_attention`. No change since the 2026-08-15 QA Work Order log (still "Notified Contractor," not completed).
