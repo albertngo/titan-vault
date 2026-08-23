@@ -2,7 +2,7 @@
 type: opportunity
 visibility: staff
 status: complete
-last_activity: 2026-08-08
+last_activity: 2026-08-23
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # ghl_pipeline/stage are names, not IDs: stage IDs are opaque and get renamed in
 # the GHL UI, so the name is what a human can verify. The opportunity ID is the anchor.
@@ -28,3 +28,4 @@ ghl_assigned_to_id:
 ## Log
 - 2026-08-07 — Won project surfaced via Notion daily ingest, approx $6,926.00 CAD, flooring + stairs, Oakville. No GHL Opportunity ID captured on this Notion row and no Sales Person/PM assigned yet. GHL ingest errored today (MCP tools unreachable) so this couldn't be cross-referenced against GHL opportunities/contacts — flagged for a duplicate check once GHL access is restored.
 - 2026-08-08 — Notion daily ingest re-surfaced the same win again, no new detail beyond 2026-08-07. GHL ran without error today but a name search of today's ghl.json still turns up no "Jay Ventura"/"Ventura" record — worth a direct GHL search (not just today's ingest window) to resolve the missing Opportunity ID before this is treated as fully reconciled.
+- 2026-08-23 — Notion Master Payments Log: $3,000.00 cash payment received 2026-08-21, linked to this project (Jay Ventura | Oakville). No sender name recorded on the payment row. Against the $6,926.00 CAD win value this reads as a partial payment — confirm remaining balance in Notion/QBO once the bookkeeper connector is back.
