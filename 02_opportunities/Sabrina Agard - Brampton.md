@@ -4,7 +4,7 @@ type: opportunity
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: complete
-last_activity: 2026-08-23
+last_activity: 2026-08-24
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # ghl_pipeline/stage are names, not IDs: stage IDs are opaque and get renamed in
 # the GHL UI, so the name is what a human can verify. The opportunity ID is the anchor.
@@ -34,3 +34,4 @@ ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
 - 2026-08-19 — Outlook: a customer using the name "Sabrina Crvik" (same 9 Midnight Lane address) confirmed the first deposit was sent and asked Titan to confirm a September 10 install date or offer something earlier; unanswered as of this pull (~15h). Needs a reply given money is already down. #admin
 - 2026-08-22 — Outlook catch-up run: same unanswered deposit/install-date thread as 08-19 (`scrvik@gmail.com`) — now 4+ days unanswered, Sept 10 install date confirmation still outstanding. #admin
 - 2026-08-23 — Outlook catch-up run: same unanswered deposit/install-date thread — now 5+ days unanswered, Sept 10 install date confirmation still outstanding. #admin
+- 2026-08-24 — Outlook catch-up run: same unanswered deposit/install-date thread — now 6+ days unanswered, Sept 10 install date confirmation still outstanding. #admin
