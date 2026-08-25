@@ -4,7 +4,7 @@ type: opportunity
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: complete
-last_activity: 2026-08-24
+last_activity: 2026-08-25
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # ghl_pipeline/stage are names, not IDs: stage IDs are opaque and get renamed in
 # the GHL UI, so the name is what a human can verify. The opportunity ID is the anchor.
@@ -35,3 +35,4 @@ ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
 - 2026-08-22 — Outlook catch-up run: same unanswered deposit/install-date thread as 08-19 (`scrvik@gmail.com`) — now 4+ days unanswered, Sept 10 install date confirmation still outstanding. #admin
 - 2026-08-23 — Outlook catch-up run: same unanswered deposit/install-date thread — now 5+ days unanswered, Sept 10 install date confirmation still outstanding. #admin
 - 2026-08-24 — Outlook catch-up run: same unanswered deposit/install-date thread — now 6+ days unanswered, Sept 10 install date confirmation still outstanding. #admin
+- 2026-08-25 — Outlook catch-up run: same unanswered deposit/install-date thread — now 6+ days unanswered, Sept 10 install date confirmation still outstanding. #admin
