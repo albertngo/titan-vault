@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: active
-last_activity: 2026-08-08
+last_activity: 2026-08-26
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: 3tyyxjp2MU20rGvdxTn8
@@ -27,3 +27,4 @@ None yet.
 ## Log
 - 2026-08-08 — created from GHL daily ingest `needs_attention`: sent two inbound emails today that came through with empty/unreadable bodies in this export (same recurring platform-quirk seen on [[Ryan Langen]] today — see [[GHL]]) — needs a direct check in GHL to read the actual content, especially given the Aug 6 install should already be complete.
 - 2026-08-08 — Outlook catch-up run (recovered after an earlier egress block) surfaced the actual content behind today's unreadable GHL email: Lucy and Lou Bandiera report the install crew finished late Aug 6 but left a tool behind, and there's a gap between the new floor and the brick fireplace hearth needing trim. Landed in both albert@ and pourya@ Aug 7, still unanswered as of this run. #admin
+- 2026-08-26 — GHL catch-up ingest (same conversation `NkVo4xfAXn3EhZGors2j`, contact `3tyyxjp2MU20rGvdxTn8`, priority high): still chasing the same two loose ends from Titan (fireplace trim, revised invoice) before he'll pay the remaining balance on the won $5,758.68 project — going on ~3 months now per today's conversation summary; latest thread sitting ~22 hours unanswered (4 unread).

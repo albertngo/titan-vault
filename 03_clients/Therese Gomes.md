@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: active
-last_activity: 2026-08-17
+last_activity: 2026-08-26
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: OT0kdd7OrXCpNI6Hmb70
@@ -37,3 +37,4 @@ ghl_assigned_to_id:
 - 2026-08-10 — Following up on the recurring leak (same GHL conversation `EhxmxVaYC4tZ1CsCWdE9`): she's now asking to switch the basement to vinyl for that room instead of the original material, given the water issue keeps recurring. Scope/price decision needed before materials are ordered — flagged in today's `needs_attention`.
 - 2026-08-11 — Still unresolved (same GHL conversation `EhxmxVaYC4tZ1CsCWdE9`): she called twice this morning (12:02, 12:03) about the vinyl-substitute/pricing decision and wasn't reached — callback needed today. Flagged again in today's `needs_attention`.
 - 2026-08-17 — New request (same GHL conversation `EhxmxVaYC4tZ1CsCWdE9`): asking for an additional quote to retile her hallway, kitchen, and breakfast area — a straightforward upsell on the already-won project. Needs a quote sent.
+- 2026-08-26 — GHL catch-up ingest (same conversation `EhxmxVaYC4tZ1CsCWdE9`, contact `OT0kdd7OrXCpNI6Hmb70`, priority high): mid-way through post-win change-work (tile removal/vinyl in hallway+kitchen, bin pickup) on the won $11,300 project — asked this morning what time the crew is arriving today, no reply sent yet as of this run.
