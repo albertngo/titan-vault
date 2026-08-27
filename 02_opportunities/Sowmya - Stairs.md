@@ -4,7 +4,7 @@ type: opportunity
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: complete
-last_activity: 2026-08-24
+last_activity: 2026-08-27
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # ghl_pipeline/stage are names, not IDs: stage IDs are opaque and get renamed in
 # the GHL UI, so the name is what a human can verify. The opportunity ID is the anchor.
@@ -34,3 +34,4 @@ ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
 - 2026-08-16 — GHL daily ingest `needs_attention`: a new inbound SMS reply (empty body, likely a payment screenshot) arrived 2026-08-15 afternoon, still unreadable via ingest — deposit receipt still unconfirmed ahead of the Aug 27 start date. Check GHL directly for the attachment.
 - 2026-08-22 — GHL daily ingest `needs_attention` (conversation `YpEmHWkJLCoZYAATACzo`): client asked 18+ hours ago whether the Tosca Legend Long Beach hardwood has arrived, with the ~Aug 27 install start date approaching — still unanswered. Reply needed before the start date slips.
 - 2026-08-24 — Outlook catch-up run (168h/192h window; message dated 2026-08-22): same Tosca Long Beach hardwood-delivery / stair baluster-post-design question still unanswered as of this run, now 2 days outstanding with the Aug 27 start only 3 days away. #admin
+- 2026-08-27 — Outlook daily ingest (168h/192h catch-up window; message dated 2026-08-22): same Tosca Long Beach hardwood-delivery / stair baluster-post-design question still unanswered as of this run — the Aug 27 install start is today. #admin

@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-08-26
+last_activity: 2026-08-27
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: Ora83mwSV5QhmbyIoIKd
@@ -36,3 +36,4 @@ ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
 - 2026-08-22 — GHL daily ingest `needs_attention` (conversation `YpEmHWkJLCoZYAATACzo`): asked 18+ hours ago (2026-08-21) whether the Tosca Legend Long Beach hardwood has arrived — still unanswered as of this run, with the ~Aug 27 install start date approaching. Qualification tag still reads `lead: warm` despite this being a won, paid-deposit project (tag_mismatch flagged again by ingest). Reply before the start date slips.
 - 2026-08-24 — Outlook catch-up run (168h/192h window; `srisowm@gmail.com`, message dated 2026-08-22): the same Tosca Long Beach hardwood-delivery / stair baluster-post-design question is still unanswered — no reply found from albert@ or pourya@ as of this run, now 2 days outstanding with the Aug 27 install start only 3 days away. Reply today. #admin
 - 2026-08-26 — Outlook catch-up run (same message, `srisowm@gmail.com`, dated 2026-08-22, no reply from albert@ or pourya@ found in this scan): the Tosca Long Beach hardwood-delivery / stair baluster-post-design question remains unanswered — the Aug 27 install is now expected to start **tomorrow**. Top of today's daily-note needs_attention. #admin
+- 2026-08-27 — Outlook daily ingest (168h/192h catch-up window; same message, `srisowm@gmail.com`, dated 2026-08-22, no reply from albert@ or pourya@ found in this scan): the Tosca Long Beach hardwood-delivery / stair baluster-post-design question remains unanswered — the Aug 27 install start is **today**. Most time-sensitive item in today's daily note. #admin
