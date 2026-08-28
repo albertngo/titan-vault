@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-08-19
+last_activity: 2026-08-28
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: 8zVdDVSzByxfQfeliQwo
@@ -30,3 +30,4 @@ ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
 
 ## Log
 - 2026-08-19 — created: [[Glendy - Mississauga]] (created 2026-07-26) has linked to this note by wikilink since 2026-07-26, but no client-type note existed until now. Created on the occasion of a second win reported today via Notion ingest — see [[Glendy Chang - Master Bedroom]]. `ghl_contact_id` (`8zVdDVSzByxfQfeliQwo`) carried over from the existing opportunity note; not independently confirmed by today's Notion ingest, which supplies no contact ID on the new-win row.
+- 2026-08-28 — GHL daily ingest `won_records` (14-day catch-up window) re-surfaces this client's [[Glendy Chang - Master Bedroom]] win (opportunity `ai8Qjp0PtMTt9OI0XXZu`, $4,121.00) — same contact ID (`8zVdDVSzByxfQfeliQwo`) as on file, but GHL spells the name "Glendy Cheung" this run vs. "CHANG" here. ID-confirmed same person; name variant flagged for Albert, note not renamed per the Identity rule.

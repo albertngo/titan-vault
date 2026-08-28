@@ -4,7 +4,7 @@ type: opportunity
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: complete
-last_activity: 2026-08-26
+last_activity: 2026-08-28
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # ghl_pipeline/stage are names, not IDs: stage IDs are opaque and get renamed in
 # the GHL UI, so the name is what a human can verify. The opportunity ID is the anchor.
@@ -29,3 +29,4 @@ ghl_assigned_to_id:
 
 ## Log
 - 2026-08-26 — created from GHL daily ingest `won_records`, cross-referenced cleanly against Notion's `new_won_project` row on the same opportunity ID: **WON $6,011.04 CAD**, closed 2026-08-25. Quote first sent late January, went quiet for months, resurfaced in August; opportunity created Aug 24, won the next day — fastest close of this window. Contact points: 0 calls, 16 SMS, 22 emails. Sales: Front Desk Inc. (per Notion); no PM assigned yet. Second, separate win for this client alongside [[Stephen - Whitby]] ($21,930 CAD, from the 2026-07-26 GHL 2-month pull) — distinct `ghl_opportunity_id`s confirm two different projects for the same repeat contact, not a duplicate. See [[Stephen Burns]] Log for a possible (unconfirmed) Amica Whitby retirement-residence connection surfaced in the same day's Outlook pull.
+- 2026-08-28 — Outlook daily ingest (same catch-up window; message dated 2026-08-27): Stephen Burns asked Titan (`albert@`) to correct the "estimate" label on invoices 616 and 305 — Amica's accounting can't pay until it's fixed; unanswered as of this run. See [[Stephen Burns]] Log. #admin

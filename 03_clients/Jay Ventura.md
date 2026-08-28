@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: active
-last_activity: 2026-08-23
+last_activity: 2026-08-28
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_contact_id: Gqgcfut7UGtJTBYgrcud  # was blank/"none" (Notion win row carried no GHL link, and GHL was unreachable/unmatched on 2026-08-07/08) — filled in from today's GHL catch-up ingest, matched by exact name "JAY (VENTURA)" + repeat-customer profile (multiple prior won deals, consistent with this note's history). Not confirmed via a directly-linked opportunity ID; per Identity rule this fills a genuinely blank field rather than overwriting a conflicting one — still worth a direct GHL check to fully confirm.
 ghl_conversation_ids: []
@@ -31,3 +31,4 @@ ghl_assigned_to_id:
 - 2026-08-21 — Notion daily ingest `new_won_project`: **WON approx $1,600.00 CAD**, stairs, 47 Carlton Trail, Beeton — a second, separate project from the Oakville win above (distinct Notion page ID, distinct address/amount, not a duplicate). No Opportunity ID/Contact/Sales Person/PM populated on this Notion row either. See new opportunity note [[Jay Ventura - Beeton]].
 - 2026-08-21 — GHL catch-up ingest (conversation `swz5n98l8dgNQ0wATsrt`, contact `Gqgcfut7UGtJTBYgrcud`): called Titan 3 times since Aug 14 with no callback logged; an older Meeting-Scheduled opportunity of his also carries an undocumented `abandoned-stale` tag. This is the first GHL contact ID surfaced for this client since the note was created 2026-08-07 without one — matched by exact name + repeat-customer profile; filled into frontmatter above per the Identity rule.
 - 2026-08-23 — Notion Master Payments Log: $3,000.00 cash payment received 2026-08-21 against the [[Jay Ventura - Oakville]] win ($6,926.00 CAD) — no sender name recorded on the payment row. See opportunity note for detail.
+- 2026-08-28 — Notion daily ingest `work_order_deficiency`: a new QA deficiency Work Order (`WO-Jay Ventura-082826`, Minor, contractor notified same day, $100 CAD budget payout) was created today — client reports the "One Step" product looks too blue. The ingest notes this project matches today's seeded Jay Ventura won-project row but doesn't specify Oakville vs. Beeton; not attributed to a specific opportunity note pending confirmation.
