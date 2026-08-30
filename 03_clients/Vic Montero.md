@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: active
-last_activity: 2026-08-26
+last_activity: 2026-08-30
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: bXlLZGdEZIf2WMSGLcjk  # was blank/"none" — filled in from the confirmed ID already cited inline in the 2026-08-04 Log entry and reconfirmed by today's ingest, per Identity rule (filling a genuinely blank field, not overwriting a conflicting one)
@@ -34,3 +34,4 @@ None noted yet — won project, ID not in ingest.
 - 2026-08-21 — GHL catch-up ingest (7-day window, same conversation `q2xtxVfKCkB5c13DKP8K`, contact `bXlLZGdEZIf2WMSGLcjk`, priority high): the install-deficiency complaint is still unanswered — now 156 hours (~6.5 days) with no written deficiency list/solution sent, flagged again as the top item in today's `needs_attention`. No change since the 2026-08-15 QA Work Order log (still "Notified Contractor," not completed).
 - 2026-08-25 — GHL catch-up ingest (11-day window; same conversation `q2xtxVfKCkB5c13DKP8K`, contact `bXlLZGdEZIf2WMSGLcjk`, priority high, `stragglers_ranked` rank 1): still unanswered — now ~252.5 hours (~10.5 days) with no written deficiency list/solution sent, ranked #1 in today's `needs_attention`. Notion's re-surfaced work-order item (`WO-Vic Montero-081426`) confirms the QA deficiency WO is still "Notified Contractor," not completed.
 - 2026-08-26 — GHL catch-up ingest (same conversation `q2xtxVfKCkB5c13DKP8K`, contact `bXlLZGdEZIf2WMSGLcjk`, priority high, `stragglers_ranked` rank 2): still unanswered — now ~12 days since the Aug 14 walkthrough where Albert admitted the underpad workmanship mistake, ranked #5 in today's daily-note needs_attention. Notion's re-surfaced deficiency Work Order (`WO-Vic Montero-081426`) is unchanged — still "Notified Contractor," not completed.
+- 2026-08-30 — Notion daily ingest (`needs_attention`, Tactical Tasks List rollup): the automated GHL-message follow-up task created for this contact 2026-08-13/14 (open warranty/deficiency complaint) is still "Needs Verification" and is now 16-17 days stale, buried in today's 114-item stale-task rollup rather than surfaced directly. Not confirmed here whether the deficiency-list/underpad issue above has since been resolved — worth a direct check rather than relying on the tactical-task queue.

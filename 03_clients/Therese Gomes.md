@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: active
-last_activity: 2026-08-29
+last_activity: 2026-08-30
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: OT0kdd7OrXCpNI6Hmb70
@@ -39,3 +39,4 @@ ghl_assigned_to_id:
 - 2026-08-17 — New request (same GHL conversation `EhxmxVaYC4tZ1CsCWdE9`): asking for an additional quote to retile her hallway, kitchen, and breakfast area — a straightforward upsell on the already-won project. Needs a quote sent.
 - 2026-08-26 — GHL catch-up ingest (same conversation `EhxmxVaYC4tZ1CsCWdE9`, contact `OT0kdd7OrXCpNI6Hmb70`, priority high): mid-way through post-win change-work (tile removal/vinyl in hallway+kitchen, bin pickup) on the won $11,300 project — asked this morning what time the crew is arriving today, no reply sent yet as of this run.
 - 2026-08-29 — GHL catch-up ingest (same conversation `EhxmxVaYC4tZ1CsCWdE9`, contact `OT0kdd7OrXCpNI6Hmb70`; also updated on today's Notion Tactical Tasks List): her paid-in-full receipt and warranty docs were sent, then she asked today what time the crew/bin-removal is expected — no reply logged yet as of this run. (A separate $8,269.00 Notion Master Payments Log e-transfer from Joseph Raymond Gomes, dated 2026-08-26, is logged on the distinct [[Joseph Raymond Gomes]] note, not here — same ref already recorded there 08-27, and per that note's Identity-rule check it has no confirmed link to this project despite the address similarity; not merged.)
+- 2026-08-30 — GHL daily ingest (`needs_attention` #1 / `stragglers_ranked` rank 1, conversation `EhxmxVaYC4tZ1CsCWdE9`, contact `OT0kdd7OrXCpNI6Hmb70`, priority high, act_immediately): the post-install disposal bin was due for pickup today but the hauler says they're slammed, and she has guests arriving within the hour needing the parking spot back for their visit — needs an alternative fix (different hauler, manual move) today, not tomorrow. Top of today's daily-note needs_attention.
