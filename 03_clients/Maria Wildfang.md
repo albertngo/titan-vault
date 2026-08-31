@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: prospect
-last_activity: 2026-07-28
+last_activity: 2026-08-31
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_contact_id: LhXVwRvJY4ExDCcWZJW3
 ghl_assigned_to: Pourya Lalee
@@ -26,3 +26,4 @@ ghl_conversation_ids: []
 ## Log
 - 2026-07-26 — created from GHL 2-month pull (contacts added 2026-05-26 → 2026-07-26). Added to GHL 2026-06-16.
 - 2026-07-28 — GHL daily ingest, `needs_attention`: [[Maria - Waterdown]] ($41,150 — largest open deal in the account) has had zero outbound in the 38 days since the Jun 20 in-home visit. 42 days in Meeting (Scheduled), no stale tag, and no follow-up sequence exists for this stage — flagged in today's brief for a manual touch.
+- 2026-08-31 — GHL daily ingest, top-level `needs_attention` (~$83K Meeting-scheduled group, $41.1K of it hers — largest in the group): [[Maria - Waterdown]] now 75.9 days in Meeting (Scheduled), 253% of the 30-day threshold, still no `stale_lead` tag. Still no follow-up sequence covers this stage.
