@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-08-30
+last_activity: 2026-09-01
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: kmp6wg2AxP8ENIAxFamH
@@ -32,3 +32,5 @@ ghl_assigned_to_id:
 - 2026-08-12 — Notion daily ingest `new_won_project` surfaced a likely duplicate data-entry: a second, unmatched Titan Projects row ("Clarance Pittson", $11,719.00, no Opportunity ID/Contact/Sales Person) at the same address, 4798 Huron Heights Dr, Mississauga — https://app.notion.com/3b9596a4505f80c4928ed37f79f3748f. Likely the same $11,790.00 win recorded above entered twice; flagged for Albert to resolve in Notion, not merged here.
 - 2026-08-27 — GHL daily ingest `needs_attention` / `stragglers_ranked` (rank 3, category `payment`, conversation `O6m1zjM9x4o1enBjipoj`, contact `kmp6wg2AxP8ENIAxFamH`, priority high): says he sent the e-transfer for the 35% deposit needed before material pickup; GHL has him tagged `lead: warm` but the conversation content reads hot (tag mismatch noted by ingest) — needs confirmation the funds landed today so pickup can proceed.
 - 2026-08-30 — GHL daily ingest (`stragglers_ranked` rank 2, conversation `O6m1zjM9x4o1enBjipoj`, contact `kmp6wg2AxP8ENIAxFamH`, priority high, tag_mismatch again flagged warm-vs-hot): e-transferred the **final payment in full on Aug 27** and asked for a receipt reflecting the updated statement — staff acknowledged, but two follow-up emails since (Aug 28, Aug 29) are unanswered. Reply owed today.
+- 2026-09-01 — GHL daily ingest (same conversation `O6m1zjM9x4o1enBjipoj`): a written deposit/payment receipt was emailed today, resolving the Aug 28/29 unanswered follow-ups logged above — no outstanding ask per this run.
+- 2026-09-01 — Outlook daily ingest (`cpitter01@yahoo.ca`, "4798 Huron Heights Dr" project — same address as the likely-duplicate Notion row logged 2026-08-12, so almost certainly this same client under a third name spelling, "Clarence Pitter"): as of yesterday's scan (2026-08-31 15:06) he was still asking for a paper payment receipt, first raised 2026-08-29 — no reply found in that scan. The GHL receipt logged above today (same-day) plausibly resolves this; worth confirming directly rather than assuming, since the two channels haven't been explicitly tied together. #admin

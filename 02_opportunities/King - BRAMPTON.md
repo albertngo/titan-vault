@@ -2,7 +2,7 @@
 type: opportunity
 visibility: staff
 status: complete
-last_activity: 2026-06-27
+last_activity: 2026-09-01
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_opportunity_id: 4TpNhjTr8IMaWT5ec9lQ
 ghl_assigned_to: Pourya Lalee
@@ -24,3 +24,4 @@ ghl_stage: 2. *Project Won*
 
 ## Log
 - 2026-07-26 — created from GHL 2-month pull (opportunities created 2026-05-26 → 2026-07-26). Created in GHL 2026-06-18; stage "2. *Project Won*"; status won; value $12,088 CAD; source store; contact tags: appt-home, appt-store.
+- 2026-09-01 — GHL daily ingest (conversation `rvBgcNznPp4dtFW5PgcS`): client back from travel, asking for the repair crew to reach out about the outstanding vinyl-buckle/staircase deficiency logged 2026-07-28. Albert replied he'll follow up this week. See [[King Chan]] Log.

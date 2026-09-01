@@ -1,8 +1,10 @@
 ---
 type: client
+# Note floor: staff may see this note; admin-grade bullets carry a trailing #admin
+# (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-08-28
+last_activity: 2026-09-01
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: kEtzpS0JA4eX2VaWLqfy
@@ -34,3 +36,4 @@ None noted yet — returning customer on a follow-on material purchase, not a ne
 - 2026-08-20 — Notion daily ingest `new_won_project` re-reports the same "Sonia Rocha, Brampton" row (same page, `https://app.notion.com/3c0596a4505f80649932ee2b38e79d02`, same 2026-08-18T23:47:18 creation timestamp already logged 08-19) but now shows **$2,347.00 CAD**, not the $2,938.90 logged 08-19 for the identical event — a genuine value discrepancy on the same record, not a new/second win. Today's DAILY-BRIEF total ($14,174.26 CAD across all 3 new wins this window) is built from the $2,347.00 figure. Flagged for Albert to reconcile; the identity match to this note remains unconfirmed (see today's daily note, Possible duplicates) — still no opportunity note created.
 - 2026-08-25 — Outlook catch-up run (`soniarocha-11@hotmail.com`, thread with albert@/pourya@, 22 Erindale Cres, Brampton): confirmed 2026-08-24 she wants to proceed and pay the first instalment by pcard — Pourya replied the same evening — then separately asked that evening (23:29 ET) to reschedule the install to Sept 18 and confirm the crew; that second ask has no reply on file yet but is still inside the 24h grace window at scan time. #admin
 - 2026-08-28 — Outlook daily ingest (168h/192h catch-up window; `soniarocha-11@hotmail.com`): the 2026-08-24 evening reschedule-to-Sept-18 request (see 2026-08-25 entry) is still unanswered — now ~4 days outstanding. #admin
+- 2026-09-01 — GHL daily ingest (same conversation `GqX1jNiTlmO5ROOYNzSk`): sent two image-only emails today (likely photos), plausibly tied to the Sept 18 reschedule/install logged above — content not reviewed via this ingest yet, worth a direct look.
