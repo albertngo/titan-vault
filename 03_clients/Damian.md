@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-09-01
+last_activity: 2026-09-02
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: 7jZBuyEYnwITemHcBJoT
@@ -36,3 +36,5 @@ ghl_assigned_to_id:
 - 2026-08-20 — GHL daily ingest `message` (conversation `bVkz1hPWX0fG6v2xABV7`, contact `7jZBuyEYnwITemHcBJoT` — same IDs as this note): inbound "please call me" this morning, sitting 0.4h, us owing the reply. Today's item describes him as a hot lead "with an in-home visit already booked via mobile quote" — that doesn't match the completed/won Innisfil stairs job logged above. Same `ghl_contact_id`, so per the Identity rule this is not a name-only duplicate, but the mismatch in description suggests a possible new/second engagement rather than a stray follow-up on the closed job — flag for Albert to confirm directly in GHL. Callback owed today, flagged in today's `needs_attention`.
 - 2026-08-26 — GHL catch-up ingest (same conversation `bVkz1hPWX0fG6v2xABV7`, contact `7jZBuyEYnwITemHcBJoT`, priority high, `stragglers_ranked` rank 1): still unresolved — the ~$2,430 final balance remains uncollected; repeated unreturned call-back requests since Aug 18, now silent 5.8 days. Top-ranked item in today's `stragglers_ranked` and in today's daily-note needs_attention.
 - 2026-09-01 — GHL daily ingest (conversation `bVkz1hPWX0fG6v2xABV7`, contact `7jZBuyEYnwITemHcBJoT`): after a long call today, Pourya offered a 2-year warranty extension on the staircase plus a reduced balance of $1,900 (down from the ~$2,430 tracked above) to redo a coat of stain/varnish — awaiting his answer. See [[Damian - Innisfil]].
+- 2026-09-02 — GHL daily ingest (same conversation `bVkz1hPWX0fG6v2xABV7`): asked for a date/time for the free staircase-brightening warranty touch-up offered yesterday and gave his email — still waiting on us to schedule it.
+- 2026-09-02 — Notion daily ingest `work_order_deficiency` (WO-Damian -090126, https://app.notion.com/3ce596a4505f81d2a594c12e1351827f): a deficiency work order for stain/varnish touchups ($200 budget payout) was created and the contractor notified same day (2026-09-01) — matched by name only, no opportunity ID on the row, but the scope lines up with the staircase-brightening warranty work being scheduled above.

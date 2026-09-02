@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-09-01
+last_activity: 2026-09-02
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: Ora83mwSV5QhmbyIoIKd
@@ -41,3 +41,4 @@ ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
 - 2026-08-29 — GHL catch-up ingest (same conversation `YpEmHWkJLCoZYAATACzo`, contact `Ora83mwSV5QhmbyIoIKd`; also synced to a new Notion Tactical Tasks List row today): now on a second install phase — asking today whether the crew is coming and confirming a second payment was sent. Tagged `lead: warm` but reads hot (tag_mismatch flagged again). Needs a same-day reply on crew ETA + payment confirmation. (The Aug 22 Tosca hardwood-delivery/Outlook thread logged 08-24 through 08-28 above is unchanged in today's ingest — same message, no reply found — not re-logged.)
 - 2026-08-30 — GHL daily ingest (same conversation `YpEmHWkJLCoZYAATACzo`, contact `Ora83mwSV5QhmbyIoIKd`, priority high): the final walkthrough was rescheduled twice over the weekend (Pourya double-booked) and is now confirmed for **Monday Aug 31, 4:00pm** (appointment `MZAU9suoG6trZTncAwAn`), when she wants to settle the final payment — confirm Pourya is actually free this time after two reschedules. Tagged `lead: warm` but reads hot again (tag_mismatch). (The Aug 22 Tosca hardwood-delivery/Outlook thread logged 08-24 through 08-28 is unchanged in today's ingest — not re-logged.)
 - 2026-09-01 — GHL daily ingest, by-source `needs_attention` (conversation `YpEmHWkJLCoZYAATACzo`, `act_immediately`): messaged twice yesterday evening asking about her final payment amount, the fine-finish/patchwork walkthrough schedule, and her promised gift box — no reply logged in the window (the Aug 31 4pm walkthrough logged yesterday doesn't confirm whether it actually happened). Needs a same-day reply covering all three asks.
+- 2026-09-02 — Notion daily ingest `payment`: $3,204.00 CAD e-Transfer from "Sowmya" received 2026-08-31 — https://app.notion.com/3ce596a4505f80bbb903dacad98c3411. Matched by name only, no ID; plausibly the final payment she was chasing an answer on in the 09-01 entry above (final payment amount, walkthrough, gift box), not confirmed.

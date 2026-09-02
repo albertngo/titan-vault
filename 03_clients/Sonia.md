@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-09-01
+last_activity: 2026-09-02
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: kEtzpS0JA4eX2VaWLqfy
@@ -37,3 +37,5 @@ None noted yet — returning customer on a follow-on material purchase, not a ne
 - 2026-08-25 — Outlook catch-up run (`soniarocha-11@hotmail.com`, thread with albert@/pourya@, 22 Erindale Cres, Brampton): confirmed 2026-08-24 she wants to proceed and pay the first instalment by pcard — Pourya replied the same evening — then separately asked that evening (23:29 ET) to reschedule the install to Sept 18 and confirm the crew; that second ask has no reply on file yet but is still inside the 24h grace window at scan time. #admin
 - 2026-08-28 — Outlook daily ingest (168h/192h catch-up window; `soniarocha-11@hotmail.com`): the 2026-08-24 evening reschedule-to-Sept-18 request (see 2026-08-25 entry) is still unanswered — now ~4 days outstanding. #admin
 - 2026-09-01 — GHL daily ingest (same conversation `GqX1jNiTlmO5ROOYNzSk`): sent two image-only emails today (likely photos), plausibly tied to the Sept 18 reschedule/install logged above — content not reviewed via this ingest yet, worth a direct look.
+- 2026-09-02 — GHL daily ingest (same conversation `GqX1jNiTlmO5ROOYNzSk`): the two image emails flagged 09-01 turned out to be a resolved material-ordering exchange — nothing outstanding.
+- 2026-09-02 — Outlook daily ingest (`soniarocha-11@hotmail.com`, 22 Erindale Cres, Brampton): asked pourya@ (cc albert@) whether to pay her first deposit in-store or by e-transfer; pourya@ replied the next afternoon — resolved. #admin
