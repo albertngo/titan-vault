@@ -4,7 +4,7 @@ type: opportunity
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: complete
-last_activity: 2026-09-02
+last_activity: 2026-09-03
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # ghl_pipeline/stage are names, not IDs: stage IDs are opaque and get renamed in
 # the GHL UI, so the name is what a human can verify. The opportunity ID is the anchor.
@@ -32,3 +32,4 @@ ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
 - 2026-08-31 — GHL daily ingest, top-level `needs_attention`: deposit confirmed paid, but baseboards for the client's father to paint before the Sept 8 install have not been delivered — she asked yesterday, unanswered ~15h. Install-date risk; needs a same-day reply with a delivery date. See [[Gina Martino]] Log for detail.
 - 2026-09-01 — GHL daily ingest, by-source `needs_attention`: trim/baseboard delivery-notice request still unanswered into a second day, Sept 8 install approaching. See [[Gina Martino]] Log for detail.
 - 2026-09-02 — GHL daily ingest: trim/baseboard delivery-notice request resolved amicably — nothing outstanding ahead of the Sept 8 install. See [[Gina Martino]] Log for detail.
+- 2026-09-03 — GHL daily ingest: deposit and extra trim confirmed paid; baseboards/trim delivered and coordinated 2026-09-02. Install remains on track for Sept 8. See [[Gina Martino]] Log for detail.
