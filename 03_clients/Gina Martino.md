@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-09-02
+last_activity: 2026-09-03
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: 0xmmjfcfQPdvsdGJyMVE
@@ -33,3 +33,4 @@ ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
 - 2026-08-31 — GHL daily ingest, top-level `needs_attention` (importance_rank 1 in today's `stragglers_ranked`): baseboards still not delivered — she asked yesterday (2026-08-30 ~17:25) when they can be dropped at the house so her father can paint them before the Sept 8 install; unanswered ~15h as of this run, same conversation `qYVSGzNpWngXX33lrhy4`. Install date is now at risk. Needs a same-day reply with a delivery date.
 - 2026-09-01 — GHL daily ingest, by-source `needs_attention` (conversation `qYVSGzNpWngXX33lrhy4`): the trim/baseboard delivery-notice request (at least 30 minutes' heads-up so she can be home) is still unanswered, now into a second day, with the Sept 8 install closer. Needs a same-day reply confirming a delivery-notice arrangement.
 - 2026-09-02 — GHL daily ingest (same conversation `qYVSGzNpWngXX33lrhy4`, contact `0xmmjfcfQPdvsdGJyMVE`): trim/baseboard delivery-notice request (unanswered since 08-31) finally coordinated and resolved amicably — nothing outstanding ahead of the Sept 8 install. See [[Gina Martino - Georgetown]].
+- 2026-09-03 — GHL daily ingest (same conversation `qYVSGzNpWngXX33lrhy4`): deposit and extra trim now confirmed paid, and baseboards/trim delivery — flagged unresolved as recently as 08-31/09-01 — was coordinated and completed 2026-09-02. Install remains on track for Sept 8, nothing outstanding.
