@@ -4,7 +4,7 @@ type: opportunity
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: complete
-last_activity: 2026-09-03
+last_activity: 2026-09-04
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # ghl_pipeline/stage are names, not IDs: stage IDs are opaque and get renamed in
 # the GHL UI, so the name is what a human can verify. The opportunity ID is the anchor.
@@ -38,3 +38,5 @@ ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
 - 2026-08-28 — Outlook daily ingest (168h/192h catch-up window; message dated 2026-08-22): same Tosca Long Beach hardwood-delivery / stair baluster-post-design question still unanswered — the Aug 27 install start date has now passed. See [[Sowmya]] Log for a "Sri" vs. "Sowmya" name-variant note (same email/address). #admin
 - 2026-09-01 — GHL daily ingest, by-source `needs_attention` (conversation `YpEmHWkJLCoZYAATACzo`): asked twice yesterday evening about the final payment amount and the fine-finish/patchwork walkthrough schedule, plus her promised gift box — unanswered in the window. See [[Sowmya]] Log for full detail.
 - 2026-09-03 — Notion daily ingest `work_order_deficiency` (QA Work Orders, staff-shared table): two deficiency work orders opened and contractor-notified 2026-09-02 — WO-Sowmya (Minor, uneven stain/varnish, chipped boards, rough finishes, loose spindles, scratches on floor; status "Sending....", payout not yet set — worth a spot check it isn't stuck) and a second WO-Sowmya (Minor, patch/paint behind handrail; $150 budget payout, status "Notified Contractor"). Post-install punch-list items following the Aug 27 install/walkthrough logged above.
+- 2026-09-04 — GHL daily ingest, top-level `needs_attention` (conversation `YpEmHWkJLCoZYAATACzo`): final payment and finishing/patchwork schedule still outstanding, 16.6h unanswered. See [[Sowmya]] Log for full detail.
+- 2026-09-04 — Notion daily ingest `work_order_deficiency` (WO-Sowmya-090226): the stain/chip/rough-finish/spindle/scratch deficiency WO logged 2026-09-03 with an unresolved "Sending...." status now reads "Notified Contractor", budget payout confirmed at $200. See [[Sowmya]] Log for detail.

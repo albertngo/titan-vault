@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-09-02
+last_activity: 2026-09-04
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: Ora83mwSV5QhmbyIoIKd
@@ -42,3 +42,5 @@ ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
 - 2026-08-30 — GHL daily ingest (same conversation `YpEmHWkJLCoZYAATACzo`, contact `Ora83mwSV5QhmbyIoIKd`, priority high): the final walkthrough was rescheduled twice over the weekend (Pourya double-booked) and is now confirmed for **Monday Aug 31, 4:00pm** (appointment `MZAU9suoG6trZTncAwAn`), when she wants to settle the final payment — confirm Pourya is actually free this time after two reschedules. Tagged `lead: warm` but reads hot again (tag_mismatch). (The Aug 22 Tosca hardwood-delivery/Outlook thread logged 08-24 through 08-28 is unchanged in today's ingest — not re-logged.)
 - 2026-09-01 — GHL daily ingest, by-source `needs_attention` (conversation `YpEmHWkJLCoZYAATACzo`, `act_immediately`): messaged twice yesterday evening asking about her final payment amount, the fine-finish/patchwork walkthrough schedule, and her promised gift box — no reply logged in the window (the Aug 31 4pm walkthrough logged yesterday doesn't confirm whether it actually happened). Needs a same-day reply covering all three asks.
 - 2026-09-02 — Notion daily ingest `payment`: $3,204.00 CAD e-Transfer from "Sowmya" received 2026-08-31 — https://app.notion.com/3ce596a4505f80bbb903dacad98c3411. Matched by name only, no ID; plausibly the final payment she was chasing an answer on in the 09-01 entry above (final payment amount, walkthrough, gift box), not confirmed.
+- 2026-09-04 — GHL daily ingest, top-level `needs_attention` (high; conversation `YpEmHWkJLCoZYAATACzo`, 16.6h unanswered): final payment reconciliation and the finishing/patchwork touch-up schedule both still outstanding — emailed again last night under subject '2160 peachtree lane, Oakville', no reply logged.
+- 2026-09-04 — Notion daily ingest `work_order_deficiency` (WO-Sowmya-090226, created 2026-09-02, contractor notified 2026-09-03): status update on the first of the two 2026-09-03-logged deficiency WOs (uneven stain/varnish, chipped boards, rough finishes, loose spindles, floor scratches) — the previously flagged "Sending...." status has resolved to "Notified Contractor" and the budget payout is now confirmed at $200 (was unset). https://app.notion.com/3cf596a4505f808fba2bdbe4023c0d71

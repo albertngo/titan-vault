@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: prospect
-last_activity: 2026-09-03
+last_activity: 2026-09-04
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_contact_id: LhXVwRvJY4ExDCcWZJW3
 ghl_assigned_to: Pourya Lalee
@@ -30,3 +30,4 @@ ghl_conversation_ids: []
 - 2026-09-01 — GHL daily ingest, top-level `needs_attention` + drift `stale_approaching` (256% of threshold, high): [[Maria - Waterdown]] now 76.9 days in Meeting (Scheduled). Pourya left himself an internal note today calling this quote "too high value not to probe," but nothing has actually gone to her since Jul 24 — the note is a to-do, not a completed follow-up.
 - 2026-09-02 — GHL daily ingest, top-level `needs_attention` + drift `stale_approaching` (260% of threshold, high; conversation `U8nqiyX8IoKkCsDivnLc`, contact `LhXVwRvJY4ExDCcWZJW3`): a reconnect call happened yesterday, but the outcome isn't logged anywhere in GHL — still the largest single open opportunity in the account, now 77.9 days in Meeting (Scheduled). Needs the call outcome captured before this goes another day untouched.
 - 2026-09-03 — GHL daily ingest, top-level `needs_attention` (part of the "4 Meeting-Scheduled leads stuck past auto-abandon" cluster) + drift `meeting_no_followup` (high, 263% of the 30-day threshold): now 78.9 days in Meeting (Scheduled), 74.9 days since the in-home visit — already past the 60-day auto-abandon point with no `stale_lead` tag. Still the largest single open opportunity in the account; the stale/abandon automation isn't wired to this pipeline stage at all. No new outreach logged since the 09-02 reconnect call.
+- 2026-09-04 — GHL daily ingest, top-level `needs_attention` + drift `stale_approaching` (high, 266% of the 30-day threshold, overdue by 49.9d): now 79.9 days in Meeting (Scheduled) — still the largest single open opportunity in the account ($41,150), still no `stale_lead` tag. The Sep 1 follow-up call's outcome has still not been logged anywhere in GHL.

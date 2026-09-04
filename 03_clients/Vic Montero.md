@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: active
-last_activity: 2026-09-01
+last_activity: 2026-09-04
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: bXlLZGdEZIf2WMSGLcjk  # was blank/"none" — filled in from the confirmed ID already cited inline in the 2026-08-04 Log entry and reconfirmed by today's ingest, per Identity rule (filling a genuinely blank field, not overwriting a conflicting one)
@@ -36,3 +36,5 @@ None noted yet — won project, ID not in ingest.
 - 2026-08-26 — GHL catch-up ingest (same conversation `q2xtxVfKCkB5c13DKP8K`, contact `bXlLZGdEZIf2WMSGLcjk`, priority high, `stragglers_ranked` rank 2): still unanswered — now ~12 days since the Aug 14 walkthrough where Albert admitted the underpad workmanship mistake, ranked #5 in today's daily-note needs_attention. Notion's re-surfaced deficiency Work Order (`WO-Vic Montero-081426`) is unchanged — still "Notified Contractor," not completed.
 - 2026-08-30 — Notion daily ingest (`needs_attention`, Tactical Tasks List rollup): the automated GHL-message follow-up task created for this contact 2026-08-13/14 (open warranty/deficiency complaint) is still "Needs Verification" and is now 16-17 days stale, buried in today's 114-item stale-task rollup rather than surfaced directly. Not confirmed here whether the deficiency-list/underpad issue above has since been resolved — worth a direct check rather than relying on the tactical-task queue.
 - 2026-09-01 — GHL daily ingest (conversation `q2xtxVfKCkB5c13DKP8K`, contact `bXlLZGdEZIf2WMSGLcjk`): an outbound update went out today — Albert has admitted the underpad-install mistake and is working toward a resolution, likely a written deficiency resolution or credit note. First outbound logged on this thread since the 2026-08-13 reschedule confirmation; worth confirming with Albert directly whether this closes out the deficiency WO.
+- 2026-09-04 — GHL daily ingest, top-level `needs_attention` (high; conversation `q2xtxVfKCkB5c13DKP8K`, 16.1h unanswered): the underpad quality complaint escalated further — a new email under the named subject 'Project Concerns - 5301 Churchill Meadows' arrived last night, still unanswered since. This is after Albert's Aug 28 promise to resolve; the 09-01 outbound update (admitting the mistake, working toward resolution) hasn't closed this out.
+- 2026-09-04 — Outlook daily ingest (48h/72h catch-up window): a related VM (voicemail) thread for 5301 Churchill Meadows thanked albert@ for addressing the underpad-mismatch complaint and referenced monetary compensation Albert offered — no dollar figure visible in the preview. Received 2026-09-03 4:39pm, under the 24h threshold so not independently flagged unanswered by Outlook, but confirms Albert has already engaged directly on this complaint even though the GHL email thread above remains unanswered. #admin
