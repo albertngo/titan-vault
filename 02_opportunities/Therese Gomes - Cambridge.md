@@ -2,7 +2,7 @@
 type: opportunity
 visibility: staff
 status: complete
-last_activity: 2026-08-11
+last_activity: 2026-09-05
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # ghl_pipeline/stage are names, not IDs: stage IDs are opaque and get renamed in
 # the GHL UI, so the name is what a human can verify. The opportunity ID is the anchor.
@@ -34,3 +34,4 @@ ghl_assigned_to_id:
 - 2026-08-07 — Notion daily ingest re-surfaced the Aug 1 win again ($12,769 CAD, sales Pourya Lalee, no PM assigned) — no new information beyond 2026-08-02. GHL, Outlook, and Bookkeeper all failed to pull today (partial outage), so the payer-name-mismatch/deposit-confirmation status could not be checked; still unresolved as far as the vault knows.
 - 2026-08-08 — RESOLVED (deposit-confirmation thread): she asked again today whether her $4,500 payment had been received; Titan confirmed receipt and the Tuesday appointment is locked in (same GHL conversation `EhxmxVaYC4tZ1CsCWdE9`, resolved within the thread) — this answers the payer-name-mismatch/deposit-confirmation question open since 2026-08-03. Notion's daily ingest again re-surfaced the same Aug 1 win ($12,769 CAD, sales Pourya Lalee, no PM assigned) — no new information there beyond 2026-08-02.
 - 2026-08-11 — Still unresolved (same GHL conversation `EhxmxVaYC4tZ1CsCWdE9`): she called twice this morning (12:02, 12:03) about switching the basement to vinyl (recurring leak) and wasn't reached — callback needed today on the scope/pricing decision. Flagged again in today's `needs_attention`.
+- 2026-09-05 — Notion daily ingest, ad hoc Sep 2/26 Project Status meeting synopsis: a vinyl scope-miss on this job was resolved with a second shipment — matched here by name + Cambridge address; the meeting summary itself does not carry a source ID for this line, so treat as a probable rather than confirmed match to this opportunity.

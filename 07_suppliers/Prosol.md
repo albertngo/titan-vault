@@ -3,7 +3,7 @@ type: supplier
 # Margin notes are cost data by design — see CONVENTIONS: Visibility.
 visibility: admin
 status: active
-last_activity: 2026-08-15
+last_activity: 2026-09-05
 outlook_message_id: "<c5799c389a46412b11795d856.b708b9e8da.20260728144520.ca6f7979b2.8efa9caa@mail152.atl21.rsgsv.net>"
 ---
 
@@ -32,3 +32,4 @@ outlook_message_id: "<c5799c389a46412b11795d856.b708b9e8da.20260728144520.ca6f79
   percentage increases across most products, being passed through; no
   attachment, no immediate ask. Same pattern as the 2026-07-28 notice above —
   re-check any quotes still outstanding before honouring current-cost pricing.
+- 2026-09-05 — [[Outlook]] daily ingest: another "Price Increase Notice" from Prosol (2026-09-04, `info@`) listing pricing changes by manufacturer and product for September 2026 — no attachment noted, feeds the Airtable catalogue workflow. Same pattern as the 2026-07-28/08-14 notices above — re-check any quotes still outstanding before honouring current-cost pricing.

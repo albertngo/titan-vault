@@ -4,7 +4,7 @@ type: opportunity
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-09-04
+last_activity: 2026-09-05
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # ghl_pipeline/stage are names, not IDs: stage IDs are opaque and get renamed in
 # the GHL UI, so the name is what a human can verify. The opportunity ID is the anchor.
@@ -32,3 +32,4 @@ ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
 - 2026-08-13 — GHL daily ingest `stragglers_ranked` (rank 1): opportunity still shows abandoned even though the Aviva claim is live; adjuster Naushaba Haque is blocked waiting on Titan's line-item repair estimate with photos before approving payment.
 - 2026-08-13 — Outlook cross-reference: Pourya resent the estimate to the adjuster Aug 12 and she confirmed she'd review it with Mr. Rajan — the email thread is answered, but the GHL opportunity stage/status hasn't been corrected to match. #admin
 - 2026-09-04 — GHL daily ingest, top-level `needs_attention` (high; conversation `kTYnwzFHsJUKSz0ILvOb`): still open, contractor intro + voicemail unanswered 20h. Opportunity status still wrongly marked abandoned in Meeting-Scheduled — not yet corrected. See [[Firoz Rajan]] Log for the Aviva/Outlook cross-reference.
+- 2026-09-05 — Outlook daily ingest (`sensitivity: private`): claim still stuck on the same missing floor-area repair details the Aviva adjuster needs, unanswered since 2026-09-03. See [[Firoz Rajan]] Log. #admin
