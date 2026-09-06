@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-09-02
+last_activity: 2026-09-06
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: 7jZBuyEYnwITemHcBJoT
@@ -38,3 +38,5 @@ ghl_assigned_to_id:
 - 2026-09-01 — GHL daily ingest (conversation `bVkz1hPWX0fG6v2xABV7`, contact `7jZBuyEYnwITemHcBJoT`): after a long call today, Pourya offered a 2-year warranty extension on the staircase plus a reduced balance of $1,900 (down from the ~$2,430 tracked above) to redo a coat of stain/varnish — awaiting his answer. See [[Damian - Innisfil]].
 - 2026-09-02 — GHL daily ingest (same conversation `bVkz1hPWX0fG6v2xABV7`): asked for a date/time for the free staircase-brightening warranty touch-up offered yesterday and gave his email — still waiting on us to schedule it.
 - 2026-09-02 — Notion daily ingest `work_order_deficiency` (WO-Damian -090126, https://app.notion.com/3ce596a4505f81d2a594c12e1351827f): a deficiency work order for stain/varnish touchups ($200 budget payout) was created and the contractor notified same day (2026-09-01) — matched by name only, no opportunity ID on the row, but the scope lines up with the staircase-brightening warranty work being scheduled above.
+- 2026-09-06 — GHL daily ingest (conversation `bVkz1hPWX0fG6v2xABV7`, contact `7jZBuyEYnwITemHcBJoT`): asked for Pourya to call about adjustments agreed on; a revised warranty document was sent same day. Notion QA work order (WO-Damian-090126, stain/varnish touchups) now shows Done, completed 2026-09-05, $200.00 payout confirmed — resolves the staircase-brightening warranty touchup logged 2026-09-02.
+- 2026-09-06 — Outlook daily ingest (96h/120h catch-up window; sender `pourya@`, sensitivity: private): the warranty document Pourya finalized formally extends coverage to 24 months, including staircase materials and labor, effective once the final balance is paid. Marked private per policy regardless of content since the sender is a staff personal mailbox. #admin

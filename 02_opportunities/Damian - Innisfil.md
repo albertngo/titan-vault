@@ -4,7 +4,7 @@ type: opportunity
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: complete
-last_activity: 2026-09-01
+last_activity: 2026-09-06
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # ghl_pipeline/stage are names, not IDs: stage IDs are opaque and get renamed in
 # the GHL UI, so the name is what a human can verify. The opportunity ID is the anchor.
@@ -32,3 +32,5 @@ ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
 - 2026-08-12 — Install crew confirmed arriving 9-10am today; $2,430 balance still outstanding, needs collecting on-site before/at the install.
 - 2026-08-13 — Notion daily ingest `new_won_project` on the same Opportunity ID (`uTBGLp6jqBuFkT9pIiCW`, https://app.notion.com/3b9596a4505f818388ebe4799c95fcc0) records this win at $4,430.00 CAD, vs. GHL `won_records`' $4,850.00 already logged here — a new $420 discrepancy, separate from the earlier $2,850-vs-$2,430 balance question. GHL's $4,850.00 treated as authoritative pending Notion reconciliation.
 - 2026-09-01 — GHL daily ingest (conversation `bVkz1hPWX0fG6v2xABV7`): a stairs warranty issue surfaced (stain/varnish coat needs redoing) — after a long call, Pourya offered a 2-year warranty extension plus a reduced remaining balance of $1,900 (down from the ~$2,430 tracked since 2026-08-26). Awaiting Damian's answer. See [[Damian]] Log.
+- 2026-09-06 — GHL daily ingest (conversation `bVkz1hPWX0fG6v2xABV7`): asked for Pourya to call about the agreed adjustments; revised warranty document sent same day. Notion QA work order (WO-Damian-090126, stain/varnish touchups) now Done, completed 2026-09-05, $200.00 payout confirmed. See [[Damian]] Log.
+- 2026-09-06 — Outlook (sensitivity: private, `pourya@`): warranty formally extended to 24 months covering staircase materials/labor, effective once final balance paid. See [[Damian]] Log. #admin

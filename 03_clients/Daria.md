@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: active
-last_activity: 2026-09-05
+last_activity: 2026-09-06
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_contact_id: 77ZbErneV22W1bQ16O6E
 ghl_assigned_to: Pourya Lalee
@@ -30,3 +30,4 @@ ghl_conversation_ids: []
 - 2026-08-06 — Asked again today when the stair-nosing metal piece will be fixed (left over from a prior visit); Albert said he'd check the schedule but no firm date has gone back to her yet. Needs a firm commitment today.
 - 2026-08-30 — Notion daily ingest (`needs_attention`, Tactical Tasks List rollup): the automated GHL-message follow-up task created for this contact 2026-08-13/14 (warranty fix scheduling) is still "Needs Verification" and is now 16-17 days stale, buried in today's 114-item stale-task rollup rather than surfaced directly — not confirmed here whether the stair-nosing/deficiency-list items logged above have since been closed out. Worth a direct check rather than relying on the tactical-task queue.
 - 2026-09-05 — GHL daily ingest: scheduling a follow-up visit on the WON [[Daria - Mississauga]] project — she confirmed Sunday 10am works and reacted with a like; just needs the appointment locked on the calendar.
+- 2026-09-06 — Notion daily ingest `work_order_deficiency` (WO-Daria-080126): the metal-nosing-replacement deficiency work order (created 2026-08-01, contractor notified 2026-09-01) is now marked Dropped, completion date logged 2026-09-04 — resolves (by closure, not by fix) the stair-nosing metal-piece question she'd been asking about since 2026-08-06; worth confirming with her directly whether "Dropped" means it was done another way or simply abandoned.

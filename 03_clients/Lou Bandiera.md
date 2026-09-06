@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: active
-last_activity: 2026-08-28
+last_activity: 2026-09-06
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: 3tyyxjp2MU20rGvdxTn8
@@ -29,3 +29,4 @@ None yet.
 - 2026-08-08 — Outlook catch-up run (recovered after an earlier egress block) surfaced the actual content behind today's unreadable GHL email: Lucy and Lou Bandiera report the install crew finished late Aug 6 but left a tool behind, and there's a gap between the new floor and the brick fireplace hearth needing trim. Landed in both albert@ and pourya@ Aug 7, still unanswered as of this run. #admin
 - 2026-08-26 — GHL catch-up ingest (same conversation `NkVo4xfAXn3EhZGors2j`, contact `3tyyxjp2MU20rGvdxTn8`, priority high): still chasing the same two loose ends from Titan (fireplace trim, revised invoice) before he'll pay the remaining balance on the won $5,758.68 project — going on ~3 months now per today's conversation summary; latest thread sitting ~22 hours unanswered (4 unread).
 - 2026-08-28 — Notion daily ingest `work_order_deficiency`: a formal QA deficiency Work Order (`WO-Lou Bandiera-082826`) was created today for the fireplace-trim gap first reported by the client 2026-08-07 (see 2026-08-08 entry) — contractor notified same day, Minor severity, $100 CAD budget payout. Formalizes the issue already on this note; not a new complaint.
+- 2026-09-06 — Notion daily ingest `work_order_deficiency` (WO-Lou Bandiera-082826): the fireplace-trim-gap deficiency work order logged 2026-08-28 now shows completed (2026-09-04) — no budget payout recorded on this row. Resolves the fireplace-trim/tool-left-behind issue tracked since 2026-08-08.
