@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-09-02
+last_activity: 2026-09-07
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: kEtzpS0JA4eX2VaWLqfy
@@ -39,3 +39,4 @@ None noted yet — returning customer on a follow-on material purchase, not a ne
 - 2026-09-01 — GHL daily ingest (same conversation `GqX1jNiTlmO5ROOYNzSk`): sent two image-only emails today (likely photos), plausibly tied to the Sept 18 reschedule/install logged above — content not reviewed via this ingest yet, worth a direct look.
 - 2026-09-02 — GHL daily ingest (same conversation `GqX1jNiTlmO5ROOYNzSk`): the two image emails flagged 09-01 turned out to be a resolved material-ordering exchange — nothing outstanding.
 - 2026-09-02 — Outlook daily ingest (`soniarocha-11@hotmail.com`, 22 Erindale Cres, Brampton): asked pourya@ (cc albert@) whether to pay her first deposit in-store or by e-transfer; pourya@ replied the next afternoon — resolved. #admin
+- 2026-09-07 — GHL daily ingest (same conversation `GqX1jNiTlmO5ROOYNzSk`, top-level `needs_attention`): sent "Project Quote 22 Erindale Brampton" and a follow-up Re: yesterday — reads like a new material/stock order (she'd previously discussed keeping stock of engineered flooring on hand). No reply from us yet, ~23h. Same thread also seen in today's Outlook ingest (`pourya@`/`albert@`) confirming no reply found as of the pull — same underlying fact, not logged separately.

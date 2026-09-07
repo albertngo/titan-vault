@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-09-06
+last_activity: 2026-09-07
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: 7jZBuyEYnwITemHcBJoT
@@ -17,7 +17,7 @@ ghl_assigned_to_id:
 
 # Damian
 
-**Contact:** (not provided in today's ingest — last name not captured either)
+**Contact:** (not provided in today's ingest — last name not captured either; e-transfer sender name is "Damian Martin")
 **Address:** (not provided in today's ingest)
 **Source:** GHL lead — stairs project
 
@@ -40,3 +40,6 @@ ghl_assigned_to_id:
 - 2026-09-02 — Notion daily ingest `work_order_deficiency` (WO-Damian -090126, https://app.notion.com/3ce596a4505f81d2a594c12e1351827f): a deficiency work order for stain/varnish touchups ($200 budget payout) was created and the contractor notified same day (2026-09-01) — matched by name only, no opportunity ID on the row, but the scope lines up with the staircase-brightening warranty work being scheduled above.
 - 2026-09-06 — GHL daily ingest (conversation `bVkz1hPWX0fG6v2xABV7`, contact `7jZBuyEYnwITemHcBJoT`): asked for Pourya to call about adjustments agreed on; a revised warranty document was sent same day. Notion QA work order (WO-Damian-090126, stain/varnish touchups) now shows Done, completed 2026-09-05, $200.00 payout confirmed — resolves the staircase-brightening warranty touchup logged 2026-09-02.
 - 2026-09-06 — Outlook daily ingest (96h/120h catch-up window; sender `pourya@`, sensitivity: private): the warranty document Pourya finalized formally extends coverage to 24 months, including staircase materials and labor, effective once the final balance is paid. Marked private per policy regardless of content since the sender is a staff personal mailbox. #admin
+- 2026-09-07 — GHL daily ingest (same conversation `bVkz1hPWX0fG6v2xABV7`, top-level `needs_attention`): says he's satisfied with the revised warranty sent 09-06 and has sent the final $1,900 payment — needs a reply confirming receipt and closing out the file.
+- 2026-09-07 — Notion daily ingest `payment`: Interac e-Transfer of $1,900.00 CAD received 2026-09-06 from Damian Martin, auto-deposited — https://app.notion.com/3d4596a4505f8106b42ac5dc541e3b83 (not linked to a Projects relation in Notion; matched here by name + amount against the GHL payment claim above). Confirms the final reduced balance agreed 09-01; file can be closed out once GHL sends the confirmation reply.
+- 2026-09-07 — Outlook daily ingest (sensitivity: private): Interac e-Transfer notice forwarded info@ → albert@ confirms the same $1,900.00 from Damian Martin, auto-deposited — same underlying payment as the GHL/Notion entries above. #admin

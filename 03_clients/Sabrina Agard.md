@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-09-06
+last_activity: 2026-09-07
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: a6wxJpGrYGT24MCUl53L
@@ -38,3 +38,4 @@ ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
 - 2026-08-25 — Outlook catch-up run (168h/192h window; same thread, `scrvik@gmail.com`, 9 Midnight Lane): still no reply found — now 6+ days since the deposit confirmation and Sept 10 install-date question, ranked #2 in today's needs_attention. Recurring unresolved item, unchanged beyond elapsed time. #admin
 - 2026-09-06 — GHL daily ingest, top-level `needs_attention` (`stragglers_ranked` rank 2, conversation `scEEaIhErEDwVAmBszW6`, priority high): an inbound email from yesterday is sitting unanswered — install date (Sep 10) and first payment already sent are both live here; reply needed.
 - 2026-09-06 — Outlook daily ingest (96h/120h catch-up window; same unanswered thread as before, `scrvik@gmail.com`/9 Midnight Lane, "Sabrina Crvik"): asked for the crew's arrival time on the Sept 10 install date, approaching fast — received under 24h ago so not independently flagged unanswered by Outlook, but worth a same-day reply given the date is close. #admin
+- 2026-09-07 — Outlook daily ingest (120h/144h catch-up window; same thread, `scrvik@gmail.com`, "9 Midnight Lane, Brampton quote"): still no reply found as of this pull — the unresolved "Sabrina Crvik" name-variant flag from 2026-08-19 remains open (no GHL ID ties the two records together); install date is now imminent (Sep 10). #admin
