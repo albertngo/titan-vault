@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: prospect
-last_activity: 2026-09-04
+last_activity: 2026-09-08
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: TU5iOgjQWqhb4m22ZbSD
@@ -30,3 +30,4 @@ None on file yet — no GHL opportunity ID surfaced in today's ingest.
 - 2026-09-02 — GHL daily ingest (same conversation `CfG3hfUeyElK8kCnSUbk`, contact `TU5iOgjQWqhb4m22ZbSD`): reiterated she wants to buy and plans to place her order Thursday; asked us to price-match a competing quote she is holding — needs the competing quote number before Thursday to close.
 - 2026-09-03 — GHL daily ingest, top-level `needs_attention` (same conversation `CfG3hfUeyElK8kCnSUbk`): still set to place and pay for a ~$8,700-15,825 order Thursday, but a same-day 30c/sf GreenTouch price increase on Bavarian Ridge 7.5" (her chosen material) surfaced today and is unresolved — see [[Greentouch]] Log. Needs a pricing decision before she arrives Thursday.
 - 2026-09-04 — GHL daily ingest (same conversation `CfG3hfUeyElK8kCnSUbk`, contact `TU5iOgjQWqhb4m22ZbSD`; next_response_owner: them, not act-immediately): Joey offered to sell the flooring+stairs material at cost if she commits to the whole project with Titan rather than price-comparing piecemeal. Ball is in her court to decide before Thursday; still waiting on the [[Greentouch]] Bavarian Ridge 7.5" pricing decision flagged 09-03.
+- 2026-09-08 — GHL daily ingest, top-level `needs_attention` (same conversation `CfG3hfUeyElK8kCnSUbk`, priority: high): now wants pricing finalized tomorrow (Sep 9), with a Sep 21 install start date riding on it — either finalize tomorrow or have Titan visit the site tomorrow. The at-cost offer (09-04) and the Bavarian Ridge 7.5" pricing decision (09-03, [[Greentouch]]) both need resolving before then.

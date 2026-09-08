@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-09-01
+last_activity: 2026-09-08
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: TmQX8DQ8tTb2fU2MRIlK
@@ -25,9 +25,10 @@ ghl_assigned_to_id: edv6p75Y79cYsPS0jPv0
 <!-- human-owned: who they are, what they want, quirks -->
 
 ## Opportunities
-<!-- none yet — the friend's referral quote isn't a formalized GHL opportunity yet -->
+- [[Michael Camara]] (opportunity note)
 
 ## Log
 - 2026-08-22 — created from GHL daily ingest `needs_attention` (conversation `W6B8wfM9s4PnfehckwUI`, priority: high): past customer (project won Dec 2025) referring a friend who needs a 525sf vinyl install + carpet/laminate removal quote for a condo. He's asked twice (Aug 19, Aug 21) whether the quote was sent — it still hasn't gone out, 21+ hours since his last message. He's also unsure whether Titan has his friend's email on file. Send the overdue quote.
 - 2026-08-30 — GHL daily ingest (`stragglers_ranked` rank 5, workflow_drift `stale_approaching`, priority high): an open opportunity now on file under this name (`DHrlkU4mjciQ1OY2BUv4`, stage "0c. ASAP (Hot)") is ~1 day from the 7-day stale_lead mark (84% of threshold) — contact today before automation tags it stale. Today's ingest doesn't supply a `contact_id` on this opportunity record, so it's matched here by name only (single Michael Camara record in the vault); flag if a mismatch surfaces. No separate opportunity note created this run — not part of today's curated top-level needs_attention (only in the by-source GHL summary); revisit if it recurs or escalates.
 - 2026-09-01 — GHL daily ingest (same conversation `W6B8wfM9s4PnfehckwUI`, flag `insurance-claim`): the friend's referral quote is now waiting on an insurance payout for water damage before he decides whether to proceed — explains the silence since the referral was raised. Follow-up intent noted by ingest: check back once the claim resolves, not before.
+- 2026-09-08 — GHL daily ingest, top-level `needs_attention` (priority: high): opportunity `DHrlkU4mjciQ1OY2BUv4` auto-abandoned today at 12:19pm mid price-negotiation on the $3,968.34 quote — 15 days in "0c. ASAP (Hot)" (14-day threshold), same minute an automated nurture text fired. His last real reply (Aug 27) was that he's waiting on the insurance payout flagged 09-01, not gone cold — the clock just ran out. New opportunity note created: see [[Michael Camara]] (opportunity).

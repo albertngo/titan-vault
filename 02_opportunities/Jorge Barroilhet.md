@@ -2,7 +2,7 @@
 type: opportunity
 visibility: staff
 status: prospect
-last_activity: 2026-08-06
+last_activity: 2026-09-08
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # ghl_pipeline/stage are names, not IDs: stage IDs are opaque and get renamed in
 # the GHL UI, so the name is what a human can verify. The opportunity ID is the anchor.
@@ -27,3 +27,4 @@ ghl_assigned_to_id:
 
 ## Log
 - 2026-08-06 — created from GHL daily ingest `needs_attention`: opportunity has carried `status: abandoned` since 2026-07-20 and `stale_lead` since, but a voicemail today asking about engineered flooring colors is a real re-engagement signal arriving on a closed-out record. Consider reopening given the fresh contact.
+- 2026-09-08 — GHL daily ingest, top-level `needs_attention` (priority: high): re-engaged again after a month of silence, asking for an immediate callback — see [[Jorge Barroilhet]] Log for detail. Opportunity ID still not confirmed in ingest; still worth reopening given the repeated re-engagement.

@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-09-07
+last_activity: 2026-09-08
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: a6wxJpGrYGT24MCUl53L
@@ -39,3 +39,5 @@ ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
 - 2026-09-06 — GHL daily ingest, top-level `needs_attention` (`stragglers_ranked` rank 2, conversation `scEEaIhErEDwVAmBszW6`, priority high): an inbound email from yesterday is sitting unanswered — install date (Sep 10) and first payment already sent are both live here; reply needed.
 - 2026-09-06 — Outlook daily ingest (96h/120h catch-up window; same unanswered thread as before, `scrvik@gmail.com`/9 Midnight Lane, "Sabrina Crvik"): asked for the crew's arrival time on the Sept 10 install date, approaching fast — received under 24h ago so not independently flagged unanswered by Outlook, but worth a same-day reply given the date is close. #admin
 - 2026-09-07 — Outlook daily ingest (120h/144h catch-up window; same thread, `scrvik@gmail.com`, "9 Midnight Lane, Brampton quote"): still no reply found as of this pull — the unresolved "Sabrina Crvik" name-variant flag from 2026-08-19 remains open (no GHL ID ties the two records together); install date is now imminent (Sep 10). #admin
+- 2026-09-08 — Outlook daily ingest (`sensitivity: private`): "Sabrina Crvik" thread now **resolved** — she and Pourya finished confirming Sept 10 move-out prep (pack away small items, clothing, sentimental items) after his arrival-window reply; thread closed with a thank-you from her, no reply needed. Closes out the unanswered stretch logged 08-19 through 09-07. The "Crvik"/Agard name-variant question (no GHL ID ties the two records) remains open but is no longer time-pressured. #admin
+- 2026-09-08 — GHL daily ingest (same conversation `scEEaIhErEDwVAmBszW6`, priority: normal): two inbound emails today (Sep 7, empty body) likely carry an attachment/receipt — low urgency, just confirm they came through ahead of the Sep 10 install.

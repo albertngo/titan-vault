@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: prospect
-last_activity: 2026-09-05
+last_activity: 2026-09-08
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: BpGy2k0bSOHbtzzpsupu
@@ -35,3 +35,4 @@ ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
 - 2026-09-04 — GHL daily ingest, top-level `needs_attention` (high; conversation `kTYnwzFHsJUKSz0ILvOb`): insurance claim thread still stalled — the contractor introduction (forwarded by his insurer) and a voicemail have sat unanswered 20h. Opportunity `ZJvmCRP4R6zbNV2jMqpX` is still wrongly marked abandoned in Meeting-Scheduled despite this live activity; status still not corrected as of this run.
 - 2026-09-04 — Outlook daily ingest (48h/72h catch-up window, `sensitivity: private`): his Aviva adjuster (via rajanfiroz73@gmail.com, landed only in pourya@'s inbox) says the claim for 36 Lee Centre Dr unit 601 can be resolved once Titan provides additional floor-area repair details — no reply found in window. Same underlying insurance claim as the GHL thread above, blocking claim payment. #admin
 - 2026-09-05 — Outlook daily ingest (`sensitivity: private`): still stuck — his Aviva adjuster (36 Lee Centre Dr unit 601) remains blocked on the same missing floor-area repair details, unanswered since 2026-09-03 (over 24h), continuing to block the claim payout. No new activity found on the GHL side today. #admin
+- 2026-09-08 — GHL daily ingest, by-source summary (conversation `kTYnwzFHsJUKSz0ILvOb`, priority: high): Pourya emailed the adjuster contact info today (Sep 7 4:46pm) after the customer's insurance company reached out to Titan directly back in May — first concrete forward movement since the floor-area repair-detail block flagged 09-04/09-05. Worth confirming the adjuster follow-up landed. See [[Firoz Rajan - Insurance Claim]].
