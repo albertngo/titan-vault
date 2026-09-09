@@ -5,7 +5,7 @@ type: client
 # triggering item is admin-level (Outlook-only), so this note itself is admin.
 visibility: admin
 status: prospect
-last_activity: 2026-09-07
+last_activity: 2026-09-09
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: none — no GHL match found in today's ingest (Outlook-only contact)
@@ -30,3 +30,4 @@ None on file — no GHL or Notion record found for this contact as of today's in
 
 ## Log
 - 2026-09-07 — created from Outlook daily ingest, top-level `needs_attention` (part of the "5 unanswered customer/prospect threads" cluster): sent two messages on "Project Introduction + Product Specs" 15 minutes apart in albert@'s inbox; Albert replied to the first, but the second (2026-09-05 17:21 ET) has no reply found and is now ~39h old. Checked the vault by name first — no existing client note found, and no GHL contact/opportunity ID surfaces for this email address in today's ingest.
+- 2026-09-09 — Outlook daily ingest (outlook-customer-8cfac045e1, same message dated 2026-09-05 17:21 ET, no reply found from albert@ in this scan): the Aquaplus Capricorn vs. Purelux Journey comparison + full removal/install estimate request is now over 3 days unanswered (up from the ~39h flagged 2026-09-07) — still no GHL contact/opportunity ID surfaces for this email address.

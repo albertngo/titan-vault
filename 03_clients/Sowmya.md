@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-09-06
+last_activity: 2026-09-09
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: Ora83mwSV5QhmbyIoIKd
@@ -45,3 +45,5 @@ ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
 - 2026-09-04 — GHL daily ingest, top-level `needs_attention` (high; conversation `YpEmHWkJLCoZYAATACzo`, 16.6h unanswered): final payment reconciliation and the finishing/patchwork touch-up schedule both still outstanding — emailed again last night under subject '2160 peachtree lane, Oakville', no reply logged.
 - 2026-09-04 — Notion daily ingest `work_order_deficiency` (WO-Sowmya-090226, created 2026-09-02, contractor notified 2026-09-03): status update on the first of the two 2026-09-03-logged deficiency WOs (uneven stain/varnish, chipped boards, rough finishes, loose spindles, floor scratches) — the previously flagged "Sending...." status has resolved to "Notified Contractor" and the budget payout is now confirmed at $200 (was unset). https://app.notion.com/3cf596a4505f808fba2bdbe4023c0d71
 - 2026-09-06 — Outlook daily ingest (96h/120h catch-up window; `srisowm@gmail.com`, message dated 2026-09-04): active complaint about the Aug 27-28 install — good but not complete without finishing touches (posts/railings still rough, matching paint). Albert replied the next evening; she followed up wanting the earliest possible completion date, and Albert replied again 25 minutes later. Currently answered, but confirms the finishing/patchwork schedule flagged outstanding 2026-09-04 is still not fully resolved. #admin
+- 2026-09-09 — GHL daily ingest, top-level `needs_attention` (priority: high; conversation `YpEmHWkJLCoZYAATACzo`): complaint tone has escalated to "unprofessional" — 12 days since the crew left with finishing/trim work and floor scratches still not repaired. Albert apologized for a missed follow-up and sent the repair specialist's (Adamo) direct contact today. Needs a concrete repair date, not another "someone will reach out."
+- 2026-09-09 — Outlook daily ingest (outlook-customer-7c4b0a954b, thread running since 2026-09-03, srisowm@gmail.com / pourya@): same complaint corroborated on the Outlook side — paid in full, stair/railing finishing work unscheduled for 12 days. Albert replied the same morning (2026-09-09), so answered for now, but the underlying dissatisfaction likely needs a firmer commitment than today's reply. #admin
