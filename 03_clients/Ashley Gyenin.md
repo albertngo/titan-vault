@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-08-26
+last_activity: 2026-09-10
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: dpW9q5uEvrGwEbDHmTIA
@@ -30,3 +30,4 @@ None captured in today's ingest — no GHL opportunity ID surfaced.
 ## Log
 - 2026-08-26 — created from GHL daily ingest `stragglers_ranked` (rank 12, category `payment`, conversation `65u1YnpclpCF4CPFITWD`, contact `dpW9q5uEvrGwEbDHmTIA`, priority high): an old commercial flooring invoice contact (16 Yonge St job, invoiced Jul 28) replied by email today asking Titan to confirm whether payment for a unit went through, after a long gap — unclear if this is still an active job. Checked the vault by ID and name before creating — no existing client or opportunity note matched.
 - 2026-08-26 — Outlook catch-up run (thread with albert@, domain `saradal.ca`, 2026-08-25 15:22): a same-window message matched by content (payment-confirmation request, same "unit" framing) supplies the full name "Ashley Gyenin" and a second address, 15 Viking #1903 — she asked Albert to confirm the e-transfer payment went through, saying she'll pay the unit owner directly if not. No reply on file yet (under the 24h threshold at scan time). Name and second address are Outlook-only; not yet confirmed against GHL. #admin
+- 2026-09-10 — Outlook daily ingest (`customer`; thread dated 2026-09-09, albert@): Ashley Gyenin (Saradal, Director of Operations) confirmed tenant Ali Sohani sent the flooring payment for 15 Viking #1903 and asked Albert to confirm receipt; Albert replied confirming the same day. Ties to Notion's $6,855.19 e-Transfer received 2026-09-08 from Ali Sohani (above the $5,000 attention threshold, flagged again in today's DAILY-BRIEF) — resolves which unit/opportunity that payment belongs to. #admin

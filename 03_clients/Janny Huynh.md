@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-09-06
+last_activity: 2026-09-10
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: t7Tpu8ErycS60n8w8xgr
@@ -32,3 +32,4 @@ ghl_assigned_to_id:
 - 2026-08-09 — GHL caught up to Notion: **WON $4,145.00** (opportunity `lEnguXnw4rw9C1WfsUcL`, closed 2026-08-08), resolving the stage/system mismatch flagged 2026-08-04. Her preferred color turned out to be discontinued; Titan located a custom-order alternative (Hardwood Giant, 2-3 week lead) and sent the official estimate, which she accepted with an Aug 26-28 install window. No PM assigned yet (per Notion). 3.81 days from in-home visit to won.
 - 2026-09-02 — GHL daily ingest (same conversation `mYxKqIQ0B7HXHEvlct91`, contact `t7Tpu8ErycS60n8w8xgr`): coordinated a small pickup and gave a secondary contact number — resolved.
 - 2026-09-06 — Notion daily ingest `work_order_deficiency` (WO-Janny Huynh-090526): a new deficiency work order was created and the contractor notified 2026-09-05 — door stoppers reinstalled, several holes needing repair, $4,145 to collect from customer, status "Notified Contractor." Note: the $4,145 figure exactly matches this opportunity's total won value ([[Janny Huynh - Oakville]]) — possibly a linked-value display quirk rather than a genuine $4,145 deficiency charge; worth confirming the real amount directly in Notion.
+- 2026-09-10 — Notion daily ingest `work_order_deficiency` (WO-Janny Huynh-090526): status moved from "Notified Contractor" (09-06) to **completed** (completed 2026-09-08, per today's ingest). Door-stopper/hole repair; $4,145 to collect from customer — same possible linked-value-display quirk flagged 09-06 still unconfirmed. Worth checking the real collected amount directly in Notion.
