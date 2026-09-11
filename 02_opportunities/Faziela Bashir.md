@@ -1,8 +1,10 @@
 ---
 type: opportunity
+# Note floor: staff may see this note; admin-grade bullets carry a trailing #admin
+# (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-09-03
+last_activity: 2026-09-11
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # ghl_pipeline/stage are names, not IDs: stage IDs are opaque and get renamed in
 # the GHL UI, so the name is what a human can verify. The opportunity ID is the anchor.
@@ -27,3 +29,4 @@ ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
 
 ## Log
 - 2026-09-03 — created from GHL daily ingest, top-level `needs_attention` (high): moved to *Meeting (Scheduled)* CCAM|GHL after mobile quote refinement; in-home visit booked via automation (appointment `75cZdpIRKWX8jdC5IR8Z`). Confirmation text to the customer says Sept 4, 5:00-5:59pm; the calendar event itself is booked for Sept 10, 5:00pm — verify the correct date with her before Sept 4. See [[Faziela Bashir]] (client) Log for detail.
+- 2026-09-11 — GHL daily ingest, top-level `needs_attention` (priority normal): in-home visit cancelled yesterday (family emergency), not yet rebooked — sitting in Meeting-Scheduled with no active appointment. See [[Faziela Bashir]] (client) Log.

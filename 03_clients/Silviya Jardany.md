@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: active
-last_activity: 2026-09-02
+last_activity: 2026-09-11
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_contact_id: GByNBlYcqJFQuA20EMdc
 ghl_assigned_to: Pourya Lalee
@@ -29,3 +29,4 @@ ghl_conversation_ids: []
 - 2026-08-31 — GHL daily ingest drift (`meeting_no_followup`/`categorization_miss`; by-source detail only, not today's top-level curated `needs_attention`): [[Silviya - TORONTO]] now 71.8 days in Meeting (Scheduled), 239% of the 30-day threshold — the effective-window-expired gap first flagged 2026-07-28 is still open, still untagged. Light append only.
 - 2026-09-02 — GHL daily ingest `won_records` (opportunity `4gPXisJKRMHGxdAwCNZL`, conversation `RZrPfeFcsDizt8PQ7lH9`): **WON $3,980.00 CAD**, closed 2026-09-01 — a long, multi-touch cycle typical of a smaller-ticket project (39 days lead-to-appointment, 34 days appointment-to-won; contact points: 7 calls, 16 SMS, 6 emails). Cross-confirmed by Notion `new_won_project` on the same opportunity ID (https://app.notion.com/3ce596a4505f81d4a72cf4cef06ab439). Needs install scheduling / next-step follow-up. `status` set to `active` here (was `prospect`).
 - 2026-09-02 — Outlook daily ingest (`girlgo79@yahoo.ca`, sensitivity `private`, sent to pourya@ only): a customer signed "Sylvia" told pourya@ her condo board approved the 77 IIC flooring and asked to book installation for Sept 24-25; pourya@ replied same day (2026-09-01). Same email address as this note's contact — plausibly this same client's install-scheduling follow-up for the win logged above, but the name spelling ("Sylvia" vs. "Silviya") and no shared GHL ID mean this isn't ID-confirmed. Flagged under today's daily note Possible duplicates for Albert to confirm. #admin
+- 2026-09-11 — GHL daily ingest, top-level `needs_attention` (appointment `HAOcNVNEbGwbMEqErKRX`, priority high): post-win in-store follow-up visit rebooked for Sept 12, but she's asking us to confirm whether that's this Saturday or the 19th — unanswered as of this report, and the visit is only 1-2 days out.

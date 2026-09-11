@@ -2,7 +2,7 @@
 type: opportunity
 visibility: staff
 status: active
-last_activity: 2026-09-06
+last_activity: 2026-09-11
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_opportunity_id: plDAaaMcaOhZYIsIpyC4
 ghl_assigned_to: Pourya Lalee
@@ -31,3 +31,4 @@ ghl_stage: *Meeting (Scheduled)* CCAM|GHL
 - 2026-09-03 — GHL daily ingest, top-level `needs_attention` + drift `meeting_no_followup` (high, 263% of the 30-day threshold, 48.9 days overdue): 78.9 days in Meeting (Scheduled), 74.9 days since the in-home visit — past the 60-day auto-abandon point, still no `stale_lead` tag, automation not wired to this stage. See [[Maria Wildfang]] Log for detail.
 - 2026-09-04 — GHL daily ingest, top-level `needs_attention` + drift `stale_approaching` (high, 266% of the 30-day threshold, 49.9 days overdue): 79.9 days in Meeting (Scheduled), still no `stale_lead` tag. See [[Maria Wildfang]] Log for detail.
 - 2026-09-06 — GHL daily ingest, top-level `needs_attention` (item 4) + drift `meeting_no_followup` (high, 273% of the 30-day threshold, effective_window_days=26): 81.9 days in Meeting (Scheduled), still no `stale_lead` tag. See [[Maria Wildfang]] Log for detail.
+- 2026-09-11 — GHL daily ingest, `By source` detail (drift `meeting_no_followup`, high): 83 days since the in-home visit, zero follow-up — today's single largest drift miss (of 30 findings). See [[Maria Wildfang]] Log.

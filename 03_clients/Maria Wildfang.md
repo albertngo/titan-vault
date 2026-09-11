@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: prospect
-last_activity: 2026-09-07
+last_activity: 2026-09-11
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_contact_id: LhXVwRvJY4ExDCcWZJW3
 ghl_assigned_to: Pourya Lalee
@@ -33,3 +33,4 @@ ghl_conversation_ids: []
 - 2026-09-04 — GHL daily ingest, top-level `needs_attention` + drift `stale_approaching` (high, 266% of the 30-day threshold, overdue by 49.9d): now 79.9 days in Meeting (Scheduled) — still the largest single open opportunity in the account ($41,150), still no `stale_lead` tag. The Sep 1 follow-up call's outcome has still not been logged anywhere in GHL.
 - 2026-09-06 — GHL daily ingest, top-level `needs_attention` (item 4, `stragglers_ranked` rank 6) + drift `meeting_no_followup` (high, 273% of the 30-day threshold): now 81.9 days in Meeting (Scheduled), 78 days since the in-home visit (entered the stage only 4 days before the visit, so 87% of the 30-day window was already consumed by visit day) — still the largest single open opportunity in the account ($41,150), still no `stale_lead` tag, no dedicated follow-up sequence exists for this stage. No new outreach logged since the 09-02 reconnect call.
 - 2026-09-07 — GHL daily ingest, `By source` detail + drift `stale_approaching` (high, 276% of the 30-day threshold): now 82.9 days in Meeting (Scheduled) — still the largest single open opportunity in the account ($41,150), still no `stale_lead` tag, no dedicated follow-up sequence exists for this stage. No new outreach logged since the 09-02 reconnect call — direct input for Albert's planned follow-up sequence for this stage.
+- 2026-09-11 — GHL daily ingest, `By source` detail (drift `meeting_no_followup`, high): now 83 days since the Jun 20 in-home visit with zero follow-up — called out today as the single largest drift miss in the window (30 findings total). Still the largest single open opportunity in the account ($41,150), still no `stale_lead` tag, no dedicated follow-up sequence exists for this stage.
