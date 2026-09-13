@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: active
-last_activity: 2026-09-12
+last_activity: 2026-09-13
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_contact_id: ZUdPkeFUjDK6md53S7HJ
 ghl_assigned_to: Pourya Lalee
@@ -31,3 +31,4 @@ ghl_conversation_ids: []
 - 2026-09-05 — GHL daily ingest: post-sale/warranty-style follow-up on the WON $22,148 [[Gustavo - Oakville]] project — Albert called (no answer) and texted asking him to check a colour match at the house; still open as of ingest.
 - 2026-09-09 — Notion daily ingest `new_won_project` (https://app.notion.com/3d5596a4505f805ebaf8ea903c67db4e, created 2026-09-08): a third distinct win/opportunity value surfaces for this client — $4,081.56 CAD, 1081 Beechnut Road, Oakville (Flooring project type per the Notion row; the row's own title says "Tiles" — not reconciled), no Opportunity ID/contact captured on the Notion row. Doesn't match either existing opportunity note's value ($22,148 [[Gustavo - Oakville]], won, or $14,065 [[Gustavo Galvis]], still open) — matched to this client by name + exact address only, not by ID. New opportunity note [[Gustavo - Oakville Tiles]] created; flag if this turns out to be a partial line of the existing $14,065 open opportunity rather than a genuinely separate win.
 - 2026-09-12 — Notion daily ingest `payment` (Master Payments Log, https://app.notion.com/3d9596a4505f8100a409fb8c07d7e551): **$3,000.00 CAD received** via Interac e-Transfer, 2026-09-11, auto-deposited. No Projects relation set on the payment row, so it doesn't auto-link to the [[Gustavo - Oakville Tiles]] win (2026-09-08, $4,081.56) — likely a deposit/partial payment toward it, not confirmed.
+- 2026-09-13 — Notion daily ingest `payment` (Master Payments Log, https://app.notion.com/3da596a4505f811381cbfb15346ecea8): a second **$3,000.00 CAD** received via Interac e-Transfer, 2026-09-12, auto-deposited — same sender, same no-Projects-relation gap as the 09-11 payment above. Two $3,000 e-transfers in as many days now sit against the $4,081.56 [[Gustavo - Oakville Tiles]] win with neither linked in Notion; worth reconciling directly against that project's balance once confirmed.
