@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: active
-last_activity: 2026-09-15
+last_activity: 2026-09-16
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: bXlLZGdEZIf2WMSGLcjk  # was blank/"none" — filled in from the confirmed ID already cited inline in the 2026-08-04 Log entry and reconfirmed by today's ingest, per Identity rule (filling a genuinely blank field, not overwriting a conflicting one)
@@ -39,3 +39,4 @@ None noted yet — won project, ID not in ingest.
 - 2026-09-04 — GHL daily ingest, top-level `needs_attention` (high; conversation `q2xtxVfKCkB5c13DKP8K`, 16.1h unanswered): the underpad quality complaint escalated further — a new email under the named subject 'Project Concerns - 5301 Churchill Meadows' arrived last night, still unanswered since. This is after Albert's Aug 28 promise to resolve; the 09-01 outbound update (admitting the mistake, working toward resolution) hasn't closed this out.
 - 2026-09-04 — Outlook daily ingest (48h/72h catch-up window): a related VM (voicemail) thread for 5301 Churchill Meadows thanked albert@ for addressing the underpad-mismatch complaint and referenced monetary compensation Albert offered — no dollar figure visible in the preview. Received 2026-09-03 4:39pm, under the 24h threshold so not independently flagged unanswered by Outlook, but confirms Albert has already engaged directly on this complaint even though the GHL email thread above remains unanswered. #admin
 - 2026-09-15 — Outlook daily ingest (168h/7-day catch-up window; `virayn@gmail.com`, in albert@, two inbound messages 2026-09-14 15:07/15:34): new deficiency/crew-quality complaint — pushing back on a "crappy fix up" and asking the crew be held to a higher standard on outstanding deficiencies (this note's tracked underpad/finishes issue, 5301 Churchill Meadows). Albert replied same afternoon to both (15:20, 15:51) — answered, but worth confirming actually closed given the history on this file. Matched by exact address (5301 Churchill Meadows) to this client; no GHL ID on the Outlook item to cross-check (GHL down again today). #admin
+- 2026-09-16 — Outlook daily ingest (`virayn@gmail.com`, in albert@): she replied 2026-09-15 15:44 that she can't meet this week due to guests, continuing the tracked deficiency dispute (5301 Churchill Meadows); Albert had already replied twice that day (15:16 and 16:56, the second after her message) — answered, but still open, worth confirming it actually closes out. #admin

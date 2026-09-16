@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-09-09
+last_activity: 2026-09-16
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: Ora83mwSV5QhmbyIoIKd
@@ -47,3 +47,4 @@ ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
 - 2026-09-06 — Outlook daily ingest (96h/120h catch-up window; `srisowm@gmail.com`, message dated 2026-09-04): active complaint about the Aug 27-28 install — good but not complete without finishing touches (posts/railings still rough, matching paint). Albert replied the next evening; she followed up wanting the earliest possible completion date, and Albert replied again 25 minutes later. Currently answered, but confirms the finishing/patchwork schedule flagged outstanding 2026-09-04 is still not fully resolved. #admin
 - 2026-09-09 — GHL daily ingest, top-level `needs_attention` (priority: high; conversation `YpEmHWkJLCoZYAATACzo`): complaint tone has escalated to "unprofessional" — 12 days since the crew left with finishing/trim work and floor scratches still not repaired. Albert apologized for a missed follow-up and sent the repair specialist's (Adamo) direct contact today. Needs a concrete repair date, not another "someone will reach out."
 - 2026-09-09 — Outlook daily ingest (outlook-customer-7c4b0a954b, thread running since 2026-09-03, srisowm@gmail.com / pourya@): same complaint corroborated on the Outlook side — paid in full, stair/railing finishing work unscheduled for 12 days. Albert replied the same morning (2026-09-09), so answered for now, but the underlying dissatisfaction likely needs a firmer commitment than today's reply. #admin
+- 2026-09-16 — Outlook daily ingest (`srisowm@gmail.com`, to albert@ cc pourya@): opened 2026-09-15 09:03 asking Albert to call her back; he replied by email at 10:20, but she pushed again 6 minutes later (10:26) — "we would like to have a word with you on this, call me." No further reply found as of this run (~22h). Same paid-in-full/work-incomplete dispute tracked throughout this Log — she wants a phone call, not another email. #admin

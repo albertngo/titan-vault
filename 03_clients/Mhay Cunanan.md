@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-09-11
+last_activity: 2026-09-16
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: PFHAh89HaSL1fhBaJkdu
@@ -28,3 +28,4 @@ None yet — completed-project customer; today's ingest carries a conversation r
 
 ## Log
 - 2026-09-11 — created from GHL daily ingest, top-level `needs_attention` (conversation `h024vBA38UDwtRfC9qWA`, priority high): completed project, open warranty/repair claim (submitted mid-Aug); asked again yesterday "any schedule for the repair yet" with no reply in 15+ hours. Checked the vault by contact ID and name first — no existing match.
+- 2026-09-16 — Notion daily ingest `work_order_deficiency` (WO-Mhay Cunanan-012026, created 2025-10-20, long-open): contractor notified 2026-09-14, completed 2026-09-15, Severity Minor, Status Done. https://app.notion.com/2ee596a4505f8083ac56c9778fe6ef49 — no opportunity note exists for this client; not otherwise cross-referenced today.

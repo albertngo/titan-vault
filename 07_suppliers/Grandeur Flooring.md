@@ -3,7 +3,7 @@ type: supplier
 # Margin notes are cost data by design — see CONVENTIONS: Visibility.
 visibility: admin
 status: active
-last_activity: 2026-07-28
+last_activity: 2026-09-16
 outlook_message_id: "<CABFN5hhXVb7NgLvdwRd6JmYFvUYEEoFaTU_LFsiJ13GqUwyikw@mail.gmail.com>"
 ---
 
@@ -22,3 +22,4 @@ outlook_message_id: "<CABFN5hhXVb7NgLvdwRd6JmYFvUYEEoFaTU_LFsiJ13GqUwyikw@mail.g
   availability. Feeds the Airtable catalogue workflow; the attachment was
   flagged only, never downloaded or parsed by ingest — pull it from the email
   when the catalogue is updated.
+- 2026-09-16 — Outlook daily ingest (`supplier`; email dated 2026-09-15 13:58 to info@, via system@sent-via.netsuite.com): Return Authorization RMA2668 issued for $124.09 (attachment). Routine RMA, no action flagged.
