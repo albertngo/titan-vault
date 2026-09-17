@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: prospect
-last_activity: 2026-09-16
+last_activity: 2026-09-17
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: BpGy2k0bSOHbtzzpsupu
@@ -37,3 +37,5 @@ ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
 - 2026-09-05 — Outlook daily ingest (`sensitivity: private`): still stuck — his Aviva adjuster (36 Lee Centre Dr unit 601) remains blocked on the same missing floor-area repair details, unanswered since 2026-09-03 (over 24h), continuing to block the claim payout. No new activity found on the GHL side today. #admin
 - 2026-09-08 — GHL daily ingest, by-source summary (conversation `kTYnwzFHsJUKSz0ILvOb`, priority: high): Pourya emailed the adjuster contact info today (Sep 7 4:46pm) after the customer's insurance company reached out to Titan directly back in May — first concrete forward movement since the floor-area repair-detail block flagged 09-04/09-05. Worth confirming the adjuster follow-up landed. See [[Firoz Rajan - Insurance Claim]].
 - 2026-09-16 — Outlook daily ingest (`sensitivity: private`; rajanfiroz73@gmail.com, landed only in pourya@'s inbox): the insurance company has approved the claim (36 Lee Centre Dr #601) and he's ready to proceed if Titan sends the paperwork so the insurer pays him directly — no reply found as of this run (~24h). First forward movement since the 09-08 adjuster-contact-info send; see [[Firoz Rajan - Insurance Claim]]. #admin
+- 2026-09-17 — GHL daily ingest, top-level `needs_attention` (item 1, high; conversation `kTYnwzFHsJUKSz0ILvOb`): opportunity `ZJvmCRP4R6zbNV2jMqpX` has auto-abandoned again via the stale workflow while the claim is still unresolved (approved per the 09-16 entry above, but Titan hasn't yet sent the insurer the paperwork) — a premature abandonment; needs manual reactivation plus a direct adjuster follow-up.
+- 2026-09-17 — Outlook daily ingest (`sensitivity: private`; rajanfiroz73@gmail.com, landed only in pourya@'s inbox): replied 2026-09-16 12:51 directing Pourya to coordinate with a contact named Naushaba (the Aviva adjuster tracked throughout this Log) before discussing any price changes on this repair — no reply found yet (~19.4h since received, approaching the 24h threshold). #admin

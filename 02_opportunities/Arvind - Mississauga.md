@@ -4,7 +4,7 @@ type: opportunity
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-09-09
+last_activity: 2026-09-17
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # ghl_pipeline/stage are names, not IDs: stage IDs are opaque and get renamed in
 # the GHL UI, so the name is what a human can verify. The opportunity ID is the anchor.
@@ -29,3 +29,4 @@ ghl_assigned_to_id:
 
 ## Log
 - 2026-09-09 — created from GHL daily ingest, top-level `needs_attention`: opportunity created directly in "*Meeting (Scheduled)* CCAM|GHL" (0.57 days in stage, 2% of the 30-day threshold, no stale risk); in-home visit booked today 4:30pm (appointment `FjWbNMyTiP86sjPhA6pt`), customer asked for a confirmation call an hour ahead. See [[Arvind]] Log.
+- 2026-09-17 — GHL daily ingest, by-source finding (high): now valued $14,476.95 (per today's pull), 8.6 days in Meeting-Scheduled, no stale risk — but the client told us Sept 12 he's "decided to go with another company." A duplicate $0 opportunity also remains open on this contact in 0c. ASAP (Hot) (`nPph9lPInN7Dxj4nz8Ps`). Today's brief recommends closing both as lost; GHL still shows both open as of this run. See [[Arvind]] Log.
