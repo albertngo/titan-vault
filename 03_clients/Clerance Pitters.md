@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-09-15
+last_activity: 2026-09-18
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: kmp6wg2AxP8ENIAxFamH
@@ -37,3 +37,4 @@ ghl_assigned_to_id:
 - 2026-09-03 — GHL daily ingest, top-level `needs_attention` (same conversation `O6m1zjM9x4o1enBjipoj`): Pourya resent the invoice/receipt Sep 2; the last item in the thread is an inbound email whose content wasn't captured by ingest — flagged as needing a human check to confirm it isn't a further question.
 - 2026-09-03 — Outlook daily ingest (`cpitter01@yahoo.ca`): resolves the above — Albert sent the requested payment receipt image 2026-09-02 17:19 and Clarence confirmed receipt shortly after ("Received with thanks!"). This also confirms the 09-02 entry's open question: the paper-receipt ask is closed, no action needed. #admin
 - 2026-09-15 — Outlook daily ingest (168h/7-day catch-up window; `cpitter01@yahoo.ca`, in albert@/pourya@, message dated 2026-09-14 23:41): follow-up at 4798 Huron Heights Dr (same address as this client's Aug win) — crew finished and he's "very happy" with the result, but says the crew forgot to leave him something (message cut off in this ingest, detail not captured). Arrived late 09-14, within 24h at ingest time so not independently flagged unanswered — no Titan reply visible in this window yet; worth a quick follow-up to see what was left behind. #admin
+- 2026-09-18 — Outlook daily ingest (168h/192h catch-up window; `cpitter01@yahoo.ca`, to albert@/pourya@): a new "Project Quote - 4798 Huron Heights Dr" thread — two messages (Sept 14, Sept 16), no reply found in Sent Items across the full pull window, last message 40+ hours old at pull time. Distinct from the crew-follow-up thread logged 2026-09-15 at the same address (that one was about the post-install "crew forgot to leave him something" ask); this reads as a separate, unanswered quote-style ask. Top-level item in today's daily-note needs_attention. #admin

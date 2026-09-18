@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-09-17
+last_activity: 2026-09-18
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: kEtzpS0JA4eX2VaWLqfy
@@ -42,3 +42,4 @@ None noted yet — returning customer on a follow-on material purchase, not a ne
 - 2026-09-07 — GHL daily ingest (same conversation `GqX1jNiTlmO5ROOYNzSk`, top-level `needs_attention`): sent "Project Quote 22 Erindale Brampton" and a follow-up Re: yesterday — reads like a new material/stock order (she'd previously discussed keeping stock of engineered flooring on hand). No reply from us yet, ~23h. Same thread also seen in today's Outlook ingest (`pourya@`/`albert@`) confirming no reply found as of the pull — same underlying fact, not logged separately.
 - 2026-09-16 — Outlook daily ingest (`soniarocha-11@hotmail.com`, to pourya@ cc albert@): asked 2026-09-15 11:54 to confirm receipt of the first payment and whether the Friday Sept 18 install is still on — no Titan reply found as of this run (~20h since her message, install 2 days out). Same 22 Erindale Brampton engagement tracked throughout this Log. #admin
 - 2026-09-17 — Outlook daily ingest (`soniarocha-11@hotmail.com`, to pourya@ cc albert@): replied 2026-09-16 17:54 asking Pourya to clarify what "confirmation" he still needs — continuing the same Friday Sept 18 install/payment thread. No reply found yet (~14h since received, install now 2 days out). #admin
+- 2026-09-18 — Outlook daily ingest (168h/192h catch-up window; `soniarocha-11@hotmail.com`, pourya@'s inbox cc albert@): the 22 Erindale Brampton thread continues — five customer messages and three pourya@ replies since Sept 15; her latest message (Sept 17, 10:06pm) is newer than anything previously logged here and, at ~14h old at pull time, is due a reply soon. The Friday Sept 18 install/payment question tracked since 2026-09-16 is today. #admin

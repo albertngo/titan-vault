@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-09-17
+last_activity: 2026-09-18
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: Ora83mwSV5QhmbyIoIKd
@@ -49,3 +49,4 @@ ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
 - 2026-09-09 — Outlook daily ingest (outlook-customer-7c4b0a954b, thread running since 2026-09-03, srisowm@gmail.com / pourya@): same complaint corroborated on the Outlook side — paid in full, stair/railing finishing work unscheduled for 12 days. Albert replied the same morning (2026-09-09), so answered for now, but the underlying dissatisfaction likely needs a firmer commitment than today's reply. #admin
 - 2026-09-16 — Outlook daily ingest (`srisowm@gmail.com`, to albert@ cc pourya@): opened 2026-09-15 09:03 asking Albert to call her back; he replied by email at 10:20, but she pushed again 6 minutes later (10:26) — "we would like to have a word with you on this, call me." No further reply found as of this run (~22h). Same paid-in-full/work-incomplete dispute tracked throughout this Log — she wants a phone call, not another email. #admin
 - 2026-09-17 — Notion daily ingest `work_order_deficiency` (WO-Sowmya-090226): closed **Done** on 2026-09-16 — stain/finish deficiencies, $250 CAD out-of-pocket goodwill fix (a correction from the $200 captured 2026-09-04) for this already fully-paid customer. Same deficiency work order tracked since 09-04; the underlying "wants a phone call" dispute logged 09-16 is separate and still open.
+- 2026-09-18 — Outlook daily ingest (168h/192h catch-up window; `srisowm@gmail.com`): the "Need to speak urgently" thread continues — the opening message (Sept 15) was answered same day by albert@, but her follow-up reply on the same thread (~Sept 15) has now gone unanswered for ~3 days as of this run. Same underlying "wants a phone call" dispute tracked since 2026-09-16. Top-level item in today's daily-note needs_attention. #admin

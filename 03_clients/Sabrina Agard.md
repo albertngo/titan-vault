@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-09-08
+last_activity: 2026-09-18
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: a6wxJpGrYGT24MCUl53L
@@ -41,3 +41,4 @@ ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
 - 2026-09-07 — Outlook daily ingest (120h/144h catch-up window; same thread, `scrvik@gmail.com`, "9 Midnight Lane, Brampton quote"): still no reply found as of this pull — the unresolved "Sabrina Crvik" name-variant flag from 2026-08-19 remains open (no GHL ID ties the two records together); install date is now imminent (Sep 10). #admin
 - 2026-09-08 — Outlook daily ingest (`sensitivity: private`): "Sabrina Crvik" thread now **resolved** — she and Pourya finished confirming Sept 10 move-out prep (pack away small items, clothing, sentimental items) after his arrival-window reply; thread closed with a thank-you from her, no reply needed. Closes out the unanswered stretch logged 08-19 through 09-07. The "Crvik"/Agard name-variant question (no GHL ID ties the two records) remains open but is no longer time-pressured. #admin
 - 2026-09-08 — GHL daily ingest (same conversation `scEEaIhErEDwVAmBszW6`, priority: normal): two inbound emails today (Sep 7, empty body) likely carry an attachment/receipt — low urgency, just confirm they came through ahead of the Sep 10 install.
+- 2026-09-18 — Notion daily ingest `payment` (Master Payments Log): a further $3,000.00 CAD e-Transfer received 2026-09-17 from Michael A Agard (ref `C1A6KqtNBCXk`), not linked to a project row in Notion — https://app.notion.com/3df596a4505f81aab229e7f7129deae2. Same payer name flagged 2026-08-19 as plausibly (not source-confirmed) tied to this client's 35% deposit ($2,697.19); this is a separate, later payment from the same name — still unconfirmed against [[Sabrina Agard - Brampton]].

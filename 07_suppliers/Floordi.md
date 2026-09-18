@@ -3,7 +3,7 @@ type: supplier
 # Margin notes are cost data by design — see CONVENTIONS: Visibility.
 visibility: admin
 status: active
-last_activity: 2026-09-13
+last_activity: 2026-09-18
 outlook_message_id: "<e4643a92acf47305752442bdb.bff82bc523.20260731130051.bcdf83e644.ecd392e5@mail181.atl221.rsgsv.net>"
 ---
 
@@ -28,3 +28,4 @@ outlook_message_id: "<e4643a92acf47305752442bdb.bff82bc523.20260731130051.bcdf83
   them. No reply found in Sent Items — open question, decide and answer.
 - 2026-09-02 — Outlook daily ingest (`supplier`, priority high, sensitivity `private`; email dated 2026-08-31 to pourya@ only): a new "Exclusive Dealer Pricing" September promotional price list arrived — feeds the Airtable catalogue workflow, same pattern as the 2026-07-31 list logged above. Attachment flagged only, not downloaded or parsed.
 - 2026-09-13 — Outlook daily ingest (catch-up window; email dated 2026-09-10 to info@ and pourya@): new product launch, a square-profile stair nose (WPC foam core, two colours). Promotional announcement, informational only — not a price list, no action required.
+- 2026-09-18 — Outlook daily ingest (email dated 2026-09-16 14:45 to info@): sales rep Marcel is no longer with the company; Floordi redirected future contact to info@floordi.ca / admin@floordi.ca. Informational, no action required.
