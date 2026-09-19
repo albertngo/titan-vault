@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: active
-last_activity: 2026-09-14
+last_activity: 2026-09-19
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_contact_id: ZUdPkeFUjDK6md53S7HJ
 ghl_assigned_to: Pourya Lalee
@@ -33,3 +33,4 @@ ghl_conversation_ids: []
 - 2026-09-12 — Notion daily ingest `payment` (Master Payments Log, https://app.notion.com/3d9596a4505f8100a409fb8c07d7e551): **$3,000.00 CAD received** via Interac e-Transfer, 2026-09-11, auto-deposited. No Projects relation set on the payment row, so it doesn't auto-link to the [[Gustavo - Oakville Tiles]] win (2026-09-08, $4,081.56) — likely a deposit/partial payment toward it, not confirmed.
 - 2026-09-13 — Notion daily ingest `payment` (Master Payments Log, https://app.notion.com/3da596a4505f811381cbfb15346ecea8): a second **$3,000.00 CAD** received via Interac e-Transfer, 2026-09-12, auto-deposited — same sender, same no-Projects-relation gap as the 09-11 payment above. Two $3,000 e-transfers in as many days now sit against the $4,081.56 [[Gustavo - Oakville Tiles]] win with neither linked in Notion; worth reconciling directly against that project's balance once confirmed.
 - 2026-09-14 — Notion daily ingest `payment` (Master Payments Log, https://app.notion.com/3db596a4505f814fa477c5d16cf69b8a): a third **$3,000.00 CAD** received via Interac e-Transfer, 2026-09-14, auto-deposited (ref C1Ap4up2ZVt9) — same sender as the 09-11 and 09-12 payments logged above; still no Projects relation set in Notion linking any of the three to the [[Gustavo - Oakville Tiles]] win ($4,081.56). Three $3,000 e-transfers now total $9,000 received against that project, unreconciled in Notion.
+- 2026-09-19 — Notion daily ingest `payment` (Master Payments Log, flagged >= $5,000, https://app.notion.com/3df596a4505f80308e7eed65d65bef5d): **$5,500.00 CAD cash** received 2026-09-17, against a linked project, no reference number provided. No Opportunity ID/project name surfaced in today's ingest to confirm which of the three open/won opportunities on this note it applies to ([[Gustavo - Oakville]], [[Gustavo Galvis]], [[Gustavo - Oakville Tiles]]); matched here by sender first-name "Gustavo" only (this is the only Gustavo on file) — not ID-confirmed. Flag if a mismatch surfaces.

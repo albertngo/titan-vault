@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-09-05
+last_activity: 2026-09-19
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: ewY17VHX12nHpcxkRsCm
@@ -29,3 +29,4 @@ ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
 
 ## Log
 - 2026-09-05 — created from GHL daily ingest, top-level `needs_attention` / `stragglers_ranked` (rank 2): hot lead who booked an in-home visit for Sept 9 (2:30pm); replied today with his address (7114 Fayette Circle, Mississauga — red-roof house) for the appointment, sitting 11.2h unanswered as of ingest — needs confirming in file before the visit. Checked the vault by contact ID (`ewY17VHX12nHpcxkRsCm`) and by name first — no existing match. Also flagged today: GHL auto-created a second, duplicate "0a. New Lead" opportunity (`CL8HcPCIC8r2XkRwn1wY`) for this same contact even though he already has an active Meeting-Scheduled opportunity — a data-hygiene quirk, not a second real deal; not written up as a separate opportunity note.
+- 2026-09-19 — GHL daily ingest, top-level `needs_attention` (item 8; `stragglers_ranked` rank 1, opportunity `UJZ8TIWgY9ZCjY5fTsRv`): his Meeting-Scheduled opportunity ($2,441.68, still tagged `lead: hot`) is carrying a `stale_lead` tag at only 14.7 days into the 30-day stage threshold (49%) — looks carried over from a different, older opportunity on the same contact rather than a real staleness read on this active deal, and risks triggering a premature stale/abandon cascade. No new customer contact today; flagging the tag-hygiene risk only. See [[Chris Portelli - Mississauga]].
