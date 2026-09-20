@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-09-18
+last_activity: 2026-09-20
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: a6wxJpGrYGT24MCUl53L
@@ -42,3 +42,4 @@ ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
 - 2026-09-08 — Outlook daily ingest (`sensitivity: private`): "Sabrina Crvik" thread now **resolved** — she and Pourya finished confirming Sept 10 move-out prep (pack away small items, clothing, sentimental items) after his arrival-window reply; thread closed with a thank-you from her, no reply needed. Closes out the unanswered stretch logged 08-19 through 09-07. The "Crvik"/Agard name-variant question (no GHL ID ties the two records) remains open but is no longer time-pressured. #admin
 - 2026-09-08 — GHL daily ingest (same conversation `scEEaIhErEDwVAmBszW6`, priority: normal): two inbound emails today (Sep 7, empty body) likely carry an attachment/receipt — low urgency, just confirm they came through ahead of the Sep 10 install.
 - 2026-09-18 — Notion daily ingest `payment` (Master Payments Log): a further $3,000.00 CAD e-Transfer received 2026-09-17 from Michael A Agard (ref `C1A6KqtNBCXk`), not linked to a project row in Notion — https://app.notion.com/3df596a4505f81aab229e7f7129deae2. Same payer name flagged 2026-08-19 as plausibly (not source-confirmed) tied to this client's 35% deposit ($2,697.19); this is a separate, later payment from the same name — still unconfirmed against [[Sabrina Agard - Brampton]].
+- 2026-09-20 — Notion daily ingest `payment` (Master Payments Log): a further $2,009.07 CAD e-Transfer received 2026-09-19 from Michael A Agard, auto-deposited (ref `C1AJe9fRymhz`), not linked to a project row — https://app.notion.com/3e1596a4505f819f930de00183b49f0d. Same payer name flagged 2026-08-19/09-18 as plausibly (not ID-confirmed) tied to this client and to [[(416) 568-0214|Mike & Sabrina Agard]]'s driveway/bin situation logged 2026-09-19 — likely more money for the same 9 Midnight Lane job; still unconfirmed against [[Sabrina Agard - Brampton]] by ID.

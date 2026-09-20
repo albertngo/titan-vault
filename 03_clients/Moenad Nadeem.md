@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-09-19
+last_activity: 2026-09-20
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_contact_id: wlF3z7ciLz3fzdKZYY0C
 ghl_conversation_ids: [huk6TAFkVlONhmD4yUsR]
@@ -30,3 +30,5 @@ None noted yet — warranty matter on a completed project, not a new pipeline op
 - 2026-09-17 — Outlook daily ingest (`sensitivity` unset; source default reads admin): replied 2026-09-16 17:43 to Albert's stair-repair options asking what happens if the problem continues after the repair — Albert had answered earlier the same day (16:52); his follow-up question is still unanswered as of this pull (~14.5h, under the 24h threshold). #admin
 - 2026-09-18 — Outlook daily ingest (`moenad.nadeem@gmail.com`/stair-nosing warranty thread, info@/albert@/pourya@): the recurrence question logged 2026-09-17 as unanswered has moved forward — customer approved the upgraded wooden-steps repair option and Titan is scheduling install for the week of Sept 28-Oct 7; her latest message was answered same evening (2026-09-17 19:13). #admin
 - 2026-09-19 — GHL daily ingest, top-level `needs_attention` (conversation `huk6TAFkVlONhmD4yUsR`, priority: high): a quote for the upgraded warranty repair (wooden-steps option, 24 stair treads) went out Sep 18 asking for a 50% e-transfer deposit to book install and secure materials, tentative date Oct 7 — no confirmation yet that the deposit has landed. Also confirmed via Notion `needs_attention` today: the linked QA Work Order is flagged Major/Warranty, ~$1,670 budget payout, status "Sent to Projects" — https://app.notion.com/3df596a4505f81c29f5bebc57a52d759. Carries a stale_lead tag from an older, unrelated opportunity — not a real staleness signal on this active thread.
+- 2026-09-20 — Outlook daily ingest, top-level `needs_attention` (item 2, priority high; `moenad.nadeem@gmail.com`): confirmed the upgraded wooden-steps repair option and is now "awaiting confirmation for Oct 7th" — no reply found since her 2026-09-18 12:43 ET message (~44h). #admin
+- 2026-09-20 — Notion daily ingest `new_won_project`: a new Titan Projects row appeared today, **Won: Moe Nadeem — Mississauga [WARRANTY]** (1050 Bristol Road W. #38, Mississauga; Project Type Stairs; Value Approx $1,670) — https://app.notion.com/3df596a4505f81e4b934cd0cfd52caaa. No Opportunity ID or Sales Person filled in; the $1,670 figure matches the QA Work Order already logged 2026-09-19. Same recurring [DEFICIENCY]/[WARRANTY]-tagged-as-new-project-row pattern flagged for [[Allison Hubson]] today (also flagged 2026-08-31, 2026-09-07 for other clients) — reads as this same warranty job being tracked as its own project row, not a new pipeline opportunity. No opportunity note created pending Albert's confirmation; see today's daily note.

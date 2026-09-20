@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: prospect
-last_activity: 2026-09-18
+last_activity: 2026-09-20
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: BpGy2k0bSOHbtzzpsupu
@@ -40,3 +40,4 @@ ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
 - 2026-09-17 — GHL daily ingest, top-level `needs_attention` (item 1, high; conversation `kTYnwzFHsJUKSz0ILvOb`): opportunity `ZJvmCRP4R6zbNV2jMqpX` has auto-abandoned again via the stale workflow while the claim is still unresolved (approved per the 09-16 entry above, but Titan hasn't yet sent the insurer the paperwork) — a premature abandonment; needs manual reactivation plus a direct adjuster follow-up.
 - 2026-09-17 — Outlook daily ingest (`sensitivity: private`; rajanfiroz73@gmail.com, landed only in pourya@'s inbox): replied 2026-09-16 12:51 directing Pourya to coordinate with a contact named Naushaba (the Aviva adjuster tracked throughout this Log) before discussing any price changes on this repair — no reply found yet (~19.4h since received, approaching the 24h threshold). #admin
 - 2026-09-18 — Outlook daily ingest (`sensitivity: private`; rajanfiroz73@gmail.com, pourya@'s inbox only): the Sept 16 12:51 message logged 2026-09-17 as unanswered (~19.4h at that pull, directing Pourya to coordinate with adjuster Naushaba before discussing price) was in fact answered by Pourya on Sept 17 — that message is now closed. The insurance claim itself is still unpaid: Titan has not yet sent the insurer paperwork flagged in yesterday's top-level needs_attention. #admin
+- 2026-09-20 — Outlook daily ingest, top-level `needs_attention` (item 5, priority high; `rajanfiroz73@gmail.com`, pourya@'s inbox only): today's pull again shows the 2026-09-16 16:51 ET message (insurer ready to proceed, coordinate via adjuster Naushaba, don't discuss price directly) as unanswered (~91h) — but per the 2026-09-18 entry above, Pourya already replied to this same message on 2026-09-17. Likely a stale resurfacing under this run's widened catch-up window (same branch-isolation pattern flagged elsewhere in today's ingest), not a real regression — worth a quick confirm rather than treating as newly unanswered. The underlying insurance claim (adjuster paperwork) remains the real open item per 09-18. #admin

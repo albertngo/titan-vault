@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-09-19
+last_activity: 2026-09-20
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: cw4WqmCtFzlNX48letnB
@@ -33,3 +33,4 @@ scheduling on an existing job, not a new pipeline opportunity (same pattern as [
   confirmed between her stated availability (Sep 24/29) and Titan's offered dates (Sep 28/30, Oct 6/8). Titan
   owes the next reply once the shipment lands. Checked the vault by contact ID (`cw4WqmCtFzlNX48letnB`) and by
   name first — no existing client or opportunity note matched.
+- 2026-09-20 — Notion daily ingest `new_won_project`: a new Titan Projects row appeared today, **Won: Allison Hubson — Toronto [DEFICIENCY]** (15 Windermere Ave, Toronto) — https://app.notion.com/3e1596a4505f819f9a0cc20eb8a8a5ac. No Opportunity ID, Contact, Value Approx, Project Type, or Sales Person filled in. Same recurring [DEFICIENCY]/[WARRANTY]-tagged-as-new-project-row pattern flagged for [[Moenad Nadeem]] today (also flagged 2026-08-31, 2026-09-07 for other clients) — plausibly the still-unresolved baseboard/install-date matter (this note's 2026-09-19 entry) being tracked as its own project row rather than a genuine new sale, not confirmed. No opportunity note created pending Albert's confirmation; see today's daily note.
