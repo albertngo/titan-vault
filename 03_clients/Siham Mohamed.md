@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: prospect
-last_activity: 2026-07-29
+last_activity: 2026-09-22
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_contact_id: LmirvggOkSw3KzAAlUVH
 ghl_assigned_to: Pourya Lalee
@@ -27,3 +27,4 @@ ghl_conversation_ids: []
 - 2026-07-26 — created from GHL 2-month pull (contacts added 2026-05-26 → 2026-07-26). Added to GHL 2026-06-30.
 - 2026-07-28 — GHL daily ingest, `needs_attention`: in-home visit TODAY 11:30am (Toronto; booked Jul 21, confirmed) on the ~$5,673 [[Siham - Toronto]] opportunity.
 - 2026-07-29 — GHL drift (`meeting_no_followup`): the Jul 28 11:30am in-home visit happened; no outbound touch logged since (no post-visit sequence exists for this stage). Hot-tagged, $5,673 quote, ~23-day effective window remaining before the stage clock stales her.
+- 2026-09-22 — GHL daily ingest, top-level `needs_attention` (item 6, named individually) + drift `meeting_no_followup`: now 55.9 days of silence since the Jul 28 in-home visit (23.0 of the 30-day Meeting-Scheduled window remained after booking) — still no follow-up sequence exists for this stage. Hot-tagged, $5,673 quote still open.

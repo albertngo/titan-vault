@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: prospect
-last_activity: 2026-09-03
+last_activity: 2026-09-22
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: TAPx6WmRYKKV9zHk7Q1Y
@@ -26,3 +26,4 @@ ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
 
 ## Log
 - 2026-09-03 — created from GHL daily ingest, top-level `needs_attention` (part of the "4 Meeting-Scheduled leads stuck past auto-abandon" cluster, high) + drift `meeting_no_followup` (opportunity `8lVbE6kXysWuEj2gEbMY`): confirmed in-home visit happened 56.0 days ago; just past the 60-day auto-abandon point with no `stale_lead` tag, and the stale/abandon automation isn't wired to this pipeline stage. Same-day, a second GHL opportunity for this contact (`10zuagZJvDpALlRC8Vqn`, $0 value, different pipeline) was auto-abandoned — see Opportunities above. Checked the vault by ID and name before creating — no existing client or opportunity note matched.
+- 2026-09-22 — GHL daily ingest, top-level `needs_attention` (item 6, named individually) + drift `meeting_no_followup`: now 75.0 days of silence since the in-home visit (24.2 of the 30-day Meeting-Scheduled window remained after booking) — still no follow-up sequence exists for this stage.

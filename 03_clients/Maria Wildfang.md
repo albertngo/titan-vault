@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: prospect
-last_activity: 2026-09-17
+last_activity: 2026-09-22
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_contact_id: LhXVwRvJY4ExDCcWZJW3
 ghl_assigned_to: Pourya Lalee
@@ -35,3 +35,4 @@ ghl_conversation_ids: []
 - 2026-09-07 — GHL daily ingest, `By source` detail + drift `stale_approaching` (high, 276% of the 30-day threshold): now 82.9 days in Meeting (Scheduled) — still the largest single open opportunity in the account ($41,150), still no `stale_lead` tag, no dedicated follow-up sequence exists for this stage. No new outreach logged since the 09-02 reconnect call — direct input for Albert's planned follow-up sequence for this stage.
 - 2026-09-11 — GHL daily ingest, `By source` detail (drift `meeting_no_followup`, high): now 83 days since the Jun 20 in-home visit with zero follow-up — called out today as the single largest drift miss in the window (30 findings total). Still the largest single open opportunity in the account ($41,150), still no `stale_lead` tag, no dedicated follow-up sequence exists for this stage.
 - 2026-09-17 — GHL daily ingest, top-level `needs_attention` (item 4, high) + drift `meeting_no_followup`: [[Maria - Waterdown]] now 92.9 days in Meeting (Scheduled), 310% of the 30-day threshold — still the highest-value stalled deal in the pipeline. Pourya's Aug 31 internal note calling it "a goner" risk is reiterated in today's brief as the single highest-value stalled opportunity; still no outreach logged since the 09-02 reconnect call.
+- 2026-09-22 — GHL daily ingest, top-level `needs_attention` (item 6, named individually) + drift `meeting_no_followup`: now 93.9 days of silence since the in-home visit (only 26.0 of the 30-day Meeting-Scheduled window remained after booking) — still no follow-up sequence exists for this stage, still the highest-value stalled deal in the pipeline ($41,150). No new outreach logged since the 09-02 reconnect call.

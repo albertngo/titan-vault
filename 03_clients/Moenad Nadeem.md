@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-09-21
+last_activity: 2026-09-22
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_contact_id: wlF3z7ciLz3fzdKZYY0C
 ghl_conversation_ids: [huk6TAFkVlONhmD4yUsR]
@@ -33,3 +33,4 @@ None noted yet — warranty matter on a completed project, not a new pipeline op
 - 2026-09-20 — Outlook daily ingest, top-level `needs_attention` (item 2, priority high; `moenad.nadeem@gmail.com`): confirmed the upgraded wooden-steps repair option and is now "awaiting confirmation for Oct 7th" — no reply found since her 2026-09-18 12:43 ET message (~44h). #admin
 - 2026-09-20 — Notion daily ingest `new_won_project`: a new Titan Projects row appeared today, **Won: Moe Nadeem — Mississauga [WARRANTY]** (1050 Bristol Road W. #38, Mississauga; Project Type Stairs; Value Approx $1,670) — https://app.notion.com/3df596a4505f81e4b934cd0cfd52caaa. No Opportunity ID or Sales Person filled in; the $1,670 figure matches the QA Work Order already logged 2026-09-19. Same recurring [DEFICIENCY]/[WARRANTY]-tagged-as-new-project-row pattern flagged for [[Allison Hubson]] today (also flagged 2026-08-31, 2026-09-07 for other clients) — reads as this same warranty job being tracked as its own project row, not a new pipeline opportunity. No opportunity note created pending Albert's confirmation; see today's daily note.
 - 2026-09-21 — Outlook daily ingest, top-level `needs_attention` (item 3, priority high; `moenad.nadeem@gmail.com`): the Oct 7 stair-warranty confirmation is still unanswered — no reply found since his 2026-09-18 12:43 ET message (~67.5h now). No new fact beyond the 2026-09-20 entry, but still open and a top-level item again today. #admin
+- 2026-09-22 — Outlook daily ingest, top-level `needs_attention` (item 3, priority high; `moenad.nadeem@gmail.com`): the Oct 7 stair-warranty confirmation logged 2026-09-20/09-21 is still unanswered — no reply found since his 2026-09-18 12:43 ET message (~4 days now). No new fact beyond the 2026-09-21 entry, but still open and a top-level item again today. #admin

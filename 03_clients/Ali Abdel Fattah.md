@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: prospect
-last_activity: 2026-09-11
+last_activity: 2026-09-22
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: EdFI9oWj2Dhm5ajGfU7L
@@ -28,3 +28,4 @@ ghl_assigned_to_id: edv6p75Y79cYsPS0jPv0
 
 ## Log
 - 2026-09-11 — created from GHL daily ingest, top-level `needs_attention` (conversation `GGalaDCQm97uum3iO1Hv`, opportunity `KfHHmHPfvnWQvh3mZ8cU`, priority high): said he's home "anytime" for a site visit and gave his Oakville address; we said we'd try Friday, but no calendar appointment actually exists yet. Note: the opportunity's own GHL contact label reads "Ali Abdel Fattah - Flooring | Oakville" though the conversation is about stairs — a GHL labeling inconsistency on the same record, not a duplicate. Checked the vault by contact ID and name first — no existing match.
+- 2026-09-22 — GHL daily ingest, top-level `needs_attention` (item 2, priority high, named individually in the "4 Hot leads" cluster) + drift `abandonment_next`: [[Ali Abdel Fattah - Oakville]] is 12.7 days in `0c. ASAP (Hot)` (182% of the 7-day threshold) — past the 14-day auto-abandon point but still open, no `stale_lead` tag; the stage automation looks stuck for this record.

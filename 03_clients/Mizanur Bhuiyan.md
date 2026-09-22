@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: prospect
-last_activity: 2026-09-03
+last_activity: 2026-09-22
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_contact_id: qn7dYid4tIpjLYe2qENY
 ghl_assigned_to: Pourya Lalee
@@ -30,3 +30,4 @@ ghl_conversation_ids: []
 - 2026-07-29 — GHL daily ingest: yesterday's in-store-pitch follow-up SMS was **blocked by the carrier (Error 30007)** — he never received it and doesn't know we followed up. Re-send via email (email delivered fine Jul 25). [[Mizanur - Scarborough]] now 35d vs the 30d Meeting threshold, $15,234 quote still open.
 - 2026-08-31 — GHL daily ingest, top-level `needs_attention` (~$83K Meeting-scheduled group, $15.2K of it his): [[Mizanur - Scarborough]] now 67.7 days in Meeting (Scheduled), 226% of the 30-day threshold, still `lead: warm`, no `stale_lead` tag. $15,234 quote still open.
 - 2026-09-03 — GHL daily ingest, top-level `needs_attention` (part of the "4 Meeting-Scheduled leads stuck past auto-abandon" cluster) + drift `meeting_no_followup` (high, 236% of the 30-day threshold): [[Mizanur - Scarborough]] now 70.7 days in Meeting (Scheduled), 62.8 days since the in-home visit — past the 60-day auto-abandon point, still no `stale_lead` tag. $15,234 quote still open, no new outreach logged.
+- 2026-09-22 — GHL daily ingest, top-level `needs_attention` (item 6, named individually) + drift `meeting_no_followup`: now 81.8 days of silence since the in-home visit (22.1 of the 30-day Meeting-Scheduled window remained after booking) — still no follow-up sequence exists for this stage. [[Mizanur - Scarborough]]'s $15,234 quote remains open.

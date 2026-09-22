@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: prospect
-last_activity: 2026-09-17
+last_activity: 2026-09-22
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_contact_id: zmlvYiQyRyUQ3bzLkN3D
 ghl_conversation_ids: [FVfdq7PHJKSHZXfpJqnu]
@@ -29,3 +29,4 @@ ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
 ## Log
 - 2026-09-09 — created from GHL daily ingest, top-level `needs_attention` (priority: high; conversation `FVfdq7PHJKSHZXfpJqnu`): Meta Ad lead, in-home visit booked today at 4:30pm (appointment `FjWbNMyTiP86sjPhA6pt`); asked explicitly to be called an hour ahead to confirm timing — call before the visit. Checked the vault by ID and name before creating — no existing client or opportunity note matched.
 - 2026-09-17 — GHL daily ingest, by-source finding (high): told us Sept 12 he's "decided to go with another company," but both his opportunities remain open — [[Arvind - Mississauga]] ($14,476.95, Meeting-Scheduled) and a duplicate $0 record in 0c. ASAP (Hot) (`nPph9lPInN7Dxj4nz8Ps`). Today's brief recommends closing both as lost; GHL still shows both open as of this run.
+- 2026-09-22 — GHL daily ingest, top-level `needs_attention` (item 2, priority high, named individually in the "4 Hot leads" cluster) + drift `abandonment_next`: the Hot-stage opportunity is now 12.9 days in `0c. ASAP (Hot)` (184% of the 7-day threshold) — past the 14-day auto-abandon point but still open, no `stale_lead` tag; the stage automation looks stuck for this record. Distinct from the Sept 12 "decided to go with another company" / duplicate-opportunity issue logged 2026-09-17 — same underlying stuck-automation pattern, this time on a different open opportunity.

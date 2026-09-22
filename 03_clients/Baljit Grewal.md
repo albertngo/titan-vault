@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: prospect
-last_activity: 2026-08-08
+last_activity: 2026-09-22
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_contact_id: L8TVz9Uv1cfXpiM9SYe5
 ghl_assigned_to: Pourya Lalee
@@ -28,3 +28,4 @@ ghl_conversation_ids: [kj2VrkVXAFhX0BVLRijA]
 - 2026-07-28 — GHL daily ingest: in-home visit happened 10:00am today (~1000sf carpet-to-laminate/vinyl, 4 bedrooms); $5,475 mobile quote emailed 10:29am and contact tagged `lead: hot`. A new qualification opp was created at "0c. ASAP (Hot)" (GHL opp `cyKBaONTgrKGSitRcEkd`; the quote value lives on [[Baljit - Barmton]]). Next step per quote: in-store visit. Healthiest lead of the day per ingest.
 - 2026-08-06 — Disabled Do Not Disturb yesterday morning (2026-08-05), reopening the automated channel, then called today — went unanswered with no voicemail left. Worth a callback given she reopened contact herself.
 - 2026-08-08 — She told Albert today she was in a car accident and is okay; Albert replied with sympathy (GHL SMS). This explains, but doesn't resolve, why her original ASAP-stage qualification opp (`cyKBaONTgrKGSitRcEkd`) is now 10.9 days in stage vs. a 7-day threshold (156% of threshold, not yet `stale_lead`-tagged). The separate Meeting-Scheduled duplicate opportunity tracked on [[Baljit - Barmton]] is unaffected and still open.
+- 2026-09-22 — GHL daily ingest, top-level `needs_attention` (item 6, named individually) + drift `meeting_no_followup`: now 51.9 days of silence since the in-home visit (15.2 of the 30-day Meeting-Scheduled window remained after booking) — still no follow-up sequence exists for this stage. Distinct from the Aug 5-8 ASAP-stage thread already logged above; this is the separate Meeting-Scheduled duplicate opportunity.
