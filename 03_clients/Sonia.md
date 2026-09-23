@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-09-22
+last_activity: 2026-09-23
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: kEtzpS0JA4eX2VaWLqfy
@@ -45,3 +45,4 @@ None noted yet — returning customer on a follow-on material purchase, not a ne
 - 2026-09-18 — Outlook daily ingest (168h/192h catch-up window; `soniarocha-11@hotmail.com`, pourya@'s inbox cc albert@): the 22 Erindale Brampton thread continues — five customer messages and three pourya@ replies since Sept 15; her latest message (Sept 17, 10:06pm) is newer than anything previously logged here and, at ~14h old at pull time, is due a reply soon. The Friday Sept 18 install/payment question tracked since 2026-09-16 is today. #admin
 - 2026-09-20 — Outlook daily ingest (`soniarocha-11@hotmail.com`, to albert@/pourya@): sent a closing thank-you 2026-09-18 20:27 ET for the completed 22 Erindale Brampton install, praising the crew — closes out the install/payment thread tracked throughout this Log since 2026-08-05. No reply required and none found in this window, but the message itself doesn't need one. #admin
 - 2026-09-22 — GHL daily ingest, top-level `needs_attention` (`stragglers_ranked` rank 4; conversation `GqX1jNiTlmO5ROOYNzSk`): discussing an additional floor-only order (~525sf, no install) after checking with her contact Corey — rep sent a follow-up email today, awaiting her reply. Distinct from the 22 Erindale Brampton install closed out 2026-09-20.
+- 2026-09-23 — Outlook daily ingest (168h/192h catch-up window; landed in albert@): the 22 Erindale, Brampton closing thank-you already logged 2026-09-20 re-surfaces with a new surname attached — "Sonia Carreiro" — thanking Pourya, the install crew, and Albert; also references banking-info and arrival-time confirmations from earlier in the week (consistent with threads already logged 2026-08-25/08-28). This surname conflicts with "Sonia Rocha," surfaced 2026-08-19/20 for the same address and never confirmed — still unresolved; not renaming this note pending Albert's confirmation. #admin

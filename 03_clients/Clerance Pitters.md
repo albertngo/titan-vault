@@ -4,13 +4,12 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-09-22
+last_activity: 2026-09-23
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: kmp6wg2AxP8ENIAxFamH
 ghl_conversation_ids: [O6m1zjM9x4o1enBjipoj]
 # Operational, not identity: who owns this record in GHL right now (name + id).
-# Used to decide whom the next task gets assigned to. Absent = unassigned in GHL.
 ghl_assigned_to:
 ghl_assigned_to_id:
 ---
@@ -41,3 +40,4 @@ ghl_assigned_to_id:
 - 2026-09-20 — Outlook daily ingest, top-level `needs_attention` (item 4, priority high; `cpitter01@yahoo.ca`): the same "Project Quote - 4798 Huron Heights Dr" receipt + leftover-wood-pickup ask logged 2026-09-18 is still unanswered — no reply found since his 2026-09-16 19:26 ET message (now ~4 days). No new fact beyond the 09-18 entry, but still the longest-outstanding item on this note and a top-level item again today. #admin
 - 2026-09-21 — Outlook daily ingest, top-level `needs_attention` (`cpitter01@yahoo.ca`, subject line reads "4798 Huron Heights" in today's pull): the "Project Quote - 4798 Huron Heights Dr" receipt + leftover-wood-pickup ask logged 2026-09-18/09-20 is still unanswered — no reply found since his 2026-09-16 19:26 ET message (now ~109h/4.5 days). No new fact beyond the prior two entries, but still the longest-outstanding item on this note and a top-level item again today. #admin
 - 2026-09-22 — Outlook daily ingest, top-level `needs_attention` (item 3, priority high; `cpitter01@yahoo.ca`): the "Project Quote - 4798 Huron Heights Dr" receipt + leftover-wood-pickup ask logged 2026-09-18/09-20/09-21 is still unanswered — no reply found since his 2026-09-16 19:26 ET message (now ~6 days). No new fact beyond the prior entries, but still the longest-outstanding item on this note and a top-level item again today. #admin
+- 2026-09-23 — Outlook daily ingest, top-level `needs_attention` (this run's source spells the name "Christine Pitter"; same `cpitter01@yahoo.ca`, 4798 Huron Heights Dr): the "Project Quote - 4798 Huron Heights Dr" receipt + leftover-wood-pickup ask logged 2026-09-18/09-20/09-21/09-22 is still unanswered — now 7+ days since his/her 2026-09-16 message, crossing today's brief's "unanswered 7+ days" callout. No new fact beyond the prior entries. Matched by email + address, not by name — flagged in today's daily note under Possible duplicates as a spelling/name-gender variant on the same person, not a new contact. #admin
