@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-09-22
+last_activity: 2026-09-24
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: h5qriQcYT3g2UpfqFStf
@@ -33,3 +33,4 @@ ghl_assigned_to_id:
 - 2026-08-13 — Notion daily ingest `new_won_project` on the same Notion page/Opportunity ID (`52we6fC8KrTgEMEYoyLI`, https://app.notion.com/3b9596a4505f8163a501cd7e2490d92c) now reads $5,367.50 CAD — a *third* different value for this one win, after GHL's $9,250.00 (`won_records`, treated as authoritative) and the $10,452.50 logged from this same Notion page on 2026-08-12. The Notion row's value appears to be shifting between ingest runs rather than settling — needs Albert/Notion cleanup, not just a one-time reconciliation; GHL's $9,250.00 remains the figure treated as authoritative here.
 - 2026-08-14 — GHL daily ingest `stragglers_ranked` (rank 3, priority: high): a fresh automated deposit-schedule text for [[Ricardo Mendoza - Mississauga]] (sitting 23.5h) got a reply that came back as an empty-body SMS — likely a payment screenshot, unreadable via this ingest pull; check GHL directly to confirm the deposit. Separately, Notion's Master Payments Log recorded a $1,878.63 e-transfer received 2026-08-13 (ref `C1ABnrRU7baD`, not linked to a project row on that end) — unclear whether this is the same payment; needs reconciliation.
 - 2026-09-22 — GHL daily ingest, top-level `needs_attention` (`stragglers_ranked` rank 3; conversation `nCPpUDIeP3sfrDM6wQAJ`): asked Pourya to check floor/subfloor compliance with his condo's requirements for a new project; Pourya said he'd send options "today" but that was yesterday and nothing has gone out since — options still owed.
+- 2026-09-24 — GHL daily ingest (conversation `nCPpUDIeP3sfrDM6wQAJ`; drift `categorization_miss`, opportunity `Frml3qwrvxRnSeZ4lZ0p`): Pourya sent a manual quote last night for the new condo project (the compliance question flagged 09-22), and a new opportunity auto-created today directly in Meeting-Scheduled — but at $0 value, untagged, with no matching calendar event across a 200-day search. Ricardo is still waiting on confirmation the floor/subfloor meets his condo's compliance requirements before proceeding. Read as a workflow gap for a relationship-based repeat sale (4 prior wins) rather than a miss — not written up as its own opportunity note pending more detail (still $0 value, no scope).

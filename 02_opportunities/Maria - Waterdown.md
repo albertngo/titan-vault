@@ -2,7 +2,7 @@
 type: opportunity
 visibility: staff
 status: active
-last_activity: 2026-09-17
+last_activity: 2026-09-24
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_opportunity_id: plDAaaMcaOhZYIsIpyC4
 ghl_assigned_to: Pourya Lalee
@@ -33,3 +33,4 @@ ghl_stage: *Meeting (Scheduled)* CCAM|GHL
 - 2026-09-06 — GHL daily ingest, top-level `needs_attention` (item 4) + drift `meeting_no_followup` (high, 273% of the 30-day threshold, effective_window_days=26): 81.9 days in Meeting (Scheduled), still no `stale_lead` tag. See [[Maria Wildfang]] Log for detail.
 - 2026-09-11 — GHL daily ingest, `By source` detail (drift `meeting_no_followup`, high): 83 days since the in-home visit, zero follow-up — today's single largest drift miss (of 30 findings). See [[Maria Wildfang]] Log.
 - 2026-09-17 — GHL daily ingest, top-level `needs_attention` (item 4, high) + drift `meeting_no_followup`: 92.9 days in Meeting (Scheduled), 310% of the 30-day threshold — highest-value stalled deal in the pipeline. Pourya's Aug 31 "a goner" risk note reiterated in today's brief. See [[Maria Wildfang]] Log.
+- 2026-09-24 — GHL daily ingest, top-level `needs_attention` (item 5, named individually as worst of 8 past-150%-threshold opportunities) + drift `stale_approaching` (high, 333% of the 30-day threshold): now 100 days in Meeting (Scheduled), still no `stale_lead` tag, last outbound touch Sep 1. Still no follow-up sequence exists for this stage — directly relevant to the sequence Albert is designing. See [[Maria Wildfang]] Log.
