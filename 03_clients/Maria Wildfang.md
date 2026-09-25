@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: prospect
-last_activity: 2026-09-24
+last_activity: 2026-09-25
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_contact_id: LhXVwRvJY4ExDCcWZJW3
 ghl_assigned_to: Pourya Lalee
@@ -37,3 +37,4 @@ ghl_conversation_ids: []
 - 2026-09-17 — GHL daily ingest, top-level `needs_attention` (item 4, high) + drift `meeting_no_followup`: [[Maria - Waterdown]] now 92.9 days in Meeting (Scheduled), 310% of the 30-day threshold — still the highest-value stalled deal in the pipeline. Pourya's Aug 31 internal note calling it "a goner" risk is reiterated in today's brief as the single highest-value stalled opportunity; still no outreach logged since the 09-02 reconnect call.
 - 2026-09-22 — GHL daily ingest, top-level `needs_attention` (item 6, named individually) + drift `meeting_no_followup`: now 93.9 days of silence since the in-home visit (only 26.0 of the 30-day Meeting-Scheduled window remained after booking) — still no follow-up sequence exists for this stage, still the highest-value stalled deal in the pipeline ($41,150). No new outreach logged since the 09-02 reconnect call.
 - 2026-09-24 — GHL daily ingest, top-level `needs_attention` (item 5, named individually as worst of 8 past-150%-threshold opportunities) + drift `stale_approaching` (high, 333% of the 30-day threshold; opportunity `plDAaaMcaOhZYIsIpyC4`, contact `LhXVwRvJY4ExDCcWZJW3`): now 100 days in Meeting (Scheduled), still no `stale_lead` tag, last outbound touch Sep 1. Still no follow-up sequence exists for this stage — directly relevant to the sequence Albert is designing. See [[Maria - Waterdown]] Log.
+- 2026-09-25 — GHL daily ingest, `By source` detail + drift `stale_approaching` (high, 336% of the 30-day threshold; opportunity `plDAaaMcaOhZYIsIpyC4`, contact `LhXVwRvJY4ExDCcWZJW3`): now 100.92 days in Meeting (Scheduled) — still no `stale_lead` tag, again the single worst-percentage finding among today's 38 drift findings. No new outreach logged since the 09-02 reconnect call. See [[Maria - Waterdown]] Log.
