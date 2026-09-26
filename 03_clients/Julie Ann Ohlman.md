@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-09-25
+last_activity: 2026-09-26
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: none — not available this run (GHL ingest errored; no ID surfaced in the Notion or Outlook items either)
@@ -33,3 +33,4 @@ ghl_assigned_to_id:
 - 2026-09-24 — Notion daily ingest (Master Payments Log, staff-visible per CONVENTIONS Visibility rule 4): a $1,500.00 CAD Interac e-transfer from Julie Ann Matriz Ohlman was received and auto-deposited today; no Projects relation linked on the Notion row yet, but the sender name matches this won project.
 - 2026-09-24 — Outlook daily ingest (`sensitivity` unset, defaults private per source_defaults → admin): info@ received 10 live-chat notifications plus an appointment-reschedule note from her this week, most still unread (content only visible in the chat platform itself, not email). #admin
 - 2026-09-25 — Outlook daily ingest (`sensitivity` unset, defaults private per source_defaults → admin): live-chat/appointment-notice count is now 11 (up from 10 yesterday), including one appointment-reschedule alert routed to pourya@ this time — still no Outlook reply found for any of them (caveat unchanged: GHL live-chat replies go out through GHL, not Outlook, so this isn't confirmed as actually unanswered). Same $1,500 Interac deposit already logged 2026-09-24 (Notion), not re-counted here. The 2026-09-24 deposit-schedule/install-date confirmation ask (see that entry) is still unconfirmed as of this pull. #admin
+- 2026-09-26 — GHL daily ingest, top-level `needs_attention` (named individually among "5 ASAP (Hot) leads past threshold") + drift `stale_approaching` (high, 127% of the 7-day threshold; opportunity `IrfgYRy2lVkoYAxkgw9E`, contact `03cFfrcQl5XDPxScOhL4`): the stale duplicate ASAP-Hot opportunity flagged 2026-09-24 is now 8.9 days in stage (up from 7.91 days/113% on 09-25, 98.6% on 09-24) — still open, still should be closed now that [[Julie Ann Ohlman - Toronto]] is won. Carried forward in today's daily note, Possible duplicates.

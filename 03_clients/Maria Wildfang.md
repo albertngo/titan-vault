@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: prospect
-last_activity: 2026-09-25
+last_activity: 2026-09-26
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_contact_id: LhXVwRvJY4ExDCcWZJW3
 ghl_assigned_to: Pourya Lalee
@@ -38,3 +38,4 @@ ghl_conversation_ids: []
 - 2026-09-22 — GHL daily ingest, top-level `needs_attention` (item 6, named individually) + drift `meeting_no_followup`: now 93.9 days of silence since the in-home visit (only 26.0 of the 30-day Meeting-Scheduled window remained after booking) — still no follow-up sequence exists for this stage, still the highest-value stalled deal in the pipeline ($41,150). No new outreach logged since the 09-02 reconnect call.
 - 2026-09-24 — GHL daily ingest, top-level `needs_attention` (item 5, named individually as worst of 8 past-150%-threshold opportunities) + drift `stale_approaching` (high, 333% of the 30-day threshold; opportunity `plDAaaMcaOhZYIsIpyC4`, contact `LhXVwRvJY4ExDCcWZJW3`): now 100 days in Meeting (Scheduled), still no `stale_lead` tag, last outbound touch Sep 1. Still no follow-up sequence exists for this stage — directly relevant to the sequence Albert is designing. See [[Maria - Waterdown]] Log.
 - 2026-09-25 — GHL daily ingest, `By source` detail + drift `stale_approaching` (high, 336% of the 30-day threshold; opportunity `plDAaaMcaOhZYIsIpyC4`, contact `LhXVwRvJY4ExDCcWZJW3`): now 100.92 days in Meeting (Scheduled) — still no `stale_lead` tag, again the single worst-percentage finding among today's 38 drift findings. No new outreach logged since the 09-02 reconnect call. See [[Maria - Waterdown]] Log.
+- 2026-09-26 — GHL daily ingest, `By source` detail + drift `meeting_no_followup` (high, opportunity `plDAaaMcaOhZYIsIpyC4`, contact `LhXVwRvJY4ExDCcWZJW3`): now 101.9 days in Meeting (Scheduled) — 340% of the 30-day threshold — 97.9 days since the in-home visit, still no `stale_lead` tag, still the largest single open opportunity in the account ($41,150). Today's brief frames this as part of a wider structural gap: 24 of 25 open Meeting-scheduled opportunities have had no real follow-up since their appointment (median effective window ~26 of 30 days) — no dedicated follow-up sequence exists for this stage yet. See [[Maria - Waterdown]] Log.

@@ -30,3 +30,4 @@ ghl_assigned_to_id:
 ## Log
 - 2026-09-16 — created from Notion daily ingest `new_won_project`: **WON $4,068.00 CAD**. Opportunity ID `pJLQblTWX1TkVD1jsetf` present but no matching GHL contact ID surfaced (GHL ingest errored today). Checked the vault by opportunity ID and by name first — no existing match. See [[Munsif]].
 - 2026-09-21 — Notion daily ingest `payment` (cross-ref): a possible $1,425.00 CAD e-Transfer payment (received 2026-09-20, sender "Munsifali Molu") may apply to this project — matched by name only against [[Munsif]], not confirmed by ID. See that note's Log for detail; flagged in today's daily note under Possible duplicates.
+- 2026-09-26 — see [[Munsif]] Log: post-install complaint (removed shoe moulding, flagged Sept 22) still unresolved after 4 days; only automated nurture sent, no personal follow-up yet.
