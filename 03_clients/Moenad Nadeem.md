@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-09-26
+last_activity: 2026-09-27
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_contact_id: wlF3z7ciLz3fzdKZYY0C
 ghl_conversation_ids: [huk6TAFkVlONhmD4yUsR]
@@ -36,3 +36,5 @@ None noted yet — warranty matter on a completed project, not a new pipeline op
 - 2026-09-22 — Outlook daily ingest, top-level `needs_attention` (item 3, priority high; `moenad.nadeem@gmail.com`): the Oct 7 stair-warranty confirmation logged 2026-09-20/09-21 is still unanswered — no reply found since his 2026-09-18 12:43 ET message (~4 days now). No new fact beyond the 2026-09-21 entry, but still open and a top-level item again today. #admin
 - 2026-09-26 — GHL daily ingest, top-level `needs_attention` (items 1 & 7, priority high; conversation `huk6TAFkVlONhmD4yUsR`, contact `wlF3z7ciLz3fzdKZYY0C`) + drift `categorization_miss`: still no confirmation the 50% deposit for the Oct 7 install slot has landed (quote sent Sep 18, tentative booking still unpaid — ~9 days now). Separately flagged today: despite multiple live calls and this active quote/deposit conversation, the contact still carries no `lead:*` tag and no open opportunity tracks the deal — a categorization gap, not a change in his actual (hot) status.
 - 2026-09-26 — Outlook daily ingest, top-level `needs_attention` (priority high; to albert@, cc info@/pourya@): now back from being away and asking Titan directly to confirm the Oct 7 stair-repair warranty appointment ("I am back now, please confirm for Oct 7th") — still awaiting a reply as of this pull; same unconfirmed Oct 7 date tracked since 2026-09-17. #admin
+- 2026-09-27 — GHL daily ingest, top-level `needs_attention` (item 2, priority high; conversation `huk6TAFkVlONhmD4yUsR`, contact `wlF3z7ciLz3fzdKZYY0C`) + `stragglers_ranked` rank 1: still no deposit for the Oct 7 install slot — today's message (00:09 ET) again tentatively confirms Oct 7 and asks for the deposit to hold the spot, still tagged `stale_lead` despite this being an actively-closing deal (tag mismatch, not corrected). No payment confirmed as of this run.
+- 2026-09-27 — Outlook daily ingest, top-level `needs_attention` (priority high; `moenad.nadeem@gmail.com`): the "I am back now, please confirm for Oct 7th" message logged 2026-09-26 is still unanswered (now >24h since his 2026-09-25 20:21 message) — no new fact beyond the 09-26 entry, but still open and a top-level item again today. #admin
