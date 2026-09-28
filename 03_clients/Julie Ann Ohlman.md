@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-09-27
+last_activity: 2026-09-28
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: none — not available this run (GHL ingest errored; no ID surfaced in the Notion or Outlook items either)
@@ -36,3 +36,4 @@ ghl_assigned_to_id:
 - 2026-09-26 — GHL daily ingest, top-level `needs_attention` (named individually among "5 ASAP (Hot) leads past threshold") + drift `stale_approaching` (high, 127% of the 7-day threshold; opportunity `IrfgYRy2lVkoYAxkgw9E`, contact `03cFfrcQl5XDPxScOhL4`): the stale duplicate ASAP-Hot opportunity flagged 2026-09-24 is now 8.9 days in stage (up from 7.91 days/113% on 09-25, 98.6% on 09-24) — still open, still should be closed now that [[Julie Ann Ohlman - Toronto]] is won. Carried forward in today's daily note, Possible duplicates.
 - 2026-09-27 — Notion daily ingest (Master Payments Log, staff-visible per CONVENTIONS Visibility rule 4): a second Interac e-transfer, **$3,500.00 CAD**, received and auto-deposited today (Julie Ann Matriz Ohlman) — no Projects relation linked on the Notion row yet, but the sender name matches this won project; combined with the 09-24 $1,500.00 transfer, $5,000.00 has now come in against this deal.
 - 2026-09-27 — GHL daily ingest drift `stale_approaching` (normal severity today, down from high; 142% of the 7-day threshold; opportunity `IrfgYRy2lVkoYAxkgw9E`, contact `03cFfrcQl5XDPxScOhL4`): the stale duplicate ASAP-Hot opportunity is now 9.9 days in stage (up from 8.9 days/127% on 09-26) — still open, still should be closed now that [[Julie Ann Ohlman - Toronto]] is won. Carried forward in today's daily note, Possible duplicates.
+- 2026-09-28 — GHL daily ingest, top-level `needs_attention` (item 2; conversation `M0rVYykQIjQbffSf8O9a`, contact `03cFfrcQl5XDPxScOhL4`) + drift `stale_approaching` (156% of the 7-day threshold, up from 142% yesterday; opportunity `IrfgYRy2lVkoYAxkgw9E`): the automated 35%-deposit payment-schedule message fired again asking to confirm the deposit landed before crew dispatch — but $5,000.00 has already been received against this $9,819.00 project (see the 09-24/09-27 entries above), so the automation does not appear to be checking payments received before re-firing. The stale duplicate ASAP-Hot opportunity is now 10.9 days in stage — still open, still should be closed now that [[Julie Ann Ohlman - Toronto]] is won. Carried forward in today's daily note, Possible duplicates.

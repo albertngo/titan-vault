@@ -6,7 +6,7 @@ type: client
 # admin-level — nothing here is visible to staff via any other surface.
 visibility: admin
 status: prospect
-last_activity: 2026-09-25
+last_activity: 2026-09-28
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: none — email-only contact; no GHL contact ID surfaced in today's ingest
@@ -30,3 +30,4 @@ ghl_assigned_to_id:
 
 ## Log
 - 2026-09-25 — created from Outlook daily ingest, top-level `needs_attention` (priority high): emailed info@ on 2026-09-22 asking how Titan handles measurement visits and whether same-week install is possible when materials are in stock; no reply found in Sent Items for this thread as of this pull (unanswered heuristic, not confirmed ignored). Checked the vault by name (no GHL contact ID available for an email-only lead) — no existing client or opportunity note found.
+- 2026-09-28 — Outlook daily ingest, `By source` detail (`ezrareyes@foodmz.com`): the measurement/install-timing question from 2026-09-22 is still unanswered — now 6 days old, no reply found in Sent Items. No new fact beyond the 2026-09-25 creation entry. #admin

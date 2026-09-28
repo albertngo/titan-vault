@@ -1,10 +1,8 @@
 ---
 type: client
-# Note floor: staff may see this note; admin-grade bullets carry a trailing #admin
-# (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-09-27
+last_activity: 2026-09-28
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_contact_id: wlF3z7ciLz3fzdKZYY0C
 ghl_conversation_ids: [huk6TAFkVlONhmD4yUsR]
@@ -38,3 +36,5 @@ None noted yet — warranty matter on a completed project, not a new pipeline op
 - 2026-09-26 — Outlook daily ingest, top-level `needs_attention` (priority high; to albert@, cc info@/pourya@): now back from being away and asking Titan directly to confirm the Oct 7 stair-repair warranty appointment ("I am back now, please confirm for Oct 7th") — still awaiting a reply as of this pull; same unconfirmed Oct 7 date tracked since 2026-09-17. #admin
 - 2026-09-27 — GHL daily ingest, top-level `needs_attention` (item 2, priority high; conversation `huk6TAFkVlONhmD4yUsR`, contact `wlF3z7ciLz3fzdKZYY0C`) + `stragglers_ranked` rank 1: still no deposit for the Oct 7 install slot — today's message (00:09 ET) again tentatively confirms Oct 7 and asks for the deposit to hold the spot, still tagged `stale_lead` despite this being an actively-closing deal (tag mismatch, not corrected). No payment confirmed as of this run.
 - 2026-09-27 — Outlook daily ingest, top-level `needs_attention` (priority high; `moenad.nadeem@gmail.com`): the "I am back now, please confirm for Oct 7th" message logged 2026-09-26 is still unanswered (now >24h since his 2026-09-25 20:21 message) — no new fact beyond the 09-26 entry, but still open and a top-level item again today. #admin
+- 2026-09-28 — GHL daily ingest, top-level `needs_attention` (item 4, priority high; conversation `huk6TAFkVlONhmD4yUsR`, contact `wlF3z7ciLz3fzdKZYY0C`): the Oct 7 install-date confirmation/deposit is still unresolved — no new fact beyond the 09-27 entry, but still open and flagged again today.
+- 2026-09-28 — Outlook daily ingest, top-level `needs_attention` (priority high; `moenad.nadeem@gmail.com`, landed in albert@/info@/pourya@): his "please confirm for Oct 7th" message remains unanswered as of this run (~2 days) — no new fact beyond the 09-27 entry, but still open and a top-level item for a third consecutive day. #admin

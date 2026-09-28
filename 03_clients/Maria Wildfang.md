@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: prospect
-last_activity: 2026-09-27
+last_activity: 2026-09-28
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_contact_id: LhXVwRvJY4ExDCcWZJW3
 ghl_assigned_to: Pourya Lalee
@@ -40,3 +40,4 @@ ghl_conversation_ids: []
 - 2026-09-25 — GHL daily ingest, `By source` detail + drift `stale_approaching` (high, 336% of the 30-day threshold; opportunity `plDAaaMcaOhZYIsIpyC4`, contact `LhXVwRvJY4ExDCcWZJW3`): now 100.92 days in Meeting (Scheduled) — still no `stale_lead` tag, again the single worst-percentage finding among today's 38 drift findings. No new outreach logged since the 09-02 reconnect call. See [[Maria - Waterdown]] Log.
 - 2026-09-26 — GHL daily ingest, `By source` detail + drift `meeting_no_followup` (high, opportunity `plDAaaMcaOhZYIsIpyC4`, contact `LhXVwRvJY4ExDCcWZJW3`): now 101.9 days in Meeting (Scheduled) — 340% of the 30-day threshold — 97.9 days since the in-home visit, still no `stale_lead` tag, still the largest single open opportunity in the account ($41,150). Today's brief frames this as part of a wider structural gap: 24 of 25 open Meeting-scheduled opportunities have had no real follow-up since their appointment (median effective window ~26 of 30 days) — no dedicated follow-up sequence exists for this stage yet. See [[Maria - Waterdown]] Log.
 - 2026-09-27 — GHL daily ingest, top-level `needs_attention` (item 4, named individually) + drift `stale_approaching` (high, 343% of the 30-day threshold; opportunity `plDAaaMcaOhZYIsIpyC4`, contact `LhXVwRvJY4ExDCcWZJW3`): now 102.9 days in Meeting (Scheduled) — still no `stale_lead` tag, still the largest single open opportunity in the account ($41,150). Today's brief again frames this as part of the wider structural finding: 26 open Meeting-scheduled appointments, several 2-3x past threshold, no follow-up sequence exists for this stage. See [[Maria - Waterdown]] Log.
+- 2026-09-28 — GHL daily ingest, `By source` detail (named individually as worst case, "up to 99.9 days silent") + drift `meeting_no_followup` (opportunity `plDAaaMcaOhZYIsIpyC4`, contact `LhXVwRvJY4ExDCcWZJW3`): now 103.9 days in Meeting (Scheduled), 346% of the 30-day threshold, 99.9 days since the in-home visit — still no `stale_lead` tag, still the largest single open opportunity in the account ($41,150), still no follow-up sequence for this stage. No new outreach logged since the 09-02 reconnect call. See [[Maria - Waterdown]] Log.
