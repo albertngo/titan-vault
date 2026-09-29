@@ -64,3 +64,12 @@ Vidar was written with: 63 Vidar records currently link a Speers page (29 of the
 Floor Box match). Whether to relink or clear those is open; nothing was changed. When the
 environment refuses an official site, the run stops instead of letting retailers take the
 blank fields first.
+
+**Addendum, same night — Word of Mouth Floors, and BiYork written.** Albert: "lets use
+wordofmouthfloors.com as the 2nd/third backup same level as floorbox. and speers as the very
+last." Order is now official site, then The Floor Box and Word of Mouth side by side, then
+Speers; the product link may come from Word of Mouth after the official site and The Floor Box,
+never from Speers. BiYork, 131 records written by policy: 128 room scenes, 31 swatches, 129
+product links (127 to biyorkcanada.com). 47 held, 224 accessories skipped. Most BiYork swatch
+photos are 580–1300 px, under the 1600 px swatch bar, so 100 of the written records still have
+a blank swatch field; lowering that bar for BiYork is open.
