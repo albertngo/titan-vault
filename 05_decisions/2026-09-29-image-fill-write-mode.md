@@ -53,3 +53,14 @@ Same session: 572 `Price List URL` values that vanished after 2026-09-28 (Vidar,
 FAW records whose Supplier had been blank) were restored exactly as they were, blank fields
 only, each link matched to its Notion Price Lists row (PL-367, 327, 293, 297, 377, 317,
 231, 306, 353).
+
+**Addendum, later that night — where photos and links come from.** Albert, starting BiYork:
+"search the main website -> externals (floorbox and speers) but the link to the product url
+page should be from the official company website; otherwise pick an the floorbox as the
+backup. I would not want speers because it is a local shop to ours." So, for every supplier:
+official site first, then The Floor Box, then Speers for photos; `Supplier product page` from
+the official site, else The Floor Box, **never Speers**. This reverses the Speers-first order
+Vidar was written with: 63 Vidar records currently link a Speers page (29 of them have a
+Floor Box match). Whether to relink or clear those is open; nothing was changed. When the
+environment refuses an official site, the run stops instead of letting retailers take the
+blank fields first.
