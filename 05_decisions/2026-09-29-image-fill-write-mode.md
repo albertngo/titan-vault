@@ -36,3 +36,20 @@ width, grade and laying pattern must match the listing.
 
 **Revisit when:** a wrong photo is found on a product, or Vidar supplies its own image
 library (it would outrank both retailers).
+
+**Addendum, same night — descriptive file names and one narrow replace.** Albert, on the
+SEO/AEO question: "yes. Do all that you recommend and put it in the skill." Image files are
+now named from the record's fields (`vidar-naked-oak-american-white-oak-engineered-hardwood-9in-select-swatch.jpg`;
+the internal SKU is left out, the supplier's own code kept). Airtable's API ignores a new
+filename on an existing attachment (tested on one record, nothing changed), so the 121
+files already attached were **re-attached from the same source images under the new
+names**. That is the one exception to "blank only, never replace" in the
+`airtable_attach_images` contract (op `reattach_renamed`), and it applies only to a field
+whose every file this pipeline named itself, checked against the live files first. All 75
+records, 121 files, same byte sizes. Alt text and Product schema guidance for the website
+are in bert-airtable-schema, "Product images".
+
+Same session: 572 `Price List URL` values that vanished after 2026-09-28 (Vidar, Grandeur,
+FAW records whose Supplier had been blank) were restored exactly as they were, blank fields
+only, each link matched to its Notion Price Lists row (PL-367, 327, 293, 297, 377, 317,
+231, 306, 353).
