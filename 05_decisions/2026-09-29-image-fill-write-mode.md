@@ -73,3 +73,11 @@ never from Speers. BiYork, 131 records written by policy: 128 room scenes, 31 sw
 product links (127 to biyorkcanada.com). 47 held, 224 accessories skipped. Most BiYork swatch
 photos are 580–1300 px, under the 1600 px swatch bar, so 100 of the written records still have
 a blank swatch field; lowering that bar for BiYork is open.
+
+**Addendum, after midnight — BiYork swatches and Vidar links.** Albert: "1. yes rerun 2. Switch
+if available but do not delete. Replace with Word of Mouth (the speers one)." BiYork's swatch
+bar is 1000 px (BiYork only; 1600 stays for everyone else): 78 more swatches written. Vidar: 31
+`Supplier product page` links moved off Speers (The Floor Box 24, Word of Mouth 7) by a
+compare-and-swap relink; 32 with no alternative keep their Speers link, nothing cleared. Open:
+Vidar Camel 5" (ENG-VIDR-0166) carries Speers' "Camel - Hazelnut" photo, file
+`AmericanOakHazelnut.jpg`.
