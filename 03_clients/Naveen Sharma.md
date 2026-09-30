@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: prospect
-last_activity: 2026-09-25
+last_activity: 2026-09-30
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: Jn0rTM3xDVHTJaZGv1Qt
@@ -29,3 +29,4 @@ ghl_assigned_to_id: edv6p75Y79cYsPS0jPv0
 
 ## Log
 - 2026-09-25 — created from GHL daily ingest, top-level `needs_attention` (item 1, priority high; conversation `J6GyI7ZjFQKQrKNWSOKa`): asked at 8:13pm yesterday whether switching to 8mm material changes the price on his rough quote — still unanswered 16+ hours later as of this pull. He's actively comparing Titan's mobile quote to a competitor's in-person measurement and has mentioned the competitor's quote explicitly — real risk of losing him if this sits much longer. Checked the vault by ID first (no match), then by name — no existing client or opportunity note found.
+- 2026-09-30 — Outlook daily ingest (`customer`, priority high, info@, 2026-09-28): broker asks to drop the $450 disposal line (carpet rolled to curb) from the 35 Humberstone Cres quote and have it re-sent; info@ sent the quote 09-28, no reply found since. #admin
