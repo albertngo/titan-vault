@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: active
-last_activity: 2026-09-20
+last_activity: 2026-10-01
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: TU5iOgjQWqhb4m22ZbSD
@@ -34,3 +34,4 @@ ghl_assigned_to_id: edv6p75Y79cYsPS0jPv0
 - 2026-09-09 — GHL daily ingest: a new opportunity, [[Rachita Saini - Oakville]] (`YZsExBKCesN7PoDXGLcP`), landed directly in "*Meeting (Scheduled)* CCAM|GHL" today (Oakville address surfaces for the first time). An in-home visit already took place 2026-09-08 5:30pm (appointment `SYtlXmK9pTerYf3wq0tq`) with no follow-up activity logged since (14.9h at ingest) — likely the site visit tied to yesterday's "finalize pricing tomorrow / Sep 21 install" ask; confirm outcome and whether the Bavarian Ridge pricing and at-cost offer got resolved on-site.
 - 2026-09-18 — Notion daily ingest `payment`: $83.69 CAD e-Transfer received 2026-09-16, linked to [[Rachita Saini - Oakville]]. See opportunity note for detail.
 - 2026-09-20 — Notion daily ingest `new_won_project`: [[Rachita Saini - Oakville]] **WON $17,345.50 CAD** (row created 2026-09-18) — see opportunity note for detail. `status` set to `active` here (was `prospect`).
+- 2026-10-01 — Notion daily ingest `payment` (Master Payments Log, row 3ec596a4505f813f80d5d2b5affdd3b9): $9,700.00 CAD e-Transfer received 2026-09-30 from Rachita Saini — ≥$5k `needs_attention`. Matched by name only (row has no opportunity ID); likely against [[Rachita Saini - Oakville]].
