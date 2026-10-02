@@ -4,7 +4,7 @@ type: opportunity
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: complete
-last_activity: 2026-09-28
+last_activity: 2026-10-02
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # ghl_pipeline/stage are names, not IDs: stage IDs are opaque and get renamed in
 # the GHL UI, so the name is what a human can verify. The opportunity ID is the anchor.
@@ -36,3 +36,4 @@ ghl_assigned_to_id:
 - 2026-09-27 — Notion daily ingest (Master Payments Log, staff-visible per CONVENTIONS Visibility rule 4): a second $3,500.00 CAD deposit e-transfer from Julie Ann Matriz Ohlman received today; not yet linked to a Projects relation on the Notion side. $5,000.00 total now received against this $9,819.00 opportunity (per the Notion value) / $11,964.89 (per the unreconciled GHL value, see 09-24 entry).
 - 2026-09-27 — GHL daily ingest drift `stale_approaching` (142% of the 7-day threshold): the stale ASAP-Hot duplicate (`IrfgYRy2lVkoYAxkgw9E`) is now 9.9 days in stage — still open, should be closed. See [[Julie Ann Ohlman]] Log and today's daily note, Possible duplicates.
 - 2026-09-28 — GHL daily ingest drift `stale_approaching` (156% of the 7-day threshold, up from 142% yesterday): the stale ASAP-Hot duplicate (`IrfgYRy2lVkoYAxkgw9E`) is now 10.9 days in stage — still open, should be closed. Top-level `needs_attention` also repeated the 35%-deposit confirmation ask despite $5,000.00 already received to date (see [[Julie Ann Ohlman]] Log). Carried forward in today's daily note, Possible duplicates.
+- 2026-10-02 — Notion daily ingest `payment` (Master Payments Log, staff-visible): $4,187.71 CAD e-Transfer received 2026-10-01 from "Julie Ann Matriz Ohlman" (name match only). Running total $9,187.71 of $9,819.00 (Notion value); GHL value $11,964.89 still unreconciled. See [[Julie Ann Ohlman]].
