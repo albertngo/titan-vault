@@ -88,3 +88,11 @@ toucanflooring.com. Toucan's own store covered 168 of 173 records; 153 written b
 Toucan's swatch photos are 1200 px, under the 1600 px bar, so 91 written records and 15 held
 ones still have no swatch — the same question BiYork answered with a 1000 px bar of its own.
 File names say "toucan", the brand shoppers search, not "triforest".
+
+**Addendum, 2026-10-03 — a lower quality photo beats none.** Albert: "a lower quality image it
+still ok to grab. Having it is better than none." The size bars (1600 px swatch, 800 px any)
+dropped to 300 px, a floor against icons and thumbnails only; the largest photo per field still
+goes first. Rerun the same day: Vidar 76, BiYork 58, Toucan 96 records filled. Swatches now on
+141 of 232 Vidar, 163 of 178 BiYork and 158 of 173 Toucan floor records; the rest are not listed
+on any source. Same day, Albert said yes to replacing the Hazelnut photo on Vidar Camel 5"
+(ENG-VIDR-0166) with The Floor Box's Camel swatch: a person-approved replace, compare-and-swap.
