@@ -81,3 +81,10 @@ bar is 1000 px (BiYork only; 1600 stays for everyone else): 78 more swatches wri
 compare-and-swap relink; 32 with no alternative keep their Speers link, nothing cleared. Open:
 Vidar Camel 5" (ENG-VIDR-0166) carries Speers' "Camel - Hazelnut" photo, file
 `AmericanOakHazelnut.jpg`.
+
+**Addendum, 2026-10-02 — Triforest (Toucan).** Albert: "Lets try Triforest now." and
+toucanflooring.com. Toucan's own store covered 168 of 173 records; 153 written by policy:
+131 detail shots, 62 swatches, 4 room scenes, 153 product links, all to toucanflooring.com.
+Toucan's swatch photos are 1200 px, under the 1600 px bar, so 91 written records and 15 held
+ones still have no swatch — the same question BiYork answered with a 1000 px bar of its own.
+File names say "toucan", the brand shoppers search, not "triforest".
