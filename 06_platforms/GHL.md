@@ -148,6 +148,30 @@ than close. Pair with a lost-deal pull before spend decisions.
 
 ## Log
 
+- 2026-10-02 — Call notes went live (decision: [[2026-10-02-call-notes-internal-comment]]).
+  Quirks found building it, all verified live:
+  - **Internal comment via the API:** `POST /conversations/messages` with
+    `{"contactId", "message", "mentions": [], "type": "InternalComment"}`. It reads back
+    as `messageType: TYPE_INTERNAL_COMMENT` (numeric type 37), shows as "Internal comment
+    by …" and "only visible to your team", and is posted as the system user (no `userId`).
+    The only scope it needs is `conversations/message.write`, so it has its own Private
+    Integration that can do nothing else.
+  - **Make's GoHighLevel connection has no conversations scope** (`/conversations/search`
+    → 401 "The token is not authorized for this scope"). It is used only to add notes;
+    every read goes through a read-only PIT in a Make API-key keychain.
+  - **A PIT stored as a Make API key must include `Bearer `** in the value, or every call
+    answers 401 "Invalid JWT".
+  - **Recordings:** `GET /conversations/messages/{messageId}/locations/{locationId}/recording`
+    with `Version: 2021-04-15` returns `audio/x-wav`, mono, 8 kHz, 16-bit PCM, so who is
+    speaking comes from diarization, not from separate channels. Notes endpoints use
+    `Version: 2021-07-28`.
+  - **Calls on the shared line** carry the Front Desk user (`edv6p75Y79cYsPS0jPv0`) as
+    `userId`, whoever answered. Only calls on a personal line identify the person.
+  - **No message trigger in Make:** Make's GHL "Watch Events" covers contacts and
+    opportunities only, so calls reach Make through a GHL workflow ("Call Status" →
+    Webhook, custom data `contact_id`).
+  - GHL accepted a 4,028-character contact note; the scenario cuts transcripts into parts
+    of about 3,000.
 - 2026-08-04 — Missed-call analysis for Pourya (findings in
   [[2026-08-04-pourya-missed-calls]]). Two corrections surfaced, both applied
   above on Albert's instruction: (1) the ID table's `assignedUserId` example
