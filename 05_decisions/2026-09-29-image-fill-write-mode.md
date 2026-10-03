@@ -53,3 +53,46 @@ Same session: 572 `Price List URL` values that vanished after 2026-09-28 (Vidar,
 FAW records whose Supplier had been blank) were restored exactly as they were, blank fields
 only, each link matched to its Notion Price Lists row (PL-367, 327, 293, 297, 377, 317,
 231, 306, 353).
+
+**Addendum, later that night — where photos and links come from.** Albert, starting BiYork:
+"search the main website -> externals (floorbox and speers) but the link to the product url
+page should be from the official company website; otherwise pick an the floorbox as the
+backup. I would not want speers because it is a local shop to ours." So, for every supplier:
+official site first, then The Floor Box, then Speers for photos; `Supplier product page` from
+the official site, else The Floor Box, **never Speers**. This reverses the Speers-first order
+Vidar was written with: 63 Vidar records currently link a Speers page (29 of them have a
+Floor Box match). Whether to relink or clear those is open; nothing was changed. When the
+environment refuses an official site, the run stops instead of letting retailers take the
+blank fields first.
+
+**Addendum, same night — Word of Mouth Floors, and BiYork written.** Albert: "lets use
+wordofmouthfloors.com as the 2nd/third backup same level as floorbox. and speers as the very
+last." Order is now official site, then The Floor Box and Word of Mouth side by side, then
+Speers; the product link may come from Word of Mouth after the official site and The Floor Box,
+never from Speers. BiYork, 131 records written by policy: 128 room scenes, 31 swatches, 129
+product links (127 to biyorkcanada.com). 47 held, 224 accessories skipped. Most BiYork swatch
+photos are 580–1300 px, under the 1600 px swatch bar, so 100 of the written records still have
+a blank swatch field; lowering that bar for BiYork is open.
+
+**Addendum, after midnight — BiYork swatches and Vidar links.** Albert: "1. yes rerun 2. Switch
+if available but do not delete. Replace with Word of Mouth (the speers one)." BiYork's swatch
+bar is 1000 px (BiYork only; 1600 stays for everyone else): 78 more swatches written. Vidar: 31
+`Supplier product page` links moved off Speers (The Floor Box 24, Word of Mouth 7) by a
+compare-and-swap relink; 32 with no alternative keep their Speers link, nothing cleared. Open:
+Vidar Camel 5" (ENG-VIDR-0166) carries Speers' "Camel - Hazelnut" photo, file
+`AmericanOakHazelnut.jpg`.
+
+**Addendum, 2026-10-02 — Triforest (Toucan).** Albert: "Lets try Triforest now." and
+toucanflooring.com. Toucan's own store covered 168 of 173 records; 153 written by policy:
+131 detail shots, 62 swatches, 4 room scenes, 153 product links, all to toucanflooring.com.
+Toucan's swatch photos are 1200 px, under the 1600 px bar, so 91 written records and 15 held
+ones still have no swatch — the same question BiYork answered with a 1000 px bar of its own.
+File names say "toucan", the brand shoppers search, not "triforest".
+
+**Addendum, 2026-10-03 — a lower quality photo beats none.** Albert: "a lower quality image it
+still ok to grab. Having it is better than none." The size bars (1600 px swatch, 800 px any)
+dropped to 300 px, a floor against icons and thumbnails only; the largest photo per field still
+goes first. Rerun the same day: Vidar 76, BiYork 58, Toucan 96 records filled. Swatches now on
+141 of 232 Vidar, 163 of 178 BiYork and 158 of 173 Toucan floor records; the rest are not listed
+on any source. Same day, Albert said yes to replacing the Hazelnut photo on Vidar Camel 5"
+(ENG-VIDR-0166) with The Floor Box's Camel swatch: a person-approved replace, compare-and-swap.
