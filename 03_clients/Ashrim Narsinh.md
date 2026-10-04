@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: active
-last_activity: 2026-09-30
+last_activity: 2026-10-04
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: yMBiPxHFF2Qa3vUvpeur
@@ -30,3 +30,4 @@ ghl_assigned_to_id: ooPNab06Ka04uZ1yQ4w6
 - 2026-09-02 — GHL daily ingest, top-level `needs_attention` (same conversation `lQe1GsXiEf438FdBBcrJ`, contact `yMBiPxHFF2Qa3vUvpeur`): noise complaint still unresolved, still flagged in today's needs_attention — no new detail beyond the 09-01 report, home window (Sept 7-10) getting closer. We owe a scheduled resolution.
 - 2026-09-24 — GHL daily ingest, top-level `needs_attention` (conversation `lQe1GsXiEf438FdBBcrJ`, contact `yMBiPxHFF2Qa3vUvpeur`, priority: high): the Sep 11 post-install touchup visit never resulted in a repair — the specialist wasn't able to complete it. Albert emailed yesterday asking Ashrim to reconnect and internally tagged Pourya to find out what happened and set up a work order; no reply yet. Still unresolved as of today.
 - 2026-09-30 — Outlook daily ingest (`customer`, priority high, albert@, 2026-09-29): she replied to Albert's "Last Notice: Refusal of Repairs and Balance" (install completed July 2), maintaining the work is substandard; dispute covers the repairs and an outstanding balance. No reply found since. See [[Ashrim - Milton]]. #admin
+- 2026-10-04 — Outlook daily ingest (`customer`, albert@): install dispute (July 2 install, repairs and balance) still open; Albert replied 09-30, no resolution found. #admin
