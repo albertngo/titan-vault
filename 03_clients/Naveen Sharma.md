@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: prospect
-last_activity: 2026-10-04
+last_activity: 2026-10-05
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: Jn0rTM3xDVHTJaZGv1Qt
@@ -32,3 +32,4 @@ ghl_assigned_to_id: edv6p75Y79cYsPS0jPv0
 - 2026-09-30 — Outlook daily ingest (`customer`, priority high, info@, 2026-09-28): broker asks to drop the $450 disposal line (carpet rolled to curb) from the 35 Humberstone Cres quote and have it re-sent; info@ sent the quote 09-28, no reply found since. #admin
 - 2026-10-03 — Outlook daily ingest (`customer`, priority high, info@): the 09-28 request to drop the $450 disposal line and re-send the quote still has no reply found. #admin
 - 2026-10-04 — Outlook daily ingest (`customer`, priority high, info@): the 09-28 request to drop the $450 disposal line and re-send the 35 Humberstone Cres quote still has no reply found. #admin
+- 2026-10-05 — Outlook daily ingest (`customer`, info@): the 09-28 request to drop the $450 disposal line and re-send the 35 Humberstone Cres quote is now ~7 days with no reply found in Sent Items. #admin
