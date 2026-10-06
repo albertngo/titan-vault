@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: active
-last_activity: 2026-10-01
+last_activity: 2026-10-05
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: TU5iOgjQWqhb4m22ZbSD
@@ -35,3 +35,4 @@ ghl_assigned_to_id: edv6p75Y79cYsPS0jPv0
 - 2026-09-18 — Notion daily ingest `payment`: $83.69 CAD e-Transfer received 2026-09-16, linked to [[Rachita Saini - Oakville]]. See opportunity note for detail.
 - 2026-09-20 — Notion daily ingest `new_won_project`: [[Rachita Saini - Oakville]] **WON $17,345.50 CAD** (row created 2026-09-18) — see opportunity note for detail. `status` set to `active` here (was `prospect`).
 - 2026-10-01 — Notion daily ingest `payment` (Master Payments Log, row 3ec596a4505f813f80d5d2b5affdd3b9): $9,700.00 CAD e-Transfer received 2026-09-30 from Rachita Saini — ≥$5k `needs_attention`. Matched by name only (row has no opportunity ID); likely against [[Rachita Saini - Oakville]].
+- 2026-10-05 — GHL daily ingest (re-pull 2026-10-05), top-level `needs_attention` (conversation `CfG3hfUeyElK8kCnSUbk`, high): her kitchen install moved to Oct 16; on a 10-minute call Pourya promised to try starting flooring Mon Oct 12 and confirm after checking with his foreman. Nothing confirmed in the thread. See [[Rachita Saini - Oakville]].

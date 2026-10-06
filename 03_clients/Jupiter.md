@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: active
-last_activity: 2026-08-25
+last_activity: 2026-10-05
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: pwjMUwESdG9BmYIlBi2k
@@ -28,3 +28,4 @@ None — POS track, not the project pipeline.
 ## Log
 - 2026-07-29 — created from GHL daily ingest `needs_attention`: sent photos Jul 28 evening asking prices on two products (a floor + a vinyl); 2 unread, sitting ~20h. Repeat POS contractor — picks up boxes, watches stock, historically converts same-week when answered fast.
 - 2026-08-25 — Notion Master Payments Log: $1,393.00 e-transfer received 2026-08-19 (ref `C1A2K36RTnpw`), not linked to a project row. Sender name "jupiter" exact-matches this client's name — plausible match given his repeat-POS-buyer profile, but not ID-confirmed (Notion payment rows carry no GHL contact ID) — flag, don't treat as certain.
+- 2026-10-05 — GHL daily ingest (re-pull 2026-10-05), `needs_attention` (conversation `it8zjTarx7AT1zmMpsnf`, high): he wanted half of a 300 sf vinyl order tonight; told the full 300 sf will be at the warehouse by end of Oct 6 and replied "That's not good". Decision needed on a partial release.

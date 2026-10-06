@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: active
-last_activity: 2026-08-28
+last_activity: 2026-10-05
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: ECcnb0wnweKgs3Q6rjaG
@@ -32,3 +32,4 @@ ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
 - 2026-08-26 — Notion Master Payments Log: a $3,000.00 e-Transfer from "Basil Felix D'Souza" received 2026-08-25 (ref `C1AtaGUqt8SW`), not linked to a project row — plausibly part of the 25/25/25/25 installment plan logged 2026-08-25, though not source-confirmed against the outstanding $1,972 balance.
 - 2026-08-27 — GHL daily ingest `needs_attention` / `stragglers_ranked` (rank 1, category `payment`, conversation `JVji6mIEShW3022fVSu8`, contact `ECcnb0wnweKgs3Q6rjaG`, priority high): the ~$1,972 balance from the e-transfer daily-limit delay (see 2026-08-26 entry) is still outstanding and was promised for today — worth confirming it lands.
 - 2026-08-28 — Notion Master Payments Log (widened 15-day catch-up window, ref `C1AGR3SJ6tDf`): a $1,972.00 e-transfer received 2026-08-27, no project link on the row — the exact amount of the final installment flagged outstanding 08-26/08-27 (bank $3,000/24h transfer-limit delay). Very likely that balance landing; not source-confirmed against the opportunity, but the amount match is exact. See [[Basil Felix Da Souza - Mississauga]].
+- 2026-10-05 — GHL daily ingest (re-pull 2026-10-05), `needs_attention` (conversation `JVji6mIEShW3022fVSu8`, high): balance unclear ahead of David's deficiency visit tomorrow — Pourya asked for balance plus $550 for bathroom tiles; Basil answered "+500" and asked for the final quote. See [[Basil Felix Da Souza - Mississauga]].

@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: active
-last_activity: 2026-09-28
+last_activity: 2026-10-05
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: bXlLZGdEZIf2WMSGLcjk  # was blank/"none" — filled in from the confirmed ID already cited inline in the 2026-08-04 Log entry and reconfirmed by today's ingest, per Identity rule (filling a genuinely blank field, not overwriting a conflicting one)
@@ -41,3 +41,4 @@ None noted yet — won project, ID not in ingest.
 - 2026-09-15 — Outlook daily ingest (168h/7-day catch-up window; `virayn@gmail.com`, in albert@, two inbound messages 2026-09-14 15:07/15:34): new deficiency/crew-quality complaint — pushing back on a "crappy fix up" and asking the crew be held to a higher standard on outstanding deficiencies (this note's tracked underpad/finishes issue, 5301 Churchill Meadows). Albert replied same afternoon to both (15:20, 15:51) — answered, but worth confirming actually closed given the history on this file. Matched by exact address (5301 Churchill Meadows) to this client; no GHL ID on the Outlook item to cross-check (GHL down again today). #admin
 - 2026-09-16 — Outlook daily ingest (`virayn@gmail.com`, in albert@): she replied 2026-09-15 15:44 that she can't meet this week due to guests, continuing the tracked deficiency dispute (5301 Churchill Meadows); Albert had already replied twice that day (15:16 and 16:56, the second after her message) — answered, but still open, worth confirming it actually closes out. #admin
 - 2026-09-28 — GHL daily ingest, top-level `needs_attention` (item 3, priority high; conversation `q2xtxVfKCkB5c13DKP8K`, contact `bXlLZGdEZIf2WMSGLcjk`): after Albert's 2026-08-28 promised follow-up never happened, only a generic "let's schedule something" email went out today — over a month after the underpad defect and deficiency-list request. Customer is still owed the actual resolution/deficiency list, not just a scheduling nudge.
+- 2026-10-05 — GHL daily ingest (re-pull 2026-10-05), `needs_attention` (conversation `q2xtxVfKCkB5c13DKP8K`, high): Thursday 9:00 revisit but he is home only 9-12; will reschedule if David cannot finish in 3 hours. Albert promised to confirm tomorrow morning.

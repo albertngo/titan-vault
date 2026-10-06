@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: prospect
-last_activity: 2026-09-11
+last_activity: 2026-10-05
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: cC9ZcNhLC47baaepmvRT
@@ -28,3 +28,4 @@ ghl_assigned_to_id:
 
 ## Log
 - 2026-09-11 — created from GHL daily ingest, top-level `needs_attention` (conversation `OSRGB2Y7KPKfRoLwp1Lx`, opportunity `gRTVRElIkma5Blc42A0O`, priority high) + drift `categorization_miss`: in-home visit TODAY at 5:30pm; he offered floor plans and a HouseSigma link yesterday and we never acknowledged it. Still untagged (no `lead:*` tag) despite an active back-and-forth conversation and today's booked visit — no assigned rep either. Checked the vault by contact ID and name first — no existing match.
+- 2026-10-05 — GHL daily ingest (re-pull 2026-10-05), drift `meeting_no_followup` (high; opportunity `gRTVRElIkma5Blc42A0O`): visit held 2026-09-11, no text or call either way in the 24 days since; stage at 26 of 30 days. See [[Dante Spizziri - Bolton]].

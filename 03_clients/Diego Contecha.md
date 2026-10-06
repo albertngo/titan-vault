@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: complete
-last_activity: 2026-09-19
+last_activity: 2026-10-05
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: GfGkILCpi8ficaPeMdWT
@@ -32,3 +32,4 @@ ghl_assigned_to_id: edv6p75Y79cYsPS0jPv0
 - 2026-09-08 — Notion daily ingest `new_won_project` (Date Won 2026-09-07, https://app.notion.com/3d4596a4505f80f6baaede447d9419c4): a new won-project row for "Diego Contecha — Oakville," 88 Germorda Drive, Project Type "Both" — same name and exact address as this note, but the row's Opportunity ID, Contact, Value Approx, Sales Person, and PM Name are all blank (same data-entry gap previously flagged for Edwin Wong), so it does not cross-reference to GHL opportunity `4zS89sPgk9rFNbtJmQDi` by ID. Matched here by name + exact address only — treat as very likely the same tile-removal/demo job going from "wrongly marked abandoned" (09-04) to won, but not ID-confirmed. Status set to complete on that basis; flag if a mismatch surfaces. See [[Diego Contecha - Oakville]].
 - 2026-09-15 — Notion daily ingest `payment` (Master Payments Log, https://app.notion.com/3dc596a4505f8134854bdd2c8472a39b): **$380.00 CAD received** via Interac e-Transfer, 2026-09-14, from Diego Contecha, auto-deposited. No Projects relation visible on the payment row, so not confirmed against [[Diego Contecha - Oakville]] specifically, but matches this client by sender name — plausibly a balance/final payment on the completed tile-removal/demo job. GHL down again today, no cross-reference possible.
 - 2026-09-19 — Notion daily ingest `payment` (Master Payments Log, flagged >= $5,000, https://app.notion.com/3df596a4505f8037a66ff122b8c09016): **$27,700.00 CAD cash** received 2026-09-17, labeled "Cash to Helen + Albert," against a linked project — the largest payment in this window. No Opportunity ID/project name surfaced in today's ingest to confirm which project it's against, and no GHL/Notion ID ties it to this note; matched here by sender first-name "Diego" only (this is the only Diego on file) — not ID-confirmed. Flag if a mismatch surfaces.
+- 2026-10-05 — GHL daily ingest (re-pull 2026-10-05), `won_today`: a new GHL opportunity `7LrToJPA2nhKZj5wWcyw` (Oakville, **$28,080**) was created and marked won within six minutes; notes hold Lightspeed receipts since April and tags say project complete, so it reads as a ledger close-out rather than a new sale. Different opportunity ID from the one on [[Diego Contecha - Oakville]] (`4zS89sPgk9rFNbtJmQDi`) — not merged, no opportunity note created.
