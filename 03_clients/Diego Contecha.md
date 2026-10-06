@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: complete
-last_activity: 2026-10-05
+last_activity: 2026-10-06
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: GfGkILCpi8ficaPeMdWT
@@ -33,3 +33,4 @@ ghl_assigned_to_id: edv6p75Y79cYsPS0jPv0
 - 2026-09-15 — Notion daily ingest `payment` (Master Payments Log, https://app.notion.com/3dc596a4505f8134854bdd2c8472a39b): **$380.00 CAD received** via Interac e-Transfer, 2026-09-14, from Diego Contecha, auto-deposited. No Projects relation visible on the payment row, so not confirmed against [[Diego Contecha - Oakville]] specifically, but matches this client by sender name — plausibly a balance/final payment on the completed tile-removal/demo job. GHL down again today, no cross-reference possible.
 - 2026-09-19 — Notion daily ingest `payment` (Master Payments Log, flagged >= $5,000, https://app.notion.com/3df596a4505f8037a66ff122b8c09016): **$27,700.00 CAD cash** received 2026-09-17, labeled "Cash to Helen + Albert," against a linked project — the largest payment in this window. No Opportunity ID/project name surfaced in today's ingest to confirm which project it's against, and no GHL/Notion ID ties it to this note; matched here by sender first-name "Diego" only (this is the only Diego on file) — not ID-confirmed. Flag if a mismatch surfaces.
 - 2026-10-05 — GHL daily ingest (re-pull 2026-10-05), `won_today`: a new GHL opportunity `7LrToJPA2nhKZj5wWcyw` (Oakville, **$28,080**) was created and marked won within six minutes; notes hold Lightspeed receipts since April and tags say project complete, so it reads as a ledger close-out rather than a new sale. Different opportunity ID from the one on [[Diego Contecha - Oakville]] (`4zS89sPgk9rFNbtJmQDi`) — not merged, no opportunity note created.
+- 2026-10-06 — Notion daily ingest `new_won_project` (Titan Projects, won 2026-10-05, approx **$28,080**, https://app.notion.com/3f0596a4505f81cb9e02c0189923db8e): row carries Opportunity ID `7LrToJPA2nhKZj5wWcyw`, which ID-matches the GHL won opportunity logged 10-05 (not the `4zS89sPgk9rFNbtJmQDi` on [[Diego Contecha - Oakville]]). Sales: Front Desk Inc.; Project Type and PM not yet set. Still no opportunity note for `7LrToJPA2nhKZj5wWcyw`; two opportunity IDs for one address stays unresolved for Albert.

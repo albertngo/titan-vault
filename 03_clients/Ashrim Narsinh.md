@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: active
-last_activity: 2026-10-05
+last_activity: 2026-10-06
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: yMBiPxHFF2Qa3vUvpeur
@@ -33,3 +33,4 @@ ghl_assigned_to_id: ooPNab06Ka04uZ1yQ4w6
 - 2026-10-04 — Outlook daily ingest (`customer`, albert@): install dispute (July 2 install, repairs and balance) still open; Albert replied 09-30, no resolution found. #admin
 - 2026-10-05 — Outlook daily ingest (`customer`, albert@): July 2 install and balance still disputed; no resolution found. See [[Ashrim - Milton]]. #admin
 - 2026-10-05 — GHL daily ingest (re-pull 2026-10-05), `needs_attention` (conversation `lQe1GsXiEf438FdBBcrJ`, high): Albert's end-of-day deadline for her choice of a third party vs Titan returning passed with no reply; complaint and balance remain open. See [[Ashrim - Milton]].
+- 2026-10-06 — Outlook daily ingest (`customer`, albert@, 09-29 message): dispute over the July 2 install, repairs and balance still open; no reply found since her 09-29 message (Albert's 09-30 reply is the last on record). Listed in today's top needs-attention. See [[Ashrim - Milton]]. #admin
