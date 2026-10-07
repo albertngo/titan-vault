@@ -36,3 +36,17 @@ Disposal invoices 2388 / 2389 (both jobs predate the September scope).
 
 **Revisit when:** a flooring line's cost is found wrong after the invoice, or a second
 supplier's documents are added (only Vidar is read today).
+
+**Addendum 2026-10-07 — order of truth, and the business account (Albert, in session).**
+"The final value for sqft should be from the invoice, same for the cost. The order of
+truth is as follows: Invoices first -> Titan Ordered Amount -> Quote -> LS Sale." So a
+flooring line's `Sqft Sold` and `Cost Rate` both follow that order, and a higher source
+overwrites a lower one. PP-417 now reads 1,002.04 sqft at $3.86 (14 boxes returned with a
+25% restocking fee), so the line totals what Titan actually paid. A top-up order smaller
+than the sale with no return to explain it is held for a person (PP-471: 3 boxes ordered
+against 680 sqft sold).
+
+"BMO is the actual business account. The rest are personal; where some funds are to be
+transferred back into Titan for the LS sales to be closed out." The Payments Log `Select`
+codes are TA Tangerine, B BMO, T TD, S Scotia, R RBC, SC Scotia Cuu's, C CIBC. The
+transfer-and-close procedure is still to come.
