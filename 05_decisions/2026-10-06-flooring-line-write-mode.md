@@ -50,3 +50,10 @@ against 680 sqft sold).
 transferred back into Titan for the LS sales to be closed out." The Payments Log `Select`
 codes are TA Tangerine, B BMO, T TD, S Scotia, R RBC, SC Scotia Cuu's, C CIBC. The
 transfer-and-close procedure is still to come.
+
+**Addendum 2026-10-08 — quantity check (Albert, in session).** The PM's quoted sqft is an
+approximation, and an order can be smaller (stock covers the rest) or bigger (leftover) than
+what was sold. Within 2 boxes passes ("2 boxes is more right"); beyond that the line is
+marked `Verify - ...` and lands in the Flooring Line Items view "Quantities to verify",
+which front desk owns ("front desk should own but I'll help"). Their `Verified - ...`
+answer decides the job's sqft and cost; the sync never overrides it.
