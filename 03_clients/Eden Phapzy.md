@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: dormant
-last_activity: 2026-08-13
+last_activity: 2026-10-11
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: wWtQpYuZxxyJ5fxo3mtQ
@@ -29,3 +29,4 @@ None noted — cold lead, no opportunity data surfaced.
 
 ## Log
 - 2026-08-13 — created from GHL daily ingest `stragglers_ranked` (rank 3, priority: high) / conversation `PKmq10INc8Ja0bGGaukE`: replied "Stop" — do-not-contact must be honored immediately (compliance). No further outreach until/unless she re-opts in.
+- 2026-10-11 — GHL daily ingest: still listed under "to action" — set DND per her earlier "Stop" reply (contact `wWtQpYuZxxyJ5fxo3mtQ`).

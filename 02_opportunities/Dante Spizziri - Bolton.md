@@ -4,7 +4,7 @@ type: opportunity
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-09-11
+last_activity: 2026-10-11
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # ghl_pipeline/stage are names, not IDs: stage IDs are opaque and get renamed in
 # the GHL UI, so the name is what a human can verify. The opportunity ID is the anchor.
@@ -29,3 +29,4 @@ ghl_assigned_to_id:
 
 ## Log
 - 2026-09-11 — created from GHL daily ingest, top-level `needs_attention` (priority high) + drift `categorization_miss`: in Meeting-Scheduled 1.6 days, in-home visit booked for TODAY 5:30pm, no `lead:*` tag ever applied despite an active conversation. See [[Dante Spizziri]] Log.
+- 2026-10-11 — GHL daily ingest: moved to "2. *Project Won*" on 2026-10-10, value $20,559.45, project type Both, sales Pourya Lalee. Store lead; visit held 2026-09-11. Notion Titan Projects row created. (Frontmatter stage not edited by the writer; still shows the old stage.) See [[Dante Spizziri]].
