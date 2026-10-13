@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: prospect
-last_activity: 2026-10-11
+last_activity: 2026-10-13
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: cC9ZcNhLC47baaepmvRT
@@ -31,3 +31,4 @@ ghl_assigned_to_id:
 - 2026-10-05 — GHL daily ingest (re-pull 2026-10-05), drift `meeting_no_followup` (high; opportunity `gRTVRElIkma5Blc42A0O`): visit held 2026-09-11, no text or call either way in the 24 days since; stage at 26 of 30 days. See [[Dante Spizziri - Bolton]].
 - 2026-10-10 — Outlook daily ingest (`customer`): Dante S (Autumn Oak Ct) accepted the updated quote, first deposit within a week; name-only match, no GHL ID check (GHL down). #admin
 - 2026-10-11 — GHL daily ingest: opportunity `gRTVRElIkma5Blc42A0O` moved to Project Won on 2026-10-10, $20,559.45 (project type Both, sales Pourya Lalee; Notion row created). Install scheduling and deposit check needed. See [[Dante Spizziri - Bolton]].
+- 2026-10-13 — Outlook daily ingest (`customer`, high, info@): accepted updated quote 10-06, deposit expected within a week; still no reply found. Name-only match (GHL down). #admin

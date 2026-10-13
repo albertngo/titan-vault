@@ -3,7 +3,7 @@ type: supplier
 # Margin notes are cost data by design — see CONVENTIONS: Visibility.
 visibility: admin
 status: active
-last_activity: 2026-10-12
+last_activity: 2026-10-13
 ---
 
 # PBS Building Supplies
@@ -23,3 +23,4 @@ last_activity: 2026-10-12
 - 2026-10-10 — Outlook daily ingest: overdue-invoice thread still unanswered (no card, no billing preference); 10-05 reply still bounced off accounting@ — use sabrina@pbssupplies.ca. Brief also lists the Sept credit report and invoice #13589. #admin
 - 2026-10-11 — Outlook daily ingest: overdue-invoice emails still unanswered; info@ reply still bounced off accounting@ — use sabrina@pbssupplies.ca. #admin
 - 2026-10-12 — Outlook daily ingest: overdue-invoice thread (billing cadence, card number) still unanswered; info@ reply still bounced off accounting@ — use sabrina@pbssupplies.ca. #admin
+- 2026-10-13 — Outlook daily ingest (albert@, `supplier` high): Sabrina's 3 follow-ups (10-07/08) on overdue invoices still unanswered (billing cadence, saved card, new phone number). #admin
