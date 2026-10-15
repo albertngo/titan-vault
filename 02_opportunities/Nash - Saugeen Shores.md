@@ -2,7 +2,7 @@
 type: opportunity
 visibility: staff
 status: active
-last_activity: 2026-10-11
+last_activity: 2026-10-15
 ghl_opportunity_id: 1g2ZDEc9ipcjY8NrGucH
 ghl_contact_id: lLn6mdpPAXvtx2tFPoQZ
 ghl_pipeline: (2) PROJECT: Sales Pipeline
@@ -23,3 +23,4 @@ ghl_assigned_to_id:
 
 ## Log
 - 2026-10-11 — created from GHL daily ingest won record: won 2026-10-10, sales Pourya Lalee, visit 2026-09-15. Install scheduling and deposit check needed.
+- 2026-10-15 — see [[Nash]] Log: reply owed on 27th install date and first payment; $5,320.00 e-transfer received 10-14 per Notion (payer name differs, unconfirmed).

@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: active
-last_activity: 2026-10-14
+last_activity: 2026-10-15
 ghl_contact_id: aVdl7fPabfaoOXJIRxXt
 ghl_conversation_ids: [tVxu0m6MiTYFntQh94tr]
 ghl_assigned_to: Pourya (GHL user rAMFCiXbAjJOEjtyyvmn)
@@ -22,3 +22,4 @@ ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
 
 ## Log
 - 2026-10-14 — created from GHL daily ingest, top-level `needs_attention` (conversation `tVxu0m6MiTYFntQh94tr`, priority: high). Checked the vault by contact ID and name first — no match. He texted 8:58am that the inspector failed the railing (spindles over 4") and asks us to verify our work meets code; $1,800 balance still owing, so fix and collection are tied together. Answer due today.
+- 2026-10-15 — GHL daily ingest: still no follow-up logged since 10-14 on the failed inspection (spindles over 4"); call-back owed, top item in the 10-15 brief.

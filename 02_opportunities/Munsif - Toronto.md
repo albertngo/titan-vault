@@ -4,7 +4,7 @@ type: opportunity
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: complete
-last_activity: 2026-10-14
+last_activity: 2026-10-15
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # ghl_pipeline/stage are names, not IDs: stage IDs are opaque and get renamed in
 # the GHL UI, so the name is what a human can verify. The opportunity ID is the anchor.
@@ -32,3 +32,4 @@ ghl_assigned_to_id:
 - 2026-09-21 — Notion daily ingest `payment` (cross-ref): a possible $1,425.00 CAD e-Transfer payment (received 2026-09-20, sender "Munsifali Molu") may apply to this project — matched by name only against [[Munsif]], not confirmed by ID. See that note's Log for detail; flagged in today's daily note under Possible duplicates.
 - 2026-09-26 — see [[Munsif]] Log: post-install complaint (removed shoe moulding, flagged Sept 22) still unresolved after 4 days; only automated nurture sent, no personal follow-up yet.
 - 2026-10-14 — Notion daily ingest `work_order_deficiency` (high): Minor deficiency created 10-11 (finish kitchen gable ends; ask whether caulking and paint works or to 45 them) stuck in 'Error: Manual Send Needed'. https://app.notion.com/3f5596a4505f80579130db187639a125 Matched by name only, not ID — confirm it is this job.
+- 2026-10-15 — Notion daily ingest: work order still in 'Error: Manual Send Needed', contractor not notified (4 days). Name-only match, unconfirmed.
