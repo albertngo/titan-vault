@@ -4,7 +4,7 @@ type: opportunity
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: complete
-last_activity: 2026-10-14
+last_activity: 2026-10-17
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # ghl_pipeline/stage are names, not IDs: stage IDs are opaque and get renamed in
 # the GHL UI, so the name is what a human can verify. The opportunity ID is the anchor.
@@ -32,3 +32,5 @@ ghl_assigned_to_id:
 - 2026-09-10 — Notion daily ingest `new_won_project` (row created 2026-09-09T21:14:08Z): **WON $11,582.50 CAD**, Stairs, 4 Armitage Place, Brampton, Sales Person Pourya Lalee. Matches this opportunity by `ghl_opportunity_id` (Notion's `opp=2lCJGDSG2exdT4HEinyB`) — closes the loop on the 09-09 in-home visit with no GHL `won_records` confirmation possible today (GHL ingest errored). `ghl_pipeline`/`ghl_stage` above are left at their last-known GHL values (not re-verified) since no GHL pull ran today.
 - 2026-09-24 — GHL daily ingest (conversation `fVsXxd4aS3ic3cP5T2xa`): color complaint resolved — client accepted a lighter-than-expected red oak stain after Pourya explained the shading, and confirmed another $3,000 sent (total paid now $7,000 of $11,582.50 won value). Site visit locked in for tomorrow to check the finished work.
 - 2026-10-14 — GHL daily ingest (conversation `fVsXxd4aS3ic3cP5T2xa`, priority: high): 10-13 calls — his client rejected the $1,000 settlement and wants the light floor around the stairs redone; Pourya agreed to redo it and promised to text a date, none sent yet. About $6,000 of the $11,582.50 job still unpaid after two chase attempts.
+
+- 2026-10-17 — Notion daily ingest `work_order_deficiency` WO-Agabus Paul-101626 (created 2026-10-16, major): redo sand and stain; client did not want a monetary settlement; status "Sending....". Matched by name only (WO carries no GHL ID); follows the 10-14 rejected-settlement call.
