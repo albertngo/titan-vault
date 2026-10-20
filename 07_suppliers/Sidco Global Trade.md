@@ -3,7 +3,7 @@ type: supplier
 # Margin notes are cost data by design — see CONVENTIONS: Visibility.
 visibility: admin
 status: active
-last_activity: 2026-10-16
+last_activity: 2026-10-20
 ---
 
 # Sidco Global Trade
@@ -19,3 +19,4 @@ last_activity: 2026-10-16
 ## Log
 - 2026-10-06 — created from Outlook daily ingest (`supplier`, priority high, info@, 2026-10-01): Sidco sent a "CAHS account" ledger (incl. a return credit memo) and a QuickBooks payment-reminder statement. No reply found; balance not stated in preview. No existing note matched by name. #admin
 - 2026-10-16 — Outlook daily ingest (info@): statements dated 10-09 and 10-14 asking for payment, plus a separate email showing a cash-account balance of $3,599 (vinyl invoice lines). Confirm balance and due date. #admin
+- 2026-10-20 — Outlook daily ingest (info@, priority high): Sidco's 10-14 statement and 10-16 "cash account-$3599" email still show no reply found. Amount comes from the subject line, unverified; payment requested. #admin

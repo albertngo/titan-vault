@@ -4,7 +4,7 @@ type: opportunity
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: complete
-last_activity: 2026-10-19
+last_activity: 2026-10-20
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # ghl_pipeline/stage are names, not IDs: stage IDs are opaque and get renamed in
 # the GHL UI, so the name is what a human can verify. The opportunity ID is the anchor.
@@ -30,3 +30,4 @@ ghl_assigned_to_id: ooPNab06Ka04uZ1yQ4w6
 - 2026-09-17 — created from GHL daily ingest, top-level `needs_attention` (item 3): opportunity created same day as the contact, landed directly in 0a. New Lead ($0, 0.9 days in stage, no stale risk yet). See [[Mayuri Bhatti]] Log.
 - 2026-09-27 — GHL daily ingest, top-level `needs_attention` (item 2, priority: high) + `won_records`: this opportunity moved out of *Meeting (Scheduled)* into **2. *Project Won*** on 2026-09-26, value now **$16,498.00** (this note's frontmatter above still reads the 09-17 record — `ghl_pipeline`, `ghl_stage`, and the Value line are outside this agent's whitelist to edit directly on an existing note; flagging for Albert to backfill `ghl_pipeline: (2) PROJECT: Sales Pipeline`, `ghl_stage: 2. *Project Won*`, and Value: $16,498.00). Lead-to-won in 10 days (Sept 16 → Sept 26): 3 calls, 12 SMS, 5 emails. 35% deposit invoice sent same day for the Sept 28 install/measure visit; not yet confirmed paid. Frontmatter `status` updated active → complete; `last_activity` updated. See [[Mayuri Bhatti]] (client) Log.
 - 2026-10-19 — GHL daily ingest, top-level `needs_attention` (item 1, priority: high): active install customer reported two chips and wrong metal pockets with photos (SMS, conversation `DAQEnXPSQRwEP0ZQWpkY`) — third issue this week (crew arrival, squeaks). Unread, we owe the reply; fix plan needed today.
+- 2026-10-20 — Notion daily ingest `payment` (Master Payments Log, https://app.notion.com/3ff596a4505f81e691c0ff656cdb0edd): $5,000.00 CAD e-Transfer received 2026-10-19 from "Mayuri S Bhatti", Input Status Not started — ≥$5k `needs_attention`. Matched by name only (row has no opportunity ID). Third payment on record; see [[Mayuri Bhatti]].
