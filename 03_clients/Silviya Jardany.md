@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: active
-last_activity: 2026-09-22
+last_activity: 2026-10-21
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_contact_id: GByNBlYcqJFQuA20EMdc
 ghl_assigned_to: Pourya Lalee
@@ -32,3 +32,5 @@ ghl_conversation_ids: []
 - 2026-09-11 — GHL daily ingest, top-level `needs_attention` (appointment `HAOcNVNEbGwbMEqErKRX`, priority high): post-win in-store follow-up visit rebooked for Sept 12, but she's asking us to confirm whether that's this Saturday or the 19th — unanswered as of this report, and the visit is only 1-2 days out.
 - 2026-09-20 — Notion daily ingest `payment` (Master Payments Log): $1,087.70 CAD e-Transfer received 2026-09-19 from Sylvia C Jardany, auto-deposited (ref `C1A9EfwEQpwH`), not linked to a project row — https://app.notion.com/3e1596a4505f811abc23db2734312540. Same "Sylvia"/"Silviya" name-variant question flagged 2026-09-02 (no shared GHL ID) — plausibly this client, not ID-confirmed.
 - 2026-09-22 — GHL daily ingest, top-level `needs_attention` (item 6, `stragglers_ranked` rank 2; conversation `RZrPfeFcsDizt8PQ7lH9`): [[Silviya - TORONTO]]'s CCAM in-home+in-store install was renegotiated today from a solid two-day slot to Sept 24-25 (this week) after Titan's crew needed one more day on the prior job — she agreed but flagged her own work-schedule risk. Needs crew confirmation that no further date slip is required.
+- 2026-10-21 — Notion daily ingest (QA Work Orders): warranty work order "Warranty WO: Silviya Jardany (Minor)" shows status "Sending...." (not an error status); confirm it clears. Matched by name only.
+- 2026-10-21 — Outlook daily ingest (girlgo79@yahoo.ca, pourya@ private): customer signed "Sylvia" reports doorframe damage after install and asks for a fix on Oct 30; no reply found. Matched by email address only, name spelling differs (see 2026-09-02). #admin

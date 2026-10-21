@@ -4,7 +4,7 @@ type: client
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-10-20
+last_activity: 2026-10-21
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # Agents match on these BEFORE name, so a rename in GHL never creates a duplicate note.
 ghl_contact_id: jTd0myRrQElIFm2bFDo4
@@ -36,3 +36,4 @@ ghl_assigned_to_id: ooPNab06Ka04uZ1yQ4w6
 - 2026-10-02 — Notion daily ingest `payment` (Master Payments Log, row 3ed596a4505f81dea864f7fc9493762c): $652.68 CAD e-Transfer received 2026-10-01 from "Mayuri S Bhatti". Matched by name only (row has no opportunity ID). With the 09-30 $5,000.00, $5,652.68 received to date against the $16,498.00 project. See [[Mayuri Bhatti]] opportunity.
 - 2026-10-19 — GHL daily ingest, top-level `needs_attention` (item 1, priority: high): active install customer reported two chips and wrong metal pockets with photos (SMS, conversation `DAQEnXPSQRwEP0ZQWpkY`) — third issue this week (crew arrival, squeaks). Unread, we owe the reply; fix plan needed today.
 - 2026-10-20 — Notion daily ingest `payment` (Master Payments Log, https://app.notion.com/3ff596a4505f81e691c0ff656cdb0edd): $5,000.00 CAD e-Transfer received 2026-10-19 from "Mayuri S Bhatti", Input Status Not started — ≥$5k `needs_attention`. Matched by name only (row has no opportunity ID). Third payment on record; see [[Mayuri Bhatti]].
+- 2026-10-21 — Notion daily ingest `payment` (Master Payments Log, https://app.notion.com/400596a4505f81f78b80ec42f3574d46): $652.68 CAD e-Transfer received 2026-10-20 from "Mayuri S Bhatti". Matched by name only (row has no opportunity ID). Same amount as the 2026-10-01 payment; the 10-19 $5,000.00 was logged 10-20.
