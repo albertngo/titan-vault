@@ -148,6 +148,25 @@ than close. Pair with a lost-deal pull before spend decisions.
 
 ## Log
 
+- 2026-10-22 — Quote app sending, verified by reading sent mail back through the API
+  (decision: [[2026-10-22-quote-email-sender-and-history]]):
+  - **API sends default to the token owner's address.** `POST /conversations/messages`
+    with `type: Email` and no `emailFrom` goes out as "Titan Flooring Inc.
+    <albert@titanfloors.ca>" under Albert's `userId`, whoever triggered it (every app
+    send 10-15 to 10-22). Workflow sends carry the workflow's own From, e.g. "Albert @
+    Titan Flooring" or "Front Desk @ Titan Flooring <info@titanfloors.ca>", with the
+    user's id. All delivered by Mailgun on the verified titanfloors.ca domain.
+  - **`emailFrom` overrides the sender.** The app now passes the signed-in quoter's
+    address, tried named ("Albert @ Titan Flooring <albert@…>"), then bare, then none.
+    Whether GHL accepts the named form over the API is **not yet verified live**; the
+    first real send will say. Only addresses on the verified domain can work.
+  - **Email bodies are readable back:** `GET /conversations/messages/email/{emailMessageId}`
+    returns `{ emailMessage: { body, subject, from, to, provider, status, userId } }`;
+    the id is `meta.email.messageIds[0]` on the conversation message, not the message's
+    own id. This is how the old "Rough quote is ready" template HTML was recovered.
+  - **Make 4975508's `message` route forwards the app's JSON body verbatim**, so new
+    fields (`emailFrom`, a full HTML document) pass through with no change in Make.
+
 - 2026-10-02 — Call notes went live (decision: [[2026-10-02-call-notes-internal-comment]]).
   Quirks found building it, all verified live:
   - **Internal comment via the API:** `POST /conversations/messages` with
