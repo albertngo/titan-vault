@@ -42,6 +42,13 @@ tender E-Transfer, at net 0 inside Lightspeed (cost equal to price), **provided
 the QBO integration does not post cost of goods**; if it does, cost must be $0.
 Procedure: titan-bookkeeper `docs/financial-flow.md`, section 5.
 
+**Net 0 is only for payments whose cost is unknown (2026-10-22).** When the
+subcontractor's invoice is already paid and coded in [[QuickBooks]] (first
+case: Luxevista Construction for Munsif | Toronto, PP-477), the sale is rung at
+full price to the real customer, materials plus an installation labour line,
+labour costed at $0 if the integration posts cost of goods, else at the invoice
+amount. Never a second sale to the PM for the same materials. Section 5a.
+
 ## Open
 
 - Whether the QBO integration posts cost of goods / inventory journals
@@ -54,3 +61,5 @@ Procedure: titan-bookkeeper `docs/financial-flow.md`, section 5.
 - 2026-10-21 — Note created on Albert's instruction, alongside [[QuickBooks]].
   Sales-side only; the catalogue side has lived in titan-agents since the
   pipeline was built. #admin
+- 2026-10-22 — Full-price rule for projects whose subcontractor cost is already
+  in QBO (Munsif | Toronto, Luxevista). #admin

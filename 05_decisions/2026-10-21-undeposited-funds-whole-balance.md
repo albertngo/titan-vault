@@ -47,6 +47,15 @@ September residue; the cost-of-goods posting setting has been checked; or the
 accountant asks for the backlog to be dated into a closed HST period as QBO
 sales receipts instead.
 
+## Addendum 2026-10-22
+
+Part 3 narrowed: net 0 applies only when the project's cost is unknown or
+already buried elsewhere. When the subcontractor invoice is paid and coded in
+QBO, the sale is rung at full price to the real customer with a labour line
+costed at $0 (if the integration posts cost of goods) or at the invoice amount
+(if not). First case: Munsif | Toronto, Luxevista Construction invoice
+2026-10-02. Procedure in titan-bookkeeper `docs/financial-flow.md`, 5a.
+
 ## Related
 - [[QuickBooks]], [[Lightspeed]]
 - titan-bookkeeper `docs/financial-flow.md` (procedure and open questions),
