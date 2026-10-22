@@ -2,7 +2,7 @@
 type: client
 visibility: staff
 status: active
-last_activity: 2026-09-28
+last_activity: 2026-10-22
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 ghl_contact_id: wlF3z7ciLz3fzdKZYY0C
 ghl_conversation_ids: [huk6TAFkVlONhmD4yUsR]
@@ -38,3 +38,4 @@ None noted yet — warranty matter on a completed project, not a new pipeline op
 - 2026-09-27 — Outlook daily ingest, top-level `needs_attention` (priority high; `moenad.nadeem@gmail.com`): the "I am back now, please confirm for Oct 7th" message logged 2026-09-26 is still unanswered (now >24h since his 2026-09-25 20:21 message) — no new fact beyond the 09-26 entry, but still open and a top-level item again today. #admin
 - 2026-09-28 — GHL daily ingest, top-level `needs_attention` (item 4, priority high; conversation `huk6TAFkVlONhmD4yUsR`, contact `wlF3z7ciLz3fzdKZYY0C`): the Oct 7 install-date confirmation/deposit is still unresolved — no new fact beyond the 09-27 entry, but still open and flagged again today.
 - 2026-09-28 — Outlook daily ingest, top-level `needs_attention` (priority high; `moenad.nadeem@gmail.com`, landed in albert@/info@/pourya@): his "please confirm for Oct 7th" message remains unanswered as of this run (~2 days) — no new fact beyond the 09-27 entry, but still open and a top-level item for a third consecutive day. #admin
+- 2026-10-22 — Notion daily ingest: QA Work Order WO-Moe Nadeem-091826 (Warranty, Major) marked Done, completed 2026-10-22 — vinyl steps flexing, replaced with wood, 24 steps. Matched by Notion page id (3df596a4505f81c29f5bebc57a52d759, same page logged 2026-09-19) — https://app.notion.com/3df596a4505f81c29f5bebc57a52d759
