@@ -4,7 +4,7 @@ type: opportunity
 # (see CONVENTIONS: Visibility). Set admin only when the whole entity is admin-sourced.
 visibility: staff
 status: active
-last_activity: 2026-09-05
+last_activity: 2026-10-23
 # Source-system IDs — the join keys. Names are display; IDs are identity.
 # ghl_pipeline/stage are names, not IDs: stage IDs are opaque and get renamed in
 # the GHL UI, so the name is what a human can verify. The opportunity ID is the anchor.
@@ -29,3 +29,4 @@ ghl_assigned_to_id: rAMFCiXbAjJOEjtyyvmn
 
 ## Log
 - 2026-09-05 — created from GHL daily ingest: moved into Meeting-Scheduled today after booking an in-home visit for Sept 9 (2:30pm, Mississauga); address confirmed by the customer today (7114 Fayette Circle — red-roof house), needs logging/confirming in file before the visit. Tagged lead: hot. See [[Chris Portelli]] Log for the duplicate-opportunity data-hygiene note.
+- 2026-10-23 — GHL daily ingest (opportunity UJZ8TIWgY9ZCjY5fTsRv): 48 days in Meeting (Scheduled) against a 30-day threshold, no contact since the visit; abandonment in 12 days. About $2,442 quote. See [[Chris Portelli]].
